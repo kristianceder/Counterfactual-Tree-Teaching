@@ -1,7 +1,7 @@
 # Teaching a Tree to Recover: Online Distillation of an LLM Supervisor with Counterfactual Replay
 
 Kristian Ceder, Kilian Freitag, Knut Åkesson (Chalmers University of Technology).
-CoRL 2026 workshop. **[Paper](PAPER_LINK)** · **[Videos](#videos)**
+**[Paper](PAPER_LINK)** · **[Videos](#videos)**
 
 ![An LLM teaches a decision tree to recover an MPC-driven robot, then leaves the loop](results/figures/graphical_abstract.png)
 
@@ -32,13 +32,13 @@ different deciders, played in sync. Every scene can be re-rendered with
 
 | # | Scene | Video |
 |---|---|---|
-| 1 | **One held-out layout, four deciders** (seed 312; Sec. 4.2, Table 1). The robot starts facing away from its route, a wall the planner does not know about blocks it, and two gates close. The MPC alone runs out of time. The scripted rules and the frozen tree both reach the goal. The LLM asked at every tick orders a route resume out of a gate hold, which sends the robot 4.6 m back along the route, and it runs out of time. | [YouTube](YOUTUBE_LINK_1) |
-| 2 | **A breakdown on an unseen layout** (seed 422; Sec. 4.3). An obstacle parks in the only passage and never leaves. The frozen trees of the method and of distillation alone both wait at first. Once the obstacle has stood for 30 s, the method's tree calls a human. Distillation alone keeps waiting until the watchdog stops the controller. | [YouTube](YOUTUBE_LINK_2) |
-| 3 | **Where the scripted rules fail, 1 of 3** (learning layout 121; Sec. 4.3, App. B). A wall, then a gate. Both sides order the same two recoveries, but the tree replans before the robot has stopped, while the rules wait until it has stood still for 4 s. That 6 s head start is the whole margin. | [YouTube](YOUTUBE_LINK_3) |
-| 4 | **Where the scripted rules fail, 2 of 3** (learning layout 246). The rules replan 8 s after the tree, and their robot reaches the gate as a pedestrian crosses it and collides. | [YouTube](YOUTUBE_LINK_4) |
-| 5 | **Where the scripted rules fail, 3 of 3** (learning layout 280). The tree replans at once and turns to the new route. The rules replan 18 s later and stand behind a pedestrian in the gate until the time runs out. | [YouTube](YOUTUBE_LINK_5) |
-| 6 | **Where the method fails** (learning layout 162; Sec. 4.3, App. B). This is the one learning layout that the method ends wrong in every run and the rules end right. The tree replans 12 s sooner and holds twice at the gate. It then holds 20 s more for a pedestrian on the route, and the step budget runs out. | [YouTube](YOUTUBE_LINK_6) |
-| 7 | **A repeated layout** (layout 307, fifth visit; Sec. 4.4). The tree is learned from empty on this one layout, and on the fifth visit it waits and resumes behind pedestrians until the step budget runs out. | [YouTube](YOUTUBE_LINK_7) |
+| 1 | **One held-out layout, four deciders** (seed 312; Sec. 4.2, Table 1). The robot starts facing away from its route, a wall the planner does not know about blocks it, and two gates close. The MPC alone runs out of time. The scripted rules and the frozen tree both reach the goal. The LLM asked at every tick orders a route resume out of a gate hold, which sends the robot 4.6 m back along the route, and it runs out of time. | [YouTube](https://youtu.be/moz5GZ3MNZ8) |
+| 2 | **A breakdown on an unseen layout** (seed 422; Sec. 4.3). An obstacle parks in the only passage and never leaves. The frozen trees of the method and of distillation alone both wait at first. Once the obstacle has stood for 30 s, the method's tree calls a human. Distillation alone keeps waiting until the watchdog stops the controller. | [YouTube](https://youtu.be/QOdA0E2zGxM) |
+| 3 | **Where the scripted rules fail, 1 of 3** (learning layout 121; Sec. 4.3, App. B). A wall, then a gate. Both sides order the same two recoveries, but the tree replans before the robot has stopped, while the rules wait until it has stood still for 4 s. That 6 s head start is the whole margin. | [YouTube](https://youtu.be/EW9TghkAuGo) |
+| 4 | **Where the scripted rules fail, 2 of 3** (learning layout 246). The rules replan 8 s after the tree, and their robot reaches the gate as a pedestrian crosses it and collides. | [YouTube](https://youtu.be/BUI1-88VGlc) |
+| 5 | **Where the scripted rules fail, 3 of 3** (learning layout 280). The tree replans at once and turns to the new route. The rules replan 18 s later and stand behind a pedestrian in the gate until the time runs out. | [YouTube](https://youtu.be/oWHXCtmjV8I) |
+| 6 | **Where the method fails** (learning layout 162; Sec. 4.3, App. B). This is the one learning layout that the method ends wrong in every run and the rules end right. The tree replans 12 s sooner and holds twice at the gate. It then holds 20 s more for a pedestrian on the route, and the step budget runs out. | [YouTube](https://youtu.be/jEEv-0rOSWs) |
+| 7 | **A repeated layout** (layout 307, fifth visit; Sec. 4.4). The tree is learned from empty on this one layout, and on the fifth visit it waits and resumes behind pedestrians until the step budget runs out. | [YouTube](https://youtu.be/rF7P3G-70zY) |
 
 ## Repository layout
 
