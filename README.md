@@ -1,7 +1,7 @@
 # Teaching a Tree to Recover: Online Distillation of an LLM Supervisor with Counterfactual Replay
 
 Kristian Ceder, Kilian Freitag, Knut Åkesson (Chalmers University of Technology).
-**[Paper](PAPER_LINK)** · **[Videos](#videos)**
+**Paper link provided at acceptance** · **[Videos](#videos)**
 
 ![An LLM teaches a decision tree to recover an MPC-driven robot, then leaves the loop](results/figures/graphical_abstract.png)
 
