@@ -1,0 +1,471 @@
+{
+ "meta": {
+  "teacher": "llm",
+  "model": "gpt-6-luna",
+  "scene": [
+   4,
+   3,
+   1
+  ],
+  "seed": 300,
+  "vary_seed": false,
+  "tree": "/home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_300_r3.json",
+  "init_depth": 3,
+  "min_support": 2,
+  "retire_after": 1000000,
+  "score_nominal": true,
+  "cf_retire_after": 10,
+  "hold_until_clear": true,
+  "learn": true,
+  "rules_at_start": 0,
+  "imminent_collision": false,
+  "request_human": true,
+  "watchdog_steps": 45,
+  "memory": "both",
+  "simulate": true,
+  "thinking": false,
+  "patient_wait": true,
+  "watchdog_margin": 20,
+  "episodes_of_history_at_start": 0
+ },
+ "episodes": [
+  {
+   "index": 1,
+   "file": "episode_001.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 133,
+   "needs_human": false,
+   "llm_calls": 11,
+   "mean_age_steps": 7.273,
+   "mean_latency_s": 1.389,
+   "wall_s": 16.751,
+   "reference": {
+    "ticks": 11,
+    "agree": 9,
+    "by_source": {
+     "teacher": [
+      9,
+      11
+     ]
+    },
+    "recoveries_ordered": 2,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 0,
+    "differs": {
+     "CONTINUE -> REPLAN_ROUTE": 1,
+     "CONTINUE -> REORIENT": 1
+    }
+   },
+   "episode": 1,
+   "seed": 300,
+   "rules": 3,
+   "active_rules": 3,
+   "tree": {
+    "ticks": 11,
+    "hits": 0,
+    "escalations": 11,
+    "confirmations": 9,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 2,
+    "reinforces": 7,
+    "refines": 1,
+    "replaces": 0,
+    "contradictions": 1,
+    "judged_good": 2,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 0,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "REPLAN_ROUTE",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "goal@274",
+     "clean": true
+    },
+    {
+     "report_step": 45,
+     "method": "REORIENT",
+     "source": "llm",
+     "label": "unnecessary",
+     "without_it": "goal@133",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "file": "episode_002.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 165,
+   "needs_human": false,
+   "llm_calls": 13,
+   "mean_age_steps": 4.692,
+   "mean_latency_s": 0.785,
+   "wall_s": 12.704,
+   "reference": {
+    "ticks": 13,
+    "agree": 11,
+    "by_source": {
+     "teacher": [
+      4,
+      6
+     ],
+     "tree": [
+      7,
+      7
+     ]
+    },
+    "recoveries_ordered": 2,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 0,
+    "differs": {
+     "CONTINUE -> REPLAN_ROUTE": 1,
+     "CONTINUE -> REORIENT": 1
+    }
+   },
+   "episode": 2,
+   "seed": 300,
+   "rules": 5,
+   "active_rules": 5,
+   "tree": {
+    "ticks": 13,
+    "hits": 7,
+    "escalations": 6,
+    "confirmations": 4,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 2,
+    "reinforces": 4,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 2,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 0,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "REPLAN_ROUTE",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "goal@274",
+     "clean": true
+    },
+    {
+     "report_step": 35,
+     "method": "REORIENT",
+     "source": "llm",
+     "label": "harmful",
+     "without_it": "goal@135",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "file": "episode_003.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 156,
+   "needs_human": false,
+   "llm_calls": 13,
+   "mean_age_steps": 2.0,
+   "mean_latency_s": 0.218,
+   "wall_s": 3.584,
+   "reference": {
+    "ticks": 13,
+    "agree": 11,
+    "by_source": {
+     "tree": [
+      9,
+      11
+     ],
+     "teacher": [
+      2,
+      2
+     ]
+    },
+    "recoveries_ordered": 2,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 0,
+    "differs": {
+     "CONTINUE -> REPLAN_ROUTE": 1,
+     "CONTINUE -> REORIENT": 1
+    }
+   },
+   "episode": 3,
+   "seed": 300,
+   "rules": 6,
+   "active_rules": 6,
+   "tree": {
+    "ticks": 13,
+    "hits": 11,
+    "escalations": 2,
+    "confirmations": 1,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 1,
+    "reinforces": 1,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 1,
+    "unevidenced": 0,
+    "undecided": 0,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "REPLAN_ROUTE",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "goal@274",
+     "clean": true
+    },
+    {
+     "report_step": 35,
+     "method": "REORIENT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "goal@128",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "file": "episode_004.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 156,
+   "needs_human": false,
+   "llm_calls": 13,
+   "mean_age_steps": 1.462,
+   "mean_latency_s": 0.094,
+   "wall_s": 1.988,
+   "reference": {
+    "ticks": 13,
+    "agree": 11,
+    "by_source": {
+     "tree": [
+      10,
+      12
+     ],
+     "teacher": [
+      1,
+      1
+     ]
+    },
+    "recoveries_ordered": 2,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 0,
+    "differs": {
+     "CONTINUE -> REPLAN_ROUTE": 1,
+     "CONTINUE -> REORIENT": 1
+    }
+   },
+   "episode": 4,
+   "seed": 300,
+   "rules": 6,
+   "active_rules": 6,
+   "tree": {
+    "ticks": 13,
+    "hits": 12,
+    "escalations": 1,
+    "confirmations": 1,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 1,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 1,
+    "unevidenced": 0,
+    "undecided": 0,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "REPLAN_ROUTE",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "goal@274",
+     "clean": true
+    },
+    {
+     "report_step": 35,
+     "method": "REORIENT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "goal@128",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "file": "episode_005.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 156,
+   "needs_human": false,
+   "llm_calls": 13,
+   "mean_age_steps": 1.0,
+   "mean_latency_s": 0.0,
+   "wall_s": 0.8,
+   "reference": {
+    "ticks": 13,
+    "agree": 11,
+    "by_source": {
+     "tree": [
+      11,
+      13
+     ]
+    },
+    "recoveries_ordered": 2,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 0,
+    "differs": {
+     "CONTINUE -> REPLAN_ROUTE": 1,
+     "CONTINUE -> REORIENT": 1
+    }
+   },
+   "episode": 5,
+   "seed": 300,
+   "rules": 6,
+   "active_rules": 6,
+   "tree": {
+    "ticks": 13,
+    "hits": 13,
+    "escalations": 0,
+    "confirmations": 0,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 0,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 1,
+    "unevidenced": 0,
+    "undecided": 0,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "REPLAN_ROUTE",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "goal@274",
+     "clean": true
+    },
+    {
+     "report_step": 35,
+     "method": "REORIENT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "goal@128",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "file": "episode_006.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 156,
+   "needs_human": false,
+   "llm_calls": 13,
+   "mean_age_steps": 1.0,
+   "mean_latency_s": 0.0,
+   "wall_s": 0.777,
+   "reference": {
+    "ticks": 13,
+    "agree": 11,
+    "by_source": {
+     "tree": [
+      11,
+      13
+     ]
+    },
+    "recoveries_ordered": 2,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 0,
+    "differs": {
+     "CONTINUE -> REPLAN_ROUTE": 1,
+     "CONTINUE -> REORIENT": 1
+    }
+   },
+   "episode": 6,
+   "seed": 300,
+   "rules": 6,
+   "active_rules": 6,
+   "tree": {
+    "ticks": 13,
+    "hits": 13,
+    "escalations": 0,
+    "confirmations": 0,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 0,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 1,
+    "unevidenced": 0,
+    "undecided": 0,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "REPLAN_ROUTE",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "goal@274",
+     "clean": true
+    },
+    {
+     "report_step": 35,
+     "method": "REORIENT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "goal@128",
+     "clean": true
+    }
+   ]
+  }
+ ]
+}

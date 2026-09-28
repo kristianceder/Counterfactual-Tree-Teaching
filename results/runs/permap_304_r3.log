@@ -1,0 +1,266 @@
+=== Loading gpt-6-luna (quantization=4bit, llm_worker=thread) ===
+=== Teacher: gpt-6-luna over its API, temperature 0, called from the async worker thread; usage -> /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r3.api.jsonl ===
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r3.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+=== Experience table: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r3.experience.json -- 0 situation-action pair(s) carried in ===
+
+=== Episode 1/6 (seed 304) ===
+  [experience] 7 replays in 48 s (recorded timeout@500): WAIT@35 unclear (without it watchdog@93), WAIT@135 harmful (without it goal@212), RESUME_ROUTE@175 harmful (without it goal@240), REORIENT@235 unclear (without it timeout@500), WAIT@285 harmful (without it goal@499), REORIENT@435 unclear (without it timeout@500)
+  tree: 44 ticks: 0 from the tree, 43 to the teacher (0% hit rate); rules +6 new, 32 reinforced, 2 refined, 0 replaced, 3 contradicted, 37 confirmation asks; outcomes 2 ok / 2 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/6 (seed 304) ===
+  [experience] the episode did not replay its own decisions; nothing labelled
+  [experience] 7 replays in 33 s (recorded timeout@500): no labels
+  tree: 46 ticks: 32 from the tree, 14 to the teacher (70% hit rate); rules +4 new, 8 reinforced, 2 refined, 0 replaced, 0 contradicted, 10 confirmation asks; outcomes 8 ok / 4 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/6 (seed 304) ===
+  [experience] 7 replays in 31 s (recorded timeout@500): RESUME_ROUTE@25 harmful (without it goal@247), WAIT@35 harmful (without it goal@213), WAIT@65 harmful (without it goal@243), WAIT@95 harmful (without it goal@273), WAIT@125 harmful (without it goal@303), WAIT@155 harmful (without it goal@331)
+  tree: 48 ticks: 39 from the tree, 8 to the teacher (83% hit rate); rules +4 new, 1 reinforced, 2 refined, 0 replaced, 1 contradicted, 4 confirmation asks; outcomes 1 ok / 11 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/6 (seed 304) ===
+  [experience] 7 replays in 32 s (recorded timeout@500): RESUME_ROUTE@25 harmful (without it goal@248), WAIT@35 harmful (without it goal@213), WAIT@65 harmful (without it goal@243), WAIT@95 harmful (without it goal@273), WAIT@125 harmful (without it goal@303), WAIT@155 harmful (without it goal@331)
+  [experience] 1 rule(s) retired on replay labels
+  tree: 47 ticks: 39 from the tree, 7 to the teacher (85% hit rate); rules +4 new, 2 reinforced, 0 refined, 0 replaced, 1 contradicted, 3 confirmation asks; outcomes 7 ok / 5 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/6 (seed 304) ===
+  [experience] the episode did not replay its own decisions; nothing labelled
+  [experience] 7 replays in 32 s (recorded timeout@500): no labels
+  tree: 48 ticks: 34 from the tree, 12 to the teacher (74% hit rate); rules +5 new, 5 reinforced, 1 refined, 0 replaced, 1 contradicted, 6 confirmation asks; outcomes 2 ok / 10 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/6 (seed 304) ===
+  [experience] 7 replays in 32 s (recorded timeout@500): RESUME_ROUTE@25 harmful (without it goal@247), REORIENT@35 harmful (without it goal@213), WAIT@85 harmful (without it goal@293), WAIT@125 harmful (without it goal@313), REORIENT@155 unclear (without it collision@320), RESUME_ROUTE@225 harmful (without it goal@335)
+  tree: 48 ticks: 40 from the tree, 6 to the teacher (87% hit rate); rules +1 new, 4 reinforced, 0 refined, 0 replaced, 1 contradicted, 5 confirmation asks; outcomes 1 ok / 9 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Between-episode simulation: {"episodes": 6, "replays": 42, "labelled": 24, "skipped_inexact": 2, "never_reached": 0, "wall_s": 208.79341000100612} ===
+=== Experience table: 21 situation-action pair(s), 62 judge verdict(s), 24 counterfactual label(s); saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r3.experience.json ===
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     44      0    43     0%      8    8.2    500     81.6     84%      8         7  no (timeout)
+    2     46     32    14    70%     14    3.2    500     45.1     65%     15        13  no (timeout)
+    3     48     39     8    83%     20    2.1    500     13.4     52%     15        14  no (timeout)
+    4     47     39     7    85%     24    2.0    500     19.3     47%     18        15  no (timeout)
+    5     48     34    12    74%     30    2.5    500     19.9     71%     15        14  no (timeout)
+    6     48     40     6    87%     31    1.8    500     11.1     65%     14        13  no (timeout)
+  agree: ticks whose action matched the verified scripted rules (179/281 = 64% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (76 of 85).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=brief
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=back
+                    NOMINAL -> CONTINUE [support 2 in 2 ep, fires 0, 0 ok / 0 bad]
+                  progress=forward
+                    NOMINAL -> CONTINUE [support 2 in 2 ep, fires 2, 0 ok / 0 bad]
+                  progress=stalled
+                    heading=away
+                      blocker=?
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                        deadline=ok
+                          budget=ok
+                            NOMINAL -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 2 bad, 2 contradicted]
+                          budget=tight
+                            NOMINAL -> CONTINUE [support 3 in 2 ep, fires 3, 0 ok / 0 bad]
+      blocked=dynamic
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=back
+                    heading=away
+                      blocker=moving
+                        NOMINAL -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+                      blocker=parked
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+                        deadline=ok
+                          NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 3 bad, 2 contradicted]
+                    heading=off
+                      NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+                  progress=forward
+                    NOMINAL -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+                  progress=stalled
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 1, 0 ok / 3 bad]
+                    heading=off
+                      blocker=parked
+                        deadline=ok
+                          NOMINAL -> WAIT [support 2 in 2 ep, fires 1, 0 ok / 3 bad]
+    stopped=long
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=back
+                    STUCK -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                  progress=stalled
+                    heading=away
+                      blocker=?
+                        deadline=ok
+                          budget=ok
+                            STUCK -> REORIENT [support 3 in 2 ep, fires 0, 0 ok / 3 bad]
+                          budget=tight
+                            STUCK -> REORIENT [support 2 in 2 ep, fires 0, 0 ok / 2 bad, 1 contradicted]
+    stopped=no
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=brief
+                NOMINAL -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+              reversing=long
+                REVERSE_TRACKING -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+              reversing=no
+                wobble=no
+                  progress=back
+                    heading=away
+                      NOMINAL -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 1 bad, 1 contradicted]
+                    heading=off
+                      blocker=?
+                        deadline=ok
+                          budget=ok
+                            NOMINAL -> RESUME_ROUTE [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+                          budget=tight
+                            TIMEOUT -> RESUME_ROUTE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                    heading=on
+                      NOMINAL -> RESUME_ROUTE [support 2 in 2 ep, fires 1, 1 ok / 1 bad]
+                  progress=forward
+                    heading=away
+                      NOMINAL -> CONTINUE [support 4 in 2 ep, fires 13, 0 ok / 0 bad]
+                    heading=off
+                      NOMINAL -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                    heading=on
+                      NOMINAL -> RESUME_ROUTE [support 2 in 2 ep, fires 15, 13 ok / 4 bad, 1 contradicted]
+                  progress=stalled
+                    NOMINAL -> RESUME_ROUTE [support 2 in 2 ep, fires 1, 1 ok / 1 bad]
+      blocked=dynamic
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=back
+                    NOMINAL -> WAIT [support 4 in 2 ep, fires 1, 0 ok / 4 bad]
+                  progress=forward
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 0, 0 ok / 2 bad]
+                    heading=on
+                      NOMINAL -> WAIT [support 4 in 2 ep, fires 19, 5 ok / 8 bad] RETIRED
+  hold=yes
+    stopped=long
+      blocked=clear
+        NOMINAL -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 8 in 2 ep, fires 29, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 24 in 2 ep, fires 98, 0 ok / 0 bad]
+
+  30 active rule(s), 1 retired, over 6 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 1 step 25] insert: no/no/clear -> NOMINAL/CONTINUE
+  [ep 1 step 35] insert: no/no/dynamic -> NOMINAL/WAIT
+  [ep 1 step 45] insert: yes/no/dynamic -> NOMINAL/CONTINUE
+  [ep 1 step 175] contradict: no/no/clear -> NOMINAL/RESUME_ROUTE
+  [ep 1 step 185] refine: no/no/clear/ok/clear/?/no/no/forward/away -> NOMINAL/CONTINUE
+  [ep 1 step 225] insert: no/brief/clear -> NOMINAL/CONTINUE
+  [ep 1 step 235] refine: no/brief/clear/ok/clear/?/no/no/stalled -> NOMINAL/REORIENT
+  [ep 1 step 245] insert: yes/no/clear -> NOMINAL/CONTINUE
+  [ep 1 step 285] no/brief/clear/ok/clear/?/no/no/stalled -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 1 step 425] contradict: no/brief/clear/ok/clear/?/no/no/stalled -> NOMINAL/CONTINUE
+  [ep 1 step 435] contradict: no/brief/clear/ok/clear/?/no/no/stalled -> NOMINAL/REORIENT
+  [ep 1 step 475] insert: no/no/clear/ok/clear/?/no/no/stalled -> NOMINAL/RESUME_ROUTE
+  [ep 1 step 475] no/brief/clear/ok/clear/?/no/no/stalled -> REORIENT did not help (2/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 2 step 265] insert: no/long/clear -> STUCK/REORIENT
+  [ep 2 step 315] no/long/clear -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 2 step 345] insert: no/brief/dynamic -> NOMINAL/WAIT
+  [ep 2 step 385] refine: no/brief/dynamic/ok/clear/?/no/no/back/away/parked/miss -> SOLVER_DEADLINE_MISS/WAIT
+  [ep 2 step 425] refine: no/brief/clear/ok/clear/?/no/no/stalled/away/?/miss -> SOLVER_DEADLINE_MISS/CONTINUE
+  [ep 2 step 445] no/brief/dynamic -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.1 m
+  [ep 2 step 445] no/brief/dynamic/ok/clear/?/no/no/back/away/parked/miss -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.1 m
+  [ep 2 step 455] insert: yes/long/clear -> NOMINAL/CONTINUE
+  [ep 2 step 495] insert: no/no/clear/ok/clear/?/no/no/back/off/?/ok/tight -> TIMEOUT/RESUME_ROUTE
+  [ep 2 step 495] no/long/clear -> REORIENT did not help (2/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 3 step 35] no/no/clear/ok/clear/?/no/no/forward/on -> RESUME_ROUTE did not help (1/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 3 step 175] insert: no/no/clear/ok/clear/?/no/no/back/away -> NOMINAL/REORIENT
+  [ep 3 step 175] no/no/dynamic -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 3 step 175] no/no/dynamic -> WAIT did not help (2/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 3 step 175] no/no/dynamic -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 3 step 215] insert: no/no/clear/ok/clear/?/no/no/back/on -> NOMINAL/RESUME_ROUTE
+  [ep 3 step 215] no/no/clear/ok/clear/?/no/no/back/away -> REORIENT did not help (1/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 3 step 255] no/no/clear/ok/clear/?/no/no/back/on -> RESUME_ROUTE did not help (1/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 3 step 315] insert: no/brief/dynamic/ok/clear/?/no/no/stalled/away -> NOMINAL/REORIENT
+  [ep 3 step 315] no/no/dynamic -> WAIT did not help (4/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 3 step 365] no/brief/dynamic/ok/clear/?/no/no/stalled/away -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 3 step 395] insert: no/brief/dynamic/ok/clear/?/no/no/back/away/parked/ok -> NOMINAL/WAIT
+  [ep 3 step 425] refine: no/brief/clear/ok/clear/?/no/no/stalled/away/?/ok/tight -> NOMINAL/CONTINUE
+  [ep 3 step 445] refine: no/long/clear/ok/clear/?/no/no/stalled/away/?/ok/tight -> STUCK/CONTINUE
+  [ep 3 step 445] no/long/clear/ok/clear/?/no/no/stalled/away/?/ok/tight -> STUCK/CONTINUE did nothing about a report that meets the STUCK test (1/1000000)
+  [ep 3 step 455] no/no/dynamic -> WAIT did not help (5/1000000) -- only 0.2 m along the route in 25 steps
+  [ep 3 step 455] no/brief/dynamic/ok/clear/?/no/no/back/away/parked/ok -> WAIT did not help (1/1000000) -- only 0.2 m along the route in 25 steps
+  [ep 3 step 455] contradict: no/long/clear/ok/clear/?/no/no/stalled/away/?/ok/tight -> STUCK/REORIENT
+  [ep 4 step 35] no/no/clear/ok/clear/?/no/no/forward/on -> RESUME_ROUTE did not help (2/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 4 step 175] contradict: no/no/clear/ok/clear/?/no/no/back/away -> NOMINAL/CONTINUE
+  [ep 4 step 195] insert: no/brief/clear/ok/clear/?/no/no/back -> NOMINAL/CONTINUE
+  [ep 4 step 205] no/no/dynamic -> WAIT did not help (6/1000000) -- only -0.2 m along the route in 25 steps
+  [ep 4 step 205] no/no/dynamic -> WAIT did not help (7/1000000) -- only -0.2 m along the route in 25 steps
+  [ep 4 step 205] no/no/dynamic -> WAIT did not help (8/1000000) -- only -0.2 m along the route in 25 steps
+  [ep 4 step 255] insert: no/no/clear/ok/clear/?/no/no/back/off/?/ok/ok -> NOMINAL/RESUME_ROUTE
+  [ep 4 step 255] no/long/clear/ok/clear/?/no/no/stalled/away/?/ok/ok -> REORIENT did not help (3/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 4 step 275] insert: no/no/clear/ok/clear/?/no/no/forward/off -> NOMINAL/CONTINUE
+  [ep 4 step 485] insert: no/long/clear/ok/clear/?/no/no/back -> STUCK/REORIENT
+  [ep 4 step 95] retired no/no/dynamic -> WAIT: replayed without it, not needed in 10 of 10; next match goes back to the teacher
+  [ep 5 step 35] refine: no/no/dynamic/ok/clear/?/no/no/forward/away -> NOMINAL/REORIENT
+  [ep 5 step 35] no/no/clear/ok/clear/?/no/no/forward/on -> RESUME_ROUTE did not help (3/1000000) -- superseded by REORIENT after only 0.5 m
+  [ep 5 step 85] insert: no/no/dynamic/ok/clear/?/no/no/back -> NOMINAL/WAIT
+  [ep 5 step 85] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 5 step 165] insert: no/brief/dynamic/ok/clear/?/no/no/back/away/moving -> NOMINAL/REORIENT
+  [ep 5 step 165] no/no/dynamic/ok/clear/?/no/no/back -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 5 step 165] no/brief/dynamic/ok/clear/?/no/no/stalled/off/parked/ok -> WAIT did not help (2/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 5 step 235] no/brief/dynamic/ok/clear/?/no/no/back/away/moving -> REORIENT did not help (1/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 5 step 285] insert: no/brief/dynamic/ok/clear/?/no/no/forward -> NOMINAL/REORIENT
+  [ep 5 step 325] no/brief/dynamic/ok/clear/?/no/no/forward -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 5 step 365] contradict: no/brief/dynamic/ok/clear/?/no/no/back/away/parked/ok -> NOMINAL/REORIENT
+  [ep 5 step 365] no/no/dynamic/ok/clear/?/no/no/back -> WAIT did not help (2/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 5 step 405] no/brief/dynamic/ok/clear/?/no/no/back/away/parked/ok -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 5 step 455] no/no/dynamic/ok/clear/?/no/no/back -> WAIT did not help (3/1000000) -- only -0.7 m along the route in 25 steps
+  [ep 5 step 465] no/no/clear/ok/clear/?/no/no/stalled -> RESUME_ROUTE did not help (1/1000000) -- superseded by RESUME_ROUTE after only -0.1 m
+  [ep 5 step 485] insert: no/no/clear/ok/clear/?/brief -> NOMINAL/CONTINUE
+  [ep 5 step 495] insert: no/no/clear/ok/clear/?/long -> REVERSE_TRACKING/REORIENT
+  [ep 6 step 35] no/no/clear/ok/clear/?/no/no/forward/on -> RESUME_ROUTE did not help (4/1000000) -- superseded by REORIENT after only 0.5 m
+  [ep 6 step 85] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 6 step 155] no/no/dynamic/ok/clear/?/no/no/back -> WAIT did not help (4/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 6 step 155] no/brief/dynamic/ok/clear/?/no/no/stalled/off/parked/ok -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 6 step 225] no/brief/dynamic/ok/clear/?/no/no/stalled/away -> REORIENT did not help (2/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 6 step 325] no/brief/dynamic/ok/clear/?/no/no/stalled/away -> REORIENT did not help (3/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 6 step 355] insert: no/brief/dynamic/ok/clear/?/no/no/back/off -> NOMINAL/WAIT
+  [ep 6 step 395] contradict: no/brief/dynamic/ok/clear/?/no/no/back/away/parked/ok -> NOMINAL/WAIT
+  [ep 6 step 445] no/brief/dynamic/ok/clear/?/no/no/back/off -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.1 m
+  [ep 6 step 445] no/brief/dynamic/ok/clear/?/no/no/back/away/parked/ok -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 0.1 m
+  [ep 6 step 485] no/long/clear/ok/clear/?/no/no/stalled/away/?/ok/tight -> REORIENT did not help (2/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+
+=== Totals ===
+  281 ticks: 184 from the tree, 90 to the teacher (67% hit rate); rules +24 new, 52 reinforced, 7 refined, 0 replaced, 7 contradicted, 65 confirmation asks; outcomes 21 ok / 41 bad (17 unresolved, 0 orphaned), 1 retired
+  saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r3.json
+
+  reached the goal in 0/6 episode(s)
+  NOTE: not every episode reached the goal. Read that against a teacher-only baseline on the
+        same seeds (--reset --no-learn --no-save, which leaves the tree empty so every tick
+        escalates) before attributing it to the tree. A rising hit rate with falling success
+        is the failure mode these two numbers are reported together to catch.
+  hit rate 0% -> 87%  (expected to rise)
+  model calls 43 -> 6  (expected not to rise)
+
+PASS

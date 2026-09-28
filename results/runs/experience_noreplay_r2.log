@@ -1,0 +1,967 @@
+=== Loading gpt-6-luna (quantization=4bit, llm_worker=thread) ===
+=== Teacher: gpt-6-luna over its API, temperature 0, called from the async worker thread; usage -> /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.api.jsonl ===
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+=== Experience table: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.experience.json -- 0 situation-action pair(s) carried in ===
+
+=== Episode 1/200 (seed 100) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +5 new, 8 reinforced, 1 refined, 0 replaced, 0 contradicted, 9 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/200 (seed 101) ===
+  tree: 32 ticks: 26 from the tree, 6 to the teacher (81% hit rate); rules +1 new, 4 reinforced, 1 refined, 0 replaced, 0 contradicted, 5 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/200 (seed 102) ===
+  tree: 2 ticks: 0 from the tree, 2 to the teacher (0% hit rate); rules +1 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/200 (seed 103) ===
+  tree: 35 ticks: 34 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 2 ok / 1 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/200 (seed 104) ===
+  tree: 19 ticks: 18 from the tree, 1 to the teacher (95% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 3 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/200 (seed 105) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 7/200 (seed 106) ===
+  tree: 2 ticks: 1 from the tree, 1 to the teacher (50% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 8/200 (seed 107) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 9/200 (seed 108) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 10/200 (seed 109) ===
+  tree: 25 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (8 unresolved, 0 orphaned), 0 retired
+
+=== Episode 11/200 (seed 110) ===
+  tree: 15 ticks: 14 from the tree, 1 to the teacher (93% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 12/200 (seed 111) ===
+  tree: 22 ticks: 21 from the tree, 1 to the teacher (95% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 3 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 13/200 (seed 112) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 14/200 (seed 113) ===
+  tree: 29 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (7 unresolved, 0 orphaned), 0 retired
+
+=== Episode 15/200 (seed 114) ===
+  tree: 14 ticks: 13 from the tree, 1 to the teacher (93% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 16/200 (seed 115) ===
+  tree: 36 ticks: 35 from the tree, 1 to the teacher (97% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 17/200 (seed 116) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 18/200 (seed 117) ===
+  tree: 36 ticks: 35 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 1 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 19/200 (seed 118) ===
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 20/200 (seed 119) ===
+  tree: 21 ticks: 20 from the tree, 1 to the teacher (95% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 21/200 (seed 120) ===
+  tree: 19 ticks: 18 from the tree, 1 to the teacher (95% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 3 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 22/200 (seed 121) ===
+  tree: 47 ticks: 47 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 23/200 (seed 122) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 24/200 (seed 123) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 25/200 (seed 124) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0025.json
+
+=== Episode 26/200 (seed 125) ===
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 27/200 (seed 126) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 28/200 (seed 127) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 29/200 (seed 128) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 30/200 (seed 129) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 31/200 (seed 130) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (8 unresolved, 0 orphaned), 0 retired
+
+=== Episode 32/200 (seed 131) ===
+  tree: 17 ticks: 16 from the tree, 1 to the teacher (94% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 2 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 33/200 (seed 132) ===
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 34/200 (seed 133) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 35/200 (seed 134) ===
+  tree: 2 ticks: 1 from the tree, 1 to the teacher (50% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 36/200 (seed 135) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 37/200 (seed 136) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 38/200 (seed 137) ===
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 39/200 (seed 138) ===
+  tree: 40 ticks: 40 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 40/200 (seed 139) ===
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 41/200 (seed 140) ===
+  tree: 5 ticks: 5 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 42/200 (seed 141) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 43/200 (seed 142) ===
+  tree: 29 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (7 unresolved, 0 orphaned), 0 retired
+
+=== Episode 44/200 (seed 143) ===
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 45/200 (seed 144) ===
+  tree: 33 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 46/200 (seed 145) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 47/200 (seed 146) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 48/200 (seed 147) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 49/200 (seed 148) ===
+  tree: 30 ticks: 30 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 2 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 50/200 (seed 149) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0050.json
+
+=== Episode 51/200 (seed 150) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 52/200 (seed 151) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 53/200 (seed 152) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 54/200 (seed 153) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (8 unresolved, 0 orphaned), 0 retired
+
+=== Episode 55/200 (seed 154) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 56/200 (seed 155) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 57/200 (seed 156) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 58/200 (seed 157) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 59/200 (seed 158) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 60/200 (seed 159) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 61/200 (seed 160) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 62/200 (seed 161) ===
+  tree: 40 ticks: 39 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (13 unresolved, 0 orphaned), 0 retired
+
+=== Episode 63/200 (seed 162) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 1 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 64/200 (seed 163) ===
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 65/200 (seed 164) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 66/200 (seed 165) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 67/200 (seed 166) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 68/200 (seed 167) ===
+  tree: 33 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 69/200 (seed 168) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 70/200 (seed 169) ===
+  tree: 29 ticks: 29 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 71/200 (seed 170) ===
+  tree: 2 ticks: 1 from the tree, 1 to the teacher (50% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 72/200 (seed 171) ===
+  tree: 31 ticks: 31 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 1 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 73/200 (seed 172) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 74/200 (seed 173) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 75/200 (seed 174) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0075.json
+
+=== Episode 76/200 (seed 175) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 77/200 (seed 176) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 78/200 (seed 177) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 79/200 (seed 178) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (16 unresolved, 0 orphaned), 0 retired
+
+=== Episode 80/200 (seed 179) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 81/200 (seed 180) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 82/200 (seed 181) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 83/200 (seed 182) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 84/200 (seed 183) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 85/200 (seed 184) ===
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 86/200 (seed 185) ===
+  tree: 20 ticks: 20 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 87/200 (seed 186) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 88/200 (seed 187) ===
+  tree: 40 ticks: 39 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (13 unresolved, 0 orphaned), 0 retired
+
+=== Episode 89/200 (seed 188) ===
+  tree: 26 ticks: 25 from the tree, 1 to the teacher (96% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 90/200 (seed 189) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 91/200 (seed 190) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 92/200 (seed 191) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 93/200 (seed 192) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 94/200 (seed 193) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 95/200 (seed 194) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 96/200 (seed 195) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 97/200 (seed 196) ===
+  tree: 28 ticks: 26 from the tree, 2 to the teacher (93% hit rate); rules +0 new, 0 reinforced, 2 refined, 0 replaced, 0 contradicted, 2 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 98/200 (seed 197) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 99/200 (seed 198) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 100/200 (seed 199) ===
+  tree: 32 ticks: 31 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 3 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0100.json
+
+=== Episode 101/200 (seed 200) ===
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 102/200 (seed 201) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 103/200 (seed 202) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 104/200 (seed 203) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 105/200 (seed 204) ===
+  tree: 23 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 106/200 (seed 205) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 107/200 (seed 206) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 108/200 (seed 207) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 3 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 109/200 (seed 208) ===
+  tree: 27 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 110/200 (seed 209) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 111/200 (seed 210) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 112/200 (seed 211) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 113/200 (seed 212) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (10 unresolved, 0 orphaned), 0 retired
+
+=== Episode 114/200 (seed 213) ===
+  tree: 34 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (11 unresolved, 0 orphaned), 0 retired
+
+=== Episode 115/200 (seed 214) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 116/200 (seed 215) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 117/200 (seed 216) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 118/200 (seed 217) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 119/200 (seed 218) ===
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 120/200 (seed 219) ===
+  tree: 43 ticks: 43 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 121/200 (seed 220) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 122/200 (seed 221) ===
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 123/200 (seed 222) ===
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 124/200 (seed 223) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (10 unresolved, 0 orphaned), 0 retired
+
+=== Episode 125/200 (seed 224) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0125.json
+
+=== Episode 126/200 (seed 225) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 127/200 (seed 226) ===
+  tree: 31 ticks: 30 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 4 ok / 0 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 128/200 (seed 227) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 129/200 (seed 228) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 130/200 (seed 229) ===
+  tree: 25 ticks: 22 from the tree, 3 to the teacher (88% hit rate); rules +1 new, 2 reinforced, 0 refined, 0 replaced, 0 contradicted, 2 confirmation asks; outcomes 1 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 131/200 (seed 230) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (7 unresolved, 0 orphaned), 0 retired
+
+=== Episode 132/200 (seed 231) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 133/200 (seed 232) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 134/200 (seed 233) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 135/200 (seed 234) ===
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 136/200 (seed 235) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 137/200 (seed 236) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 138/200 (seed 237) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 139/200 (seed 238) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 140/200 (seed 239) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 141/200 (seed 240) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 142/200 (seed 241) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 143/200 (seed 242) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 144/200 (seed 243) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 145/200 (seed 244) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 146/200 (seed 245) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 147/200 (seed 246) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 148/200 (seed 247) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 149/200 (seed 248) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 150/200 (seed 249) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0150.json
+
+=== Episode 151/200 (seed 250) ===
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 152/200 (seed 251) ===
+  tree: 31 ticks: 31 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 153/200 (seed 252) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 154/200 (seed 253) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 155/200 (seed 254) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 156/200 (seed 255) ===
+  tree: 7 ticks: 7 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 157/200 (seed 256) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 158/200 (seed 257) ===
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 159/200 (seed 258) ===
+  tree: 38 ticks: 37 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (11 unresolved, 0 orphaned), 0 retired
+
+=== Episode 160/200 (seed 259) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 161/200 (seed 260) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 162/200 (seed 261) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 163/200 (seed 262) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 164/200 (seed 263) ===
+  tree: 23 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 165/200 (seed 264) ===
+  tree: 9 ticks: 9 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 166/200 (seed 265) ===
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 1 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 167/200 (seed 266) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 168/200 (seed 267) ===
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 169/200 (seed 268) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 170/200 (seed 269) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 171/200 (seed 270) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 172/200 (seed 271) ===
+  tree: 23 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 173/200 (seed 272) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 174/200 (seed 273) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 175/200 (seed 274) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0175.json
+
+=== Episode 176/200 (seed 275) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 177/200 (seed 276) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 178/200 (seed 277) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 179/200 (seed 278) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 180/200 (seed 279) ===
+  tree: 20 ticks: 20 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 181/200 (seed 280) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 182/200 (seed 281) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 183/200 (seed 282) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 184/200 (seed 283) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 185/200 (seed 284) ===
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 5 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 186/200 (seed 285) ===
+  tree: 34 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (11 unresolved, 0 orphaned), 0 retired
+
+=== Episode 187/200 (seed 286) ===
+  tree: 31 ticks: 30 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (10 unresolved, 0 orphaned), 0 retired
+
+=== Episode 188/200 (seed 287) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 189/200 (seed 288) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 190/200 (seed 289) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 191/200 (seed 290) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 192/200 (seed 291) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 193/200 (seed 292) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 194/200 (seed 293) ===
+  tree: 34 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (11 unresolved, 0 orphaned), 0 retired
+
+=== Episode 195/200 (seed 294) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 3 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 196/200 (seed 295) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 197/200 (seed 296) ===
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 198/200 (seed 297) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 199/200 (seed 298) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 200/200 (seed 299) ===
+  tree: 7 ticks: 7 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.ep0200.json
+=== Experience table: 26 situation-action pair(s), 290 judge verdict(s), 0 counterfactual label(s); saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.experience.json ===
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     14      0    14     0%      6    7.4    174     20.8     86%      2         2  yes
+    2     32     26     6    81%      8    2.3    338     11.0     94%      2         1  yes
+    3      2      0     2     0%      9    6.5     43      3.5     50%      2         1  yes (human_requested)
+    4     35     34     1    97%      9    1.1    372     17.4     74%      5         5  yes
+    5     19     18     1    95%     10    1.4    213      4.2     79%      4         3  yes
+    6     22     22     0   100%     10    1.0    246     12.7     59%      5         5  yes
+    7      2      1     1    50%     10    4.0     43      1.4     50%      2         1  yes (human_requested)
+    8     12     12     0   100%     10    1.0    142      0.7     83%      2         2  yes
+    9     12     12     0   100%     10    1.0    138      1.7     92%      1         1  yes
+   10     25     24     0   100%     10    1.0    267     17.7     48%      9         6  yes (human_requested)
+   11     15     14     1    93%     11    1.5    175      2.8     93%      1         1  yes
+   12     22     21     1    95%     11    2.0    263      8.9     77%      5         4  yes
+   13     26     25     0   100%     11    1.0    277     16.6     77%      7         4  yes (human_requested)
+   14     29     28     0   100%     11    1.0    307     21.4     72%      8         4  yes (human_requested)
+   15     14     13     1    93%     12    1.5    162      4.2    100%      1         0  yes
+   16     36     35     1    97%     13    1.2    385     15.4     92%      3         3  yes
+   17     26     25     0   100%     13    1.0    277     18.1     73%      7         4  yes (human_requested)
+   18     36     35     1    97%     13    1.1    378      9.9     72%      6         5  yes
+   19     21     21     0   100%     13    1.0    227      4.0     71%      4         4  yes
+   20     21     20     1    95%     13    1.2    235      6.8     67%      4         3  yes
+   21     19     18     1    95%     13    1.3    215      7.9     68%      4         3  yes
+   22     47     47     0   100%     13    1.0    490     14.9     96%      2         2  yes
+   23     11     11     0   100%     13    1.0    127      0.8     91%      1         1  yes
+   24     14     14     0   100%     13    1.0    158      2.6     93%      1         1  yes
+   25     26     25     0   100%     13    1.0    277     16.6     73%      7         4  yes (human_requested)
+   26     32     32     0   100%     13    1.0    337      8.3     81%      4         3  yes
+   27     12     12     0   100%     13    1.0    140      4.1     92%      1         1  yes
+   28     16     16     0   100%     13    1.0    186      5.2     69%      3         3  yes
+   29     16     16     0   100%     13    1.0    178      4.4     81%      2         2  yes
+   30     14     14     0   100%     13    1.0    161      2.9     79%      2         2  yes
+   31     26     25     0   100%     13    1.0    277     17.9     58%      9         7  yes (human_requested)
+   32     17     16     1    94%     13    1.3    189      6.5     82%      3         3  yes
+   33     28     28     0   100%     13    1.0    300      2.8     61%      6         6  yes
+   34     26     25     0   100%     13    1.0    277     13.6     73%      7         4  yes (human_requested)
+   35      2      1     1    50%     14    3.5     42      1.7     50%      2         0  yes (human_requested)
+   36     16     16     0   100%     14    1.0    186      8.2     94%      1         1  yes
+   37     22     22     0   100%     14    1.0    237      9.5     82%      3         3  yes
+   38     32     32     0   100%     14    1.0    337      2.7     75%      6         6  yes
+   39     40     40     0   100%     14    1.0    424      5.2     95%      2         1  yes
+   40     21     21     0   100%     14    1.0    234      6.2     76%      3         2  yes
+   41      5      5     0   100%     14    1.0     74      1.2    100%      0         0  yes
+   42     13     13     0   100%     14    1.0    151      2.0     92%      1         1  yes
+   43     29     28     0   100%     14    1.0    307     21.2     72%      8         4  yes (human_requested)
+   44     25     25     0   100%     14    1.0    275      7.2     64%      5         5  yes
+   45     33     33     0   100%     14    1.0    347      5.0     94%      2         2  yes
+   46     26     25     0   100%     14    1.0    277     17.0     85%      6         3  yes (human_requested)
+   47     16     16     0   100%     14    1.0    182      4.4     69%      3         3  yes
+   48     14     14     0   100%     14    1.0    163      3.3     93%      1         1  yes
+   49     30     30     0   100%     14    1.0    318      6.7     57%      8         8  yes
+   50     17     17     0   100%     14    1.0    187      1.3     94%      1         0  yes
+   51     18     18     0   100%     14    1.0    198      4.8     94%      1         1  yes
+   52     14     14     0   100%     14    1.0    159      1.2     93%      1         1  yes
+   53     17     17     0   100%     14    1.0    193      3.5     71%      4         3  yes
+   54     26     25     0   100%     14    1.0    277     16.9     58%      9         6  yes (human_requested)
+   55     15     15     0   100%     14    1.0    174      2.8     80%      2         2  yes
+   56     14     14     0   100%     14    1.0    165      4.8     86%      2         2  yes
+   57     23     23     0   100%     14    1.0    254      6.4     61%      5         5  yes
+   58     17     17     0   100%     14    1.0    187      4.7     59%      4         4  yes
+   59     17     17     0   100%     14    1.0    188      1.3     82%      3         3  yes
+   60     12     12     0   100%     14    1.0    137      3.2     92%      1         1  yes
+   61     19     19     0   100%     14    1.0    207      5.5     95%      1         1  yes
+   62     40     39     0   100%     14    1.0    417     14.3     68%     14        10  yes (human_requested)
+   63     48     48     0   100%     14    1.0    500      1.6     85%      6         6  no (timeout)
+   64     28     28     0   100%     14    1.0    300      2.0     96%      2         1  yes
+   65     11     11     0   100%     14    1.0    129      1.0     91%      1         1  yes
+   66      2      2     0   100%     14    1.0     37      0.9     50%      2         1  yes (human_requested)
+   67     11     11     0   100%     14    1.0    132      5.3     91%      1         1  yes
+   68     33     33     0   100%     14    1.0    349     12.2     88%      4         4  yes
+   69      2      2     0   100%     14    1.0     37      0.2     50%      2         1  yes (human_requested)
+   70     29     29     0   100%     14    1.0    315     10.1     93%      2         1  yes
+   71      2      1     1    50%     14    6.5     48      2.7     50%      2         0  yes (human_requested)
+   72     31     31     0   100%     14    1.0    336     10.4     77%      5         5  yes
+   73     26     25     0   100%     14    1.0    277     13.0     81%      6         4  yes (human_requested)
+   74     16     16     0   100%     14    1.0    183      4.4     81%      2         2  yes
+   75     24     24     0   100%     14    1.0    259     11.0     71%      4         3  yes
+   76      2      2     0   100%     14    1.0     37      0.2     50%      2         1  yes (human_requested)
+   77     15     15     0   100%     14    1.0    169      2.1     93%      1         1  yes
+   78     15     15     0   100%     14    1.0    174      3.2     80%      2         2  yes
+   79     48     48     0   100%     14    1.0    500     40.6     75%     16         9  no (timeout)
+   80      2      2     0   100%     14    1.0     37      0.8     50%      2         1  yes (human_requested)
+   81     17     17     0   100%     14    1.0    189      3.5     82%      2         2  yes
+   82      2      2     0   100%     14    1.0     37      0.2     50%      2         1  yes (human_requested)
+   83      6      6     0   100%     14    1.0     85      2.1    100%      0         0  yes
+   84     14     14     0   100%     14    1.0    165      4.3     79%      2         2  yes
+   85     28     28     0   100%     14    1.0    305      6.9     93%      2         1  yes
+   86     20     20     0   100%     14    1.0    226      8.8     70%      4         4  yes
+   87     23     23     0   100%     14    1.0    256      1.8     65%      5         5  yes
+   88     40     39     0   100%     14    1.0    417     16.8     70%     14        10  yes (human_requested)
+   89     26     25     1    96%     15    1.3    285     19.8     58%      6         6  yes
+   90     14     14     0   100%     15    1.0    161      1.2     93%      1         1  yes
+   91     23     23     0   100%     15    1.0    254      9.5     70%      4         3  yes
+   92     12     12     0   100%     15    1.0    145      3.2     92%      1         1  yes
+   93     13     13     0   100%     15    1.0    150      2.4     92%      1         1  yes
+   94     18     18     0   100%     15    1.0    199      7.5     94%      1         1  yes
+   95     19     19     0   100%     15    1.0    210      2.7     79%      4         3  yes
+   96     16     16     0   100%     15    1.0    183      4.1     81%      2         2  yes
+   97     28     26     2    93%     17    1.7    307     23.4     93%      3         2  yes
+   98     14     14     0   100%     17    1.0    160      3.9     79%      2         2  yes
+   99     18     18     0   100%     17    1.0    204      1.8     83%      2         1  yes
+  100     32     31     1    97%     17    1.2    338      2.8     72%      6         6  yes
+  101     21     21     0   100%     17    1.0    234      7.9     81%      3         3  yes
+  102     17     17     0   100%     17    1.0    190      3.6     76%      3         3  yes
+  103     14     14     0   100%     17    1.0    166      3.7     93%      1         1  yes
+  104     16     16     0   100%     17    1.0    180      7.1     81%      3         3  yes
+  105     23     22     0   100%     17    1.0    247      9.8     74%      6         4  yes (human_requested)
+  106     17     17     0   100%     17    1.0    194      2.2     82%      2         2  yes
+  107      6      6     0   100%     17    1.0     79      1.6    100%      0         0  yes
+  108     22     22     0   100%     17    1.0    240      3.7     77%      5         4  yes
+  109     27     27     0   100%     17    1.0    289      6.2     89%      2         2  yes
+  110      2      2     0   100%     17    1.0     37      0.9     50%      2         0  yes (human_requested)
+  111      2      2     0   100%     17    1.0     37      0.8     50%      2         1  yes (human_requested)
+  112      2      2     0   100%     17    1.0     37      1.8     50%      2         1  yes (human_requested)
+  113     48     48     0   100%     17    1.0    500     16.9     73%     10        10  no (timeout)
+  114     34     33     0   100%     17    1.0    357     18.0     50%     12        10  yes (human_requested)
+  115     14     14     0   100%     17    1.0    164      2.4     93%      1         1  yes
+  116     15     15     0   100%     17    1.0    173      6.9     93%      1         1  yes
+  117      2      2     0   100%     17    1.0     37      0.7     50%      2         1  yes (human_requested)
+  118     17     17     0   100%     17    1.0    193      9.9     82%      2         2  yes
+  119     21     21     0   100%     17    1.0    229      7.8     57%      5         5  yes
+  120     43     43     0   100%     17    1.0    453     11.7     84%      7         6  yes
+  121     11     11     0   100%     17    1.0    128      3.2     91%      1         1  yes
+  122     26     26     0   100%     17    1.0    281      2.5     69%      5         4  yes
+  123     25     25     0   100%     17    1.0    271     23.4     92%      2         2  yes
+  124     48     48     0   100%     17    1.0    500     37.9     67%     13        12  no (timeout)
+  125     24     24     0   100%     17    1.0    262      6.8     88%      3         3  yes
+  126      2      2     0   100%     17    1.0     37      0.6     50%      2         1  yes (human_requested)
+  127     31     30     1    97%     17    1.2    335     27.0     52%      8         8  yes
+  128     23     23     0   100%     17    1.0    255     17.5     70%      5         5  yes
+  129      2      2     0   100%     17    1.0     37      2.1     50%      2         1  yes (human_requested)
+  130     25     22     3    88%     18    1.8    269     16.4     88%      2         2  yes
+  131     26     25     0   100%     18    1.0    277     14.1     65%      8         5  yes (human_requested)
+  132     18     18     0   100%     18    1.0    200      6.1     94%      1         1  yes
+  133     15     15     0   100%     18    1.0    172      3.5     80%      2         2  yes
+  134     15     15     0   100%     18    1.0    170      6.5     80%      2         2  yes
+  135     26     26     0   100%     18    1.0    279      7.2     92%      2         2  yes
+  136      2      2     0   100%     18    1.0     37      0.9     50%      2         0  yes (human_requested)
+  137      6      6     0   100%     18    1.0     82      2.0    100%      0         0  yes
+  138     24     24     0   100%     18    1.0    258      9.4     83%      3         3  yes
+  139     15     15     0   100%     18    1.0    173      5.2     80%      2         2  yes
+  140     19     19     0   100%     18    1.0    216      2.1     74%      3         3  yes
+  141     22     22     0   100%     18    1.0    246     11.7     73%      4         4  yes
+  142     18     18     0   100%     18    1.0    203      1.1     83%      2         2  yes
+  143     12     12     0   100%     18    1.0    137      3.1     75%      2         2  yes
+  144     26     25     0   100%     18    1.0    277     13.3     81%      6         4  yes (human_requested)
+  145     24     24     0   100%     18    1.0    263      4.5     71%      4         4  yes
+  146     15     15     0   100%     18    1.0    175      3.0     80%      2         2  yes
+  147     19     19     0   100%     18    1.0    214     11.1     63%      4         4  yes
+  148     16     16     0   100%     18    1.0    182      2.8     81%      3         3  no (collision)
+  149     22     22     0   100%     18    1.0    246      7.5     91%      2         2  yes
+  150     18     18     0   100%     18    1.0    197      3.3     83%      2         2  yes
+  151     21     21     0   100%     18    1.0    230      8.9     76%      3         3  yes
+  152     31     31     0   100%     18    1.0    329      8.2     94%      2         1  yes
+  153     11     11     0   100%     18    1.0    130      1.7    100%      1         0  yes
+  154     17     17     0   100%     18    1.0    190      3.6     76%      3         2  yes
+  155     14     14     0   100%     18    1.0    164      1.2     86%      2         2  yes
+  156      7      7     0   100%     18    1.0     89      3.3    100%      0         0  yes
+  157     15     15     0   100%     18    1.0    173      4.2     93%      1         1  yes
+  158     28     28     0   100%     18    1.0    301      3.7     93%      2         2  yes
+  159     38     37     0   100%     18    1.0    397     26.7     71%     12         7  yes (human_requested)
+  160      2      2     0   100%     18    1.0     37      0.3     50%      2         1  yes (human_requested)
+  161     16     16     0   100%     18    1.0    185      3.1     81%      2         2  yes
+  162      2      2     0   100%     18    1.0     37      0.4     50%      2         0  yes (human_requested)
+  163     13     13     0   100%     18    1.0    149      1.9     92%      1         1  yes
+  164     23     22     0   100%     18    1.0    247     17.3     65%      7         5  yes (human_requested)
+  165      9      9     0   100%     18    1.0    107      2.4    100%      0         0  yes
+  166     26     26     0   100%     18    1.0    282     13.0     77%      4         4  yes
+  167     13     13     0   100%     18    1.0    155      2.4    100%      1         0  yes
+  168     28     28     0   100%     18    1.0    305      8.5     89%      3         2  yes
+  169     18     18     0   100%     18    1.0    205      5.9     83%      2         2  yes
+  170     17     17     0   100%     18    1.0    190      8.2     94%      1         1  yes
+  171     16     16     0   100%     18    1.0    179      1.2     88%      2         2  yes
+  172     23     22     0   100%     18    1.0    247     15.1     74%      6         4  yes (human_requested)
+  173     11     11     0   100%     18    1.0    132      4.0     91%      1         1  yes
+  174     11     11     0   100%     18    1.0    132      0.7     91%      1         1  yes
+  175      2      2     0   100%     18    1.0     37      1.2     50%      2         0  yes (human_requested)
+  176     17     17     0   100%     18    1.0    195      6.7     76%      3         2  yes
+  177     11     11     0   100%     18    1.0    134      1.0     91%      1         1  yes
+  178      2      2     0   100%     18    1.0     37      0.6     50%      2         1  yes (human_requested)
+  179     11     11     0   100%     18    1.0    127      2.4    100%      1         0  yes
+  180     20     20     0   100%     18    1.0    217      3.7     80%      4         3  yes
+  181     12     12     0   100%     18    1.0    142      0.7     83%      2         2  yes
+  182     16     16     0   100%     18    1.0    183      1.0     88%      2         1  yes
+  183     24     24     0   100%     18    1.0    263     14.6     71%      4         4  yes
+  184     15     15     0   100%     18    1.0    172      4.7     93%      1         1  yes
+  185     25     25     0   100%     18    1.0    269     11.2     68%      5         5  yes
+  186     34     33     0   100%     18    1.0    357     11.5     68%     12         9  yes (human_requested)
+  187     31     30     0   100%     18    1.0    327     12.8     48%     11         9  yes (human_requested)
+  188     16     16     0   100%     18    1.0    183      7.5     81%      2         2  yes
+  189      2      2     0   100%     18    1.0     37      0.7     50%      2         1  yes (human_requested)
+  190     16     16     0   100%     18    1.0    178      1.8     94%      1         0  yes
+  191     16     16     0   100%     18    1.0    186      9.9     69%      3         3  yes
+  192     14     14     0   100%     18    1.0    165      2.5    100%      1         0  yes
+  193      2      2     0   100%     18    1.0     37      0.5     50%      2         0  yes (human_requested)
+  194     34     33     0   100%     18    1.0    357     31.2     59%     12         8  yes (human_requested)
+  195     19     19     0   100%     18    1.0    215      2.0     74%      5         4  yes
+  196     26     25     0   100%     18    1.0    277     15.1     81%      6         4  yes (human_requested)
+  197     32     32     0   100%     18    1.0    339      4.0     84%      4         4  yes
+  198     18     18     0   100%     18    1.0    202      5.6     72%      3         3  yes
+  199      2      2     0   100%     18    1.0     37      1.3     50%      2         1  yes (human_requested)
+  200      7      7     0   100%     18    1.0     89      1.5    100%      0         0  yes
+  agree: ticks whose action matched the verified scripted rules (2990/3798 = 79% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (538 of 681).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=brief
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 6, 8 ok / 0 bad]
+    stopped=no
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=brief
+                NOMINAL -> REORIENT [support 2 in 2 ep, fires 10, 11 ok / 1 bad]
+              reversing=long
+                REVERSE_TRACKING -> REORIENT [support 2 in 2 ep, fires 8, 6 ok / 4 bad]
+              reversing=no
+                wobble=no
+                  progress=back
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 2, 4 ok / 0 bad]
+                    heading=off
+                      blocker=?
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                        deadline=ok
+                          NOMINAL -> CONTINUE [support 2 in 2 ep, fires 2, 0 ok / 0 bad]
+                    heading=on
+                      NOMINAL -> CONTINUE [support 2 in 2 ep, fires 212, 0 ok / 0 bad]
+                  progress=forward
+                    NOMINAL -> CONTINUE [support 8 in 2 ep, fires 1106, 0 ok / 0 bad]
+                  progress=stalled
+                    NOMINAL -> CONTINUE [support 2 in 2 ep, fires 41, 0 ok / 0 bad]
+                wobble=yes
+                  NOMINAL -> CONTINUE [support 3 in 1 ep, fires 0, 0 ok / 1 bad]
+          contact=near
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=forward
+                    NOMINAL -> CONTINUE [support 2 in 2 ep, fires 0, 0 ok / 0 bad]
+                  progress=stalled
+                    NOMINAL -> REORIENT [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> WAIT [support 2 in 2 ep, fires 496, 131 ok / 22 bad]
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 13, 15 ok / 0 bad]
+        route=ok
+          contact=clear
+            approach=?
+              reversing=long
+                REVERSE_TRACKING -> REPLAN_ROUTE [support 2 in 2 ep, fires 22, 14 ok / 3 bad]
+              reversing=no
+                NOMINAL -> REPLAN_ROUTE [support 2 in 2 ep, fires 83, 50 ok / 19 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 4 in 2 ep, fires 116, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 2 in 2 ep, fires 1614, 0 ok / 0 bad]
+
+  18 active rule(s), 0 retired, over 200 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 1 step 25] insert: no/no/static -> NOMINAL/REPLAN_ROUTE
+  [ep 1 step 45] insert: yes/no/dynamic -> NOMINAL/CONTINUE
+  [ep 1 step 55] insert: yes/no/clear -> NOMINAL/CONTINUE
+  [ep 1 step 75] insert: no/no/clear -> NOMINAL/REORIENT
+  [ep 1 step 75] no/no/static -> REPLAN_ROUTE did not help (1/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 1 step 95] refine: no/no/clear/ok/clear/?/no/no/back/on -> NOMINAL/CONTINUE
+  [ep 1 step 105] insert: no/no/clear/ok/clear/?/no/no/forward -> NOMINAL/CONTINUE
+  [ep 2 step 25] refine: no/no/static/ok/clear/?/long -> REVERSE_TRACKING/REPLAN_ROUTE
+  [ep 2 step 145] insert: no/no/dynamic -> NOMINAL/WAIT
+  [ep 3 step 35] insert: no/no/static/none -> NOMINAL/REQUEST_HUMAN
+  [ep 4 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (2/1000000) -- superseded by WAIT after only 0.4 m
+  [ep 5 step 115] insert: no/no/clear/ok/clear/?/brief -> NOMINAL/REORIENT
+  [ep 5 step 115] no/no/dynamic -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 1.0 m
+  [ep 5 step 115] no/no/dynamic -> WAIT did not help (2/1000000) -- superseded by REORIENT after only 1.0 m
+  [ep 5 step 115] no/no/dynamic -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 1.0 m
+  [ep 8 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (3/1000000) -- superseded by WAIT after only 0.9 m
+  [ep 11 step 95] insert: no/no/clear/ok/clear/?/no/no/stalled -> NOMINAL/CONTINUE
+  [ep 12 step 135] no/no/dynamic -> WAIT did not help (4/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 12 step 135] no/no/dynamic -> WAIT did not help (5/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 12 step 135] no/no/dynamic -> WAIT did not help (6/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 15 step 25] insert: no/no/clear/ok/clear/?/long -> REVERSE_TRACKING/REORIENT
+  [ep 16 step 305] insert: no/no/clear/ok/near -> NOMINAL/REORIENT
+  [ep 18 step 65] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 21 step 65] no/no/clear/ok/clear/?/long -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 32 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (4/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 32 step 65] no/no/dynamic -> WAIT did not help (7/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 35 step 35] insert: no/brief/static/none -> NOMINAL/REQUEST_HUMAN
+  [ep 40 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 49 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (5/1000000) -- superseded by WAIT after only 0.6 m
+  [ep 49 step 65] no/no/dynamic -> WAIT did not help (8/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 53 step 65] no/no/clear/ok/clear/?/long -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 56 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (6/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 63 step 45] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (7/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 68 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (8/1000000) -- superseded by REORIENT after only 0.1 m
+  [ep 72 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (9/1000000) -- superseded by WAIT after only 0.6 m
+  [ep 87 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (10/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 89 step 55] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (11/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 89 step 205] insert: no/no/clear/ok/clear/?/no/no/back/off -> NOMINAL/CONTINUE
+  [ep 95 step 115] no/no/dynamic -> WAIT did not help (9/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 95 step 115] no/no/dynamic -> WAIT did not help (10/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 97 step 45] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (12/1000000) -- superseded by REORIENT after only 0.8 m
+  [ep 97 step 125] refine: no/no/clear/ok/clear/?/no/no/back/off/?/miss -> SOLVER_DEADLINE_MISS/CONTINUE
+  [ep 97 step 265] refine: no/no/clear/ok/near/?/no/no/forward -> NOMINAL/CONTINUE
+  [ep 99 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (3/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 104 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (13/1000000) -- superseded by WAIT after only 0.9 m
+  [ep 108 step 145] no/no/dynamic -> WAIT did not help (11/1000000) -- superseded by REORIENT after only 1.0 m
+  [ep 108 step 145] no/no/dynamic -> WAIT did not help (12/1000000) -- superseded by REORIENT after only 1.0 m
+  [ep 108 step 145] no/no/dynamic -> WAIT did not help (13/1000000) -- superseded by REORIENT after only 1.0 m
+  [ep 120 step 175] no/no/dynamic -> WAIT did not help (14/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 120 step 175] no/no/dynamic -> WAIT did not help (15/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 124 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (14/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 124 step 255] no/no/dynamic -> WAIT did not help (16/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 125 step 185] no/no/clear/ok/clear/?/brief -> REORIENT did not help (1/1000000) -- superseded by REORIENT after only 0.7 m
+  [ep 130 step 35] insert: no/no/clear/ok/clear/?/no/yes -> NOMINAL/CONTINUE
+  [ep 130 step 55] no/no/clear/ok/clear/?/no/yes -> NOMINAL/CONTINUE did nothing about a report that meets the OSCILLATION test (1/1000000)
+  [ep 148 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (15/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 148 step 175] no/no/dynamic -> WAIT did not help (17/1000000) -- episode ended: collision
+  [ep 154 step 65] no/no/clear/ok/clear/?/long -> REORIENT did not help (3/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 155 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (16/1000000) -- superseded by WAIT after only 0.6 m
+  [ep 166 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (17/1000000) -- superseded by WAIT after only 0.9 m
+  [ep 171 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (18/1000000) -- superseded by WAIT after only 0.6 m
+  [ep 176 step 65] no/no/clear/ok/clear/?/long -> REORIENT did not help (4/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 180 step 115] no/no/dynamic -> WAIT did not help (18/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 180 step 115] no/no/dynamic -> WAIT did not help (19/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 181 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (19/1000000) -- superseded by WAIT after only 0.8 m
+  [ep 195 step 125] no/no/dynamic -> WAIT did not help (20/1000000) -- superseded by REORIENT after only 0.8 m
+  [ep 195 step 125] no/no/dynamic -> WAIT did not help (21/1000000) -- superseded by REORIENT after only 0.8 m
+  [ep 195 step 125] no/no/dynamic -> WAIT did not help (22/1000000) -- superseded by REORIENT after only 0.8 m
+
+=== Totals ===
+  3798 ticks: 3731 from the tree, 43 to the teacher (99% hit rate); rules +14 new, 25 reinforced, 4 refined, 0 replaced, 0 contradicted, 29 confirmation asks; outcomes 240 ok / 50 bad (368 unresolved, 0 orphaned), 0 retired
+  saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_nocf_noex_r2_rt.json
+
+  reached the goal in 195/200 episode(s) (47 of them by rightly calling a human)
+  NOTE: not every episode reached the goal. Read that against a teacher-only baseline on the
+        same seeds (--reset --no-learn --no-save, which leaves the tree empty so every tick
+        escalates) before attributing it to the tree. A rising hit rate with falling success
+        is the failure mode these two numbers are reported together to catch.
+  hit rate 0% -> 100%  (expected to rise)
+  model calls 14 -> 0  (expected not to rise)
+
+PASS

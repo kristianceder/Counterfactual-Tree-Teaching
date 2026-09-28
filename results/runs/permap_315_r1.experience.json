@@ -1,0 +1,139 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 7,
+ "simulations": 26,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "brief",
+    "dynamic",
+    "ok",
+    "near",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "unnecessary": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "abandoned",
+    "miss"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "abandoned",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 4,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 4
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "abandoned",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 8,
+    "needed": 8,
+    "unnecessary": 2
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "near",
+    "no",
+    "on",
+    "abandoned",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 1
+   }
+  }
+ ]
+}

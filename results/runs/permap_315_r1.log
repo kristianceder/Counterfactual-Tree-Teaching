@@ -1,0 +1,107 @@
+=== Loading gpt-6-luna (quantization=4bit, llm_worker=thread) ===
+=== Teacher: gpt-6-luna over its API, temperature 0, called from the async worker thread; usage -> /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r1.api.jsonl ===
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r1.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+=== Experience table: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r1.experience.json -- 0 situation-action pair(s) carried in ===
+
+=== Episode 1/6 (seed 315) ===
+  [experience] 5 replays in 18 s (recorded human_requested@205): WAIT@25 harmful (without it human_requested@187), WAIT@65 harmful (without it human_requested@187), WAIT@155 needed (without it human_requested@217), REQUEST_HUMAN@195 needed (without it human_requested@257)
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +2 new, 15 reinforced, 1 refined, 0 replaced, 0 contradicted, 16 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/6 (seed 315) ===
+  [experience] 4 replays in 22 s (recorded human_requested@164): WAIT@25 needed (without it human_requested@197), WAIT@105 unnecessary (without it human_requested@167), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 14 ticks: 6 from the tree, 8 to the teacher (43% hit rate); rules +3 new, 3 reinforced, 0 refined, 0 replaced, 2 contradicted, 5 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 1 orphaned), 0 retired
+
+=== Episode 3/6 (seed 315) ===
+  [experience] 4 replays in 21 s (recorded human_requested@169): WAIT@25 needed (without it human_requested@197), WAIT@65 needed (without it human_requested@187), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 14 ticks: 11 from the tree, 3 to the teacher (79% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 2 contradicted, 3 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/6 (seed 315) ===
+  [experience] 5 replays in 28 s (recorded human_requested@171): WAIT@25 needed (without it human_requested@187), WAIT@65 harmful (without it human_requested@157), WAIT@95 harmful (without it human_requested@157), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 14 ticks: 12 from the tree, 2 to the teacher (86% hit rate); rules +0 new, 1 reinforced, 1 refined, 0 replaced, 0 contradicted, 2 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/6 (seed 315) ===
+  [experience] 7 replays in 31 s (recorded human_requested@189): WAIT@25 needed (without it human_requested@207), WAIT@55 harmful (without it human_requested@157), WAIT@85 harmful (without it human_requested@177), WAIT@115 harmful (without it human_requested@177), WAIT@145 needed (without it human_requested@207), REQUEST_HUMAN@175 needed (without it human_requested@237)
+  tree: 16 ticks: 15 from the tree, 1 to the teacher (94% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/6 (seed 315) ===
+  [experience] 7 replays in 32 s (recorded human_requested@177): WAIT@25 needed (without it human_requested@197), WAIT@55 harmful (without it human_requested@157), WAIT@85 unnecessary (without it human_requested@177), WAIT@115 unnecessary (without it human_requested@177), WAIT@145 needed (without it human_requested@207), REQUEST_HUMAN@175 needed (without it human_requested@237)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Between-episode simulation: {"episodes": 6, "replays": 32, "labelled": 26, "skipped_inexact": 0, "never_reached": 0, "wall_s": 151.57453476100272} ===
+=== Experience table: 6 situation-action pair(s), 7 judge verdict(s), 26 counterfactual label(s); saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r1.experience.json ===
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     18      0    18     0%      3    7.6    205     31.0     67%      4         4  yes (human_requested)
+    2     14      6     8    43%      6    4.2    164     18.2     71%      3         2  yes (human_requested)
+    3     14     11     3    79%      6    2.6    169     14.9     64%      3         3  yes (human_requested)
+    4     14     12     2    86%      7    2.4    171     16.0     50%      4         3  yes (human_requested)
+    5     16     15     1    94%      7    1.8    189     12.0     38%      6         6  yes (human_requested)
+    6     16     16     0   100%      7    1.0    177      9.2     38%      6         6  yes (human_requested)
+  agree: ticks whose action matched the verified scripted rules (50/92 = 54% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (24 of 26).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=brief
+      blocked=dynamic
+        NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 0 bad, 1 contradicted]
+    stopped=no
+      blocked=dynamic
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=forward
+                    heading=on
+                      blocker=abandoned
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+                        deadline=ok
+                          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 1, 3 ok / 0 bad, 1 contradicted]
+                      blocker=parked
+                        NOMINAL -> WAIT [support 3 in 2 ep, fires 12, 0 ok / 0 bad, 2 contradicted]
+                  progress=stalled
+                    heading=on
+                      blocker=abandoned
+                        NOMINAL -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+          contact=near
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=forward
+                    heading=on
+                      blocker=abandoned
+                        NOMINAL -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+  hold=yes
+    stopped=no
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 15 in 2 ep, fires 47, 0 ok / 0 bad]
+
+  7 active rule(s), 0 retired, over 6 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 1 step 25] insert: no/no/dynamic -> NOMINAL/WAIT
+  [ep 1 step 35] insert: yes/no/dynamic -> NOMINAL/CONTINUE
+  [ep 1 step 195] refine: no/no/dynamic/ok/near/?/no/no/forward/on/abandoned -> NOMINAL/REQUEST_HUMAN
+  [ep 2 step 25] insert: no/no/dynamic/ok/clear/?/no/no/forward/on/parked -> NOMINAL/WAIT
+  [ep 2 step 65] contradict: no/no/dynamic/ok/clear/?/no/no/forward/on/parked -> NOMINAL/CONTINUE
+  [ep 2 step 95] insert: no/brief/dynamic -> NOMINAL/CONTINUE
+  [ep 2 step 105] contradict: no/brief/dynamic -> NOMINAL/WAIT
+  [ep 2 step 155] insert: no/no/dynamic/ok/clear/?/no/no/stalled/on/abandoned -> NOMINAL/REQUEST_HUMAN
+  [ep 3 step 25] contradict: no/no/dynamic/ok/clear/?/no/no/forward/on/parked -> NOMINAL/WAIT
+  [ep 3 step 155] contradict: no/no/dynamic/ok/clear/?/no/no/forward/on/abandoned -> NOMINAL/REQUEST_HUMAN
+  [ep 4 step 155] refine: no/no/dynamic/ok/clear/?/no/no/forward/on/abandoned/miss -> SOLVER_DEADLINE_MISS/REQUEST_HUMAN
+
+=== Totals ===
+  92 ticks: 60 from the tree, 32 to the teacher (65% hit rate); rules +5 new, 21 reinforced, 2 refined, 0 replaced, 4 contradicted, 27 confirmation asks; outcomes 6 ok / 0 bad (19 unresolved, 1 orphaned), 0 retired
+  saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r1.json
+
+  reached the goal in 6/6 episode(s) (6 of them by rightly calling a human)
+  hit rate 0% -> 100%  (expected to rise)
+  model calls 18 -> 0  (expected not to rise)
+
+PASS

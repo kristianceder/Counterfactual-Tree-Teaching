@@ -1,0 +1,624 @@
+{
+ "meta": {
+  "teacher": "llm",
+  "model": "gpt-6-luna",
+  "scene": [
+   4,
+   3,
+   1
+  ],
+  "seed": 315,
+  "vary_seed": false,
+  "tree": "/home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r2.json",
+  "init_depth": 3,
+  "min_support": 2,
+  "retire_after": 1000000,
+  "score_nominal": true,
+  "cf_retire_after": 10,
+  "hold_until_clear": true,
+  "learn": true,
+  "rules_at_start": 0,
+  "imminent_collision": false,
+  "request_human": true,
+  "watchdog_steps": 45,
+  "memory": "both",
+  "simulate": true,
+  "thinking": false,
+  "patient_wait": true,
+  "watchdog_margin": 20,
+  "episodes_of_history_at_start": 0
+ },
+ "episodes": [
+  {
+   "index": 1,
+   "file": "episode_001.json",
+   "termination": "human_requested",
+   "success": true,
+   "steps": 164,
+   "needs_human": true,
+   "llm_calls": 14,
+   "mean_age_steps": 7.214,
+   "mean_latency_s": 1.338,
+   "wall_s": 23.671,
+   "reference": {
+    "ticks": 14,
+    "agree": 10,
+    "by_source": {
+     "teacher": [
+      10,
+      14
+     ]
+    },
+    "recoveries_ordered": 3,
+    "recoveries_reference_would_not_order": 2,
+    "recoveries_reference_wanted_but_missing": 2,
+    "differs": {
+     "CONTINUE -> WAIT": 2,
+     "RESUME_ROUTE -> CONTINUE": 2
+    }
+   },
+   "episode": 1,
+   "seed": 315,
+   "rules": 3,
+   "active_rules": 3,
+   "tree": {
+    "ticks": 14,
+    "hits": 0,
+    "escalations": 14,
+    "confirmations": 12,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 2,
+    "reinforces": 11,
+    "refines": 1,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 2,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "WAIT",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "human_requested@187",
+     "clean": true
+    },
+    {
+     "report_step": 65,
+     "method": "WAIT",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "human_requested@187",
+     "clean": true
+    },
+    {
+     "report_step": 155,
+     "method": "REQUEST_HUMAN",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "human_requested@217",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "file": "episode_002.json",
+   "termination": "human_requested",
+   "success": true,
+   "steps": 168,
+   "needs_human": true,
+   "llm_calls": 14,
+   "mean_age_steps": 2.786,
+   "mean_latency_s": 0.369,
+   "wall_s": 15.772,
+   "reference": {
+    "ticks": 14,
+    "agree": 7,
+    "by_source": {
+     "teacher": [
+      0,
+      3
+     ],
+     "tree": [
+      7,
+      11
+     ]
+    },
+    "recoveries_ordered": 4,
+    "recoveries_reference_would_not_order": 4,
+    "recoveries_reference_wanted_but_missing": 3,
+    "differs": {
+     "CONTINUE -> WAIT": 3,
+     "RESUME_ROUTE -> CONTINUE": 3,
+     "CONTINUE -> REQUEST_HUMAN": 1
+    }
+   },
+   "episode": 2,
+   "seed": 315,
+   "rules": 4,
+   "active_rules": 4,
+   "tree": {
+    "ticks": 14,
+    "hits": 11,
+    "escalations": 3,
+    "confirmations": 2,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 1,
+    "reinforces": 2,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 3,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "WAIT",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "human_requested@187",
+     "clean": true
+    },
+    {
+     "report_step": 65,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@157",
+     "clean": true
+    },
+    {
+     "report_step": 95,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@157",
+     "clean": true
+    },
+    {
+     "report_step": 155,
+     "method": "REQUEST_HUMAN",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "human_requested@217",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "file": "episode_003.json",
+   "termination": "human_requested",
+   "success": true,
+   "steps": 194,
+   "needs_human": true,
+   "llm_calls": 16,
+   "mean_age_steps": 2.062,
+   "mean_latency_s": 0.221,
+   "wall_s": 13.372,
+   "reference": {
+    "ticks": 16,
+    "agree": 6,
+    "by_source": {
+     "tree": [
+      6,
+      15
+     ],
+     "teacher": [
+      0,
+      1
+     ]
+    },
+    "recoveries_ordered": 6,
+    "recoveries_reference_would_not_order": 6,
+    "recoveries_reference_wanted_but_missing": 4,
+    "differs": {
+     "CONTINUE -> WAIT": 5,
+     "RESUME_ROUTE -> CONTINUE": 4,
+     "CONTINUE -> REQUEST_HUMAN": 1
+    }
+   },
+   "episode": 3,
+   "seed": 315,
+   "rules": 4,
+   "active_rules": 4,
+   "tree": {
+    "ticks": 16,
+    "hits": 15,
+    "escalations": 1,
+    "confirmations": 1,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 1,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 5,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@187",
+     "clean": true
+    },
+    {
+     "report_step": 55,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@157",
+     "clean": true
+    },
+    {
+     "report_step": 85,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 115,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 145,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@207",
+     "clean": true
+    },
+    {
+     "report_step": 175,
+     "method": "REQUEST_HUMAN",
+     "source": "llm",
+     "label": "needed",
+     "without_it": "human_requested@237",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "file": "episode_004.json",
+   "termination": "human_requested",
+   "success": true,
+   "steps": 177,
+   "needs_human": true,
+   "llm_calls": 16,
+   "mean_age_steps": 1.0,
+   "mean_latency_s": 0.0,
+   "wall_s": 9.493,
+   "reference": {
+    "ticks": 16,
+    "agree": 6,
+    "by_source": {
+     "tree": [
+      6,
+      16
+     ]
+    },
+    "recoveries_ordered": 6,
+    "recoveries_reference_would_not_order": 6,
+    "recoveries_reference_wanted_but_missing": 4,
+    "differs": {
+     "CONTINUE -> WAIT": 5,
+     "RESUME_ROUTE -> CONTINUE": 4,
+     "CONTINUE -> REQUEST_HUMAN": 1
+    }
+   },
+   "episode": 4,
+   "seed": 315,
+   "rules": 4,
+   "active_rules": 4,
+   "tree": {
+    "ticks": 16,
+    "hits": 16,
+    "escalations": 0,
+    "confirmations": 0,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 0,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 5,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@187",
+     "clean": true
+    },
+    {
+     "report_step": 55,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@187",
+     "clean": true
+    },
+    {
+     "report_step": 85,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 115,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 145,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@207",
+     "clean": true
+    },
+    {
+     "report_step": 175,
+     "method": "REQUEST_HUMAN",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@237",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "file": "episode_005.json",
+   "termination": "human_requested",
+   "success": true,
+   "steps": 177,
+   "needs_human": true,
+   "llm_calls": 16,
+   "mean_age_steps": 1.0,
+   "mean_latency_s": 0.0,
+   "wall_s": 9.916,
+   "reference": {
+    "ticks": 16,
+    "agree": 6,
+    "by_source": {
+     "tree": [
+      6,
+      16
+     ]
+    },
+    "recoveries_ordered": 6,
+    "recoveries_reference_would_not_order": 6,
+    "recoveries_reference_wanted_but_missing": 4,
+    "differs": {
+     "CONTINUE -> WAIT": 5,
+     "RESUME_ROUTE -> CONTINUE": 4,
+     "CONTINUE -> REQUEST_HUMAN": 1
+    }
+   },
+   "episode": 5,
+   "seed": 315,
+   "rules": 4,
+   "active_rules": 4,
+   "tree": {
+    "ticks": 16,
+    "hits": 16,
+    "escalations": 0,
+    "confirmations": 0,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 0,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 5,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@197",
+     "clean": true
+    },
+    {
+     "report_step": 55,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@157",
+     "clean": true
+    },
+    {
+     "report_step": 85,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 115,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 145,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@207",
+     "clean": true
+    },
+    {
+     "report_step": 175,
+     "method": "REQUEST_HUMAN",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@237",
+     "clean": true
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "file": "episode_006.json",
+   "termination": "human_requested",
+   "success": true,
+   "steps": 177,
+   "needs_human": true,
+   "llm_calls": 16,
+   "mean_age_steps": 1.0,
+   "mean_latency_s": 0.0,
+   "wall_s": 9.825,
+   "reference": {
+    "ticks": 16,
+    "agree": 6,
+    "by_source": {
+     "tree": [
+      6,
+      16
+     ]
+    },
+    "recoveries_ordered": 6,
+    "recoveries_reference_would_not_order": 6,
+    "recoveries_reference_wanted_but_missing": 4,
+    "differs": {
+     "CONTINUE -> WAIT": 5,
+     "RESUME_ROUTE -> CONTINUE": 4,
+     "CONTINUE -> REQUEST_HUMAN": 1
+    }
+   },
+   "episode": 6,
+   "seed": 315,
+   "rules": 4,
+   "active_rules": 4,
+   "tree": {
+    "ticks": 16,
+    "hits": 16,
+    "escalations": 0,
+    "confirmations": 0,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 0,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 1,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 5,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   },
+   "counterfactual": [
+    {
+     "report_step": 25,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@197",
+     "clean": true
+    },
+    {
+     "report_step": 55,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "harmful",
+     "without_it": "human_requested@157",
+     "clean": true
+    },
+    {
+     "report_step": 85,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 115,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "unnecessary",
+     "without_it": "human_requested@177",
+     "clean": true
+    },
+    {
+     "report_step": 145,
+     "method": "WAIT",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@207",
+     "clean": true
+    },
+    {
+     "report_step": 175,
+     "method": "REQUEST_HUMAN",
+     "source": "tree",
+     "label": "needed",
+     "without_it": "human_requested@237",
+     "clean": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "run_dir": "experiments/2026-09-24/data/L2_scripted_stream",
+ "episode": 34,
+ "seed": 133,
+ "after": "scripted",
+ "grace": 50,
+ "slack": 10,
+ "recorded": {
+  "termination": "human_requested",
+  "steps": 197,
+  "success": true
+ },
+ "check": {
+  "frames_recorded": 197,
+  "frames_replayed": 197,
+  "max_drift_m": 0.011661903789690078,
+  "first_drift_step": null,
+  "termination_recorded": "human_requested",
+  "termination_replayed": "human_requested",
+  "steps_recorded": 197,
+  "steps_replayed": 197,
+  "decisions_match": true,
+  "decisions_recorded": 18,
+  "decisions_replayed": 18,
+  "replay": {
+   "replayed": 18,
+   "overridden": 0,
+   "fallback_calls": 0,
+   "diverged_at": null
+  },
+  "wall_s": 17.1,
+  "exact": true
+ },
+ "counterfactuals": [
+  {
+   "report_step": 55,
+   "acted_step": 56,
+   "source": "llm",
+   "replay_clean_to_override": true,
+   "failure_mode": "SOLVER_DEADLINE_MISS",
+   "method": "WAIT",
+   "rule": null,
+   "overridden": false,
+   "recorded_goal_distance_at_horizon": 9.082852250257075,
+   "counterfactual": {
+    "termination": "watchdog",
+    "steps": 97,
+    "success": false,
+    "wall_s": 22.3,
+    "replay": {
+     "replayed": 3,
+     "overridden": 1,
+     "fallback_calls": 4,
+     "diverged_at": 55
+    },
+    "goal_distance_at_horizon": 8.70630966598363
+   },
+   "label": "needed"
+  },
+  {
+   "report_step": 165,
+   "acted_step": 166,
+   "source": "llm",
+   "replay_clean_to_override": true,
+   "failure_mode": "SOLVER_DEADLINE_MISS",
+   "method": "WAIT",
+   "rule": null,
+   "overridden": false,
+   "recorded_goal_distance_at_horizon": 9.099727743180011,
+   "counterfactual": {
+    "termination": "watchdog",
+    "steps": 199,
+    "success": false,
+    "wall_s": 29.3,
+    "replay": {
+     "replayed": 14,
+     "overridden": 1,
+     "fallback_calls": 3,
+     "diverged_at": 165
+    },
+    "goal_distance_at_horizon": 8.770316584935802
+   },
+   "label": "needed"
+  },
+  {
+   "report_step": 195,
+   "acted_step": 196,
+   "source": "llm",
+   "replay_clean_to_override": true,
+   "failure_mode": null,
+   "method": "REQUEST_HUMAN",
+   "rule": null,
+   "overridden": false,
+   "recorded_goal_distance_at_horizon": null,
+   "counterfactual": {
+    "termination": "watchdog",
+    "steps": 239,
+    "success": false,
+    "wall_s": 35.7,
+    "replay": {
+     "replayed": 17,
+     "overridden": 1,
+     "fallback_calls": 4,
+     "diverged_at": 195
+    },
+    "goal_distance_at_horizon": 8.797146128148604
+   },
+   "label": "needed"
+  }
+ ],
+ "label_counts": {
+  "needed": 3
+ }
+}

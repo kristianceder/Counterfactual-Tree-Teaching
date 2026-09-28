@@ -1,0 +1,33 @@
+[project]
+name = "agentic-failure-recovery"
+version = "1.0.0"
+description = "An LLM teacher distilled into a decision tree that supervises an MPC trajectory tracker: failure detection and recovery on a scenario grid."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Pinned: the generated solver depends on both (opengen 0.9.4, for one, defaults to a different
+    # penalty update factor), and these are the versions the paper's runs were made with.
+    "casadi==3.8.1",
+    "opengen==0.11.0",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "shapely>=2.1",
+    "networkx>=3.4",
+    "matplotlib>=3.9",
+    "pyyaml>=6.0",
+    "tyro>=1.0.13",
+    "openai>=3.19",
+]
+
+[project.optional-dependencies]
+# MP4 export in scripts/visualize_run.py (bundles an ffmpeg binary). Without it videos are written as GIF.
+viz = [
+    "imageio-ffmpeg>=0.5",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

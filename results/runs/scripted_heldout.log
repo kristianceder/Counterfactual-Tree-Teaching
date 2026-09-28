@@ -1,0 +1,104 @@
+=== Tree: experiments/2026-09-24/data/L_scripted.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+
+=== Episode 1/20 (seed 300) ===
+  tree: 25 ticks: 0 from the tree, 25 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/20 (seed 301) ===
+  tree: 48 ticks: 0 from the tree, 48 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/20 (seed 302) ===
+  tree: 31 ticks: 0 from the tree, 31 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/20 (seed 303) ===
+  tree: 26 ticks: 0 from the tree, 26 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/20 (seed 304) ===
+  tree: 23 ticks: 0 from the tree, 23 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/20 (seed 305) ===
+  tree: 29 ticks: 0 from the tree, 29 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 7/20 (seed 306) ===
+  tree: 16 ticks: 0 from the tree, 16 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 8/20 (seed 307) ===
+  tree: 36 ticks: 0 from the tree, 36 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 9/20 (seed 308) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 10/20 (seed 309) ===
+  tree: 48 ticks: 0 from the tree, 48 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 11/20 (seed 310) ===
+  tree: 33 ticks: 0 from the tree, 33 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 12/20 (seed 311) ===
+  tree: 31 ticks: 0 from the tree, 31 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 13/20 (seed 312) ===
+  tree: 34 ticks: 0 from the tree, 34 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 14/20 (seed 313) ===
+  tree: 21 ticks: 0 from the tree, 21 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 15/20 (seed 314) ===
+  tree: 37 ticks: 0 from the tree, 37 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 16/20 (seed 315) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 17/20 (seed 316) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 18/20 (seed 317) ===
+  tree: 30 ticks: 0 from the tree, 30 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 19/20 (seed 318) ===
+  tree: 15 ticks: 0 from the tree, 15 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 20/20 (seed 319) ===
+  tree: 26 ticks: 0 from the tree, 26 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     25      0    25     0%      0    1.0    274     10.8    100%      1         0  yes
+    2     48      0    48     0%      0    1.0    500     25.0    100%      4         0  no (timeout)
+    3     31      0    31     0%      0    1.0    328     16.1    100%      2         0  yes
+    4     26      0    26     0%      0    1.0    284     14.6    100%      2         0  yes
+    5     23      0    23     0%      0    1.0    252     15.0    100%      1         0  yes
+    6     29      0    29     0%      0    1.0    311     14.5    100%      3         0  yes
+    7     16      0    16     0%      0    1.0    184     11.9    100%      1         0  yes
+    8     36      0    36     0%      0    1.0    383     16.7    100%      2         0  yes
+    9     14      0    14     0%      0    1.0    160     12.6    100%      1         0  yes
+   10     48      0    48     0%      0    1.0    500     25.2    100%      4         0  no (timeout)
+   11     33      0    33     0%      0    1.0    347     14.3    100%      3         0  yes
+   12     31      0    31     0%      0    1.0    329     14.3    100%      2         0  yes
+   13     34      0    34     0%      0    1.0    360     19.6    100%      3         0  yes
+   14     21      0    21     0%      0    1.0    231      8.7    100%      1         0  yes
+   15     37      0    37     0%      0    1.0    388     19.7    100%      2         0  yes
+   16     17      0    17     0%      0    1.0    187     13.6    100%      2         0  yes (human_requested)
+   17     17      0    17     0%      0    1.0    187     14.3    100%      3         0  yes (human_requested)
+   18     30      0    30     0%      0    1.0    322     18.2    100%      2         0  yes
+   19     15      0    15     0%      0    1.0    174     10.5    100%      1         0  yes
+   20     26      0    26     0%      0    1.0    282     10.1    100%      2         0  yes
+  agree: ticks whose action matched the verified scripted rules (557/557 = 100% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (0 of 42).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  (empty tree -- every tick escalates to the teacher)
+
+  0 active rule(s), 0 retired, over 20 episode(s) of history.
+
+=== Totals ===
+  557 ticks: 0 from the tree, 557 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 18/20 episode(s) (2 of them by rightly calling a human)
+  NOTE: not every episode reached the goal. Read that against a teacher-only baseline on the
+        same seeds (--reset --no-learn --no-save, which leaves the tree empty so every tick
+        escalates) before attributing it to the tree. A rising hit rate with falling success
+        is the failure mode these two numbers are reported together to catch.
+
+PASS

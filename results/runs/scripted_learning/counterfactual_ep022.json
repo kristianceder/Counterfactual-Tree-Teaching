@@ -1,0 +1,89 @@
+{
+ "run_dir": "experiments/2026-09-24/data/L2_scripted_stream",
+ "episode": 22,
+ "seed": 121,
+ "after": "scripted",
+ "grace": 50,
+ "slack": 10,
+ "recorded": {
+  "termination": "timeout",
+  "steps": 500,
+  "success": false
+ },
+ "check": {
+  "frames_recorded": 500,
+  "frames_replayed": 500,
+  "max_drift_m": 0.005099019513591701,
+  "first_drift_step": null,
+  "termination_recorded": "timeout",
+  "termination_replayed": "timeout",
+  "steps_recorded": 500,
+  "steps_replayed": 500,
+  "decisions_match": true,
+  "decisions_recorded": 48,
+  "decisions_replayed": 48,
+  "replay": {
+   "replayed": 48,
+   "overridden": 0,
+   "fallback_calls": 0,
+   "diverged_at": null
+  },
+  "wall_s": 16.0,
+  "exact": true
+ },
+ "counterfactuals": [
+  {
+   "report_step": 55,
+   "acted_step": 56,
+   "source": "llm",
+   "replay_clean_to_override": true,
+   "failure_mode": "STUCK",
+   "method": "REPLAN_ROUTE",
+   "rule": null,
+   "overridden": false,
+   "recorded_goal_distance_at_horizon": 12.641095680359356,
+   "counterfactual": {
+    "termination": "timeout",
+    "steps": 500,
+    "success": false,
+    "wall_s": 19.7,
+    "replay": {
+     "replayed": 3,
+     "overridden": 1,
+     "fallback_calls": 44,
+     "diverged_at": 55
+    },
+    "goal_distance_at_horizon": 12.339895704583567
+   },
+   "label": "unclear"
+  },
+  {
+   "report_step": 95,
+   "acted_step": 96,
+   "source": "llm",
+   "replay_clean_to_override": true,
+   "failure_mode": "SOLVER_DEADLINE_MISS",
+   "method": "WAIT",
+   "rule": null,
+   "overridden": false,
+   "recorded_goal_distance_at_horizon": 14.552262813734501,
+   "counterfactual": {
+    "termination": "watchdog",
+    "steps": 133,
+    "success": false,
+    "wall_s": 25.2,
+    "replay": {
+     "replayed": 7,
+     "overridden": 1,
+     "fallback_calls": 3,
+     "diverged_at": 95
+    },
+    "goal_distance_at_horizon": 14.631008304283064
+   },
+   "label": "unclear"
+  }
+ ],
+ "label_counts": {
+  "unclear": 2
+ }
+}

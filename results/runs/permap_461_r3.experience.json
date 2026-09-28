@@ -1,0 +1,77 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 6,
+ "simulations": 12,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "none",
+    "clear",
+    "brief",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 2,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 2
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 4,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 4
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "off",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 0,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 6
+   }
+  }
+ ]
+}

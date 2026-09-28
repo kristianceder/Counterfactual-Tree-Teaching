@@ -1,0 +1,86 @@
+{
+ "meta": {
+  "teacher": "none",
+  "model": null,
+  "scene": [
+   4,
+   3,
+   1
+  ],
+  "seed": 305,
+  "vary_seed": false,
+  "tree": "/home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_305_r1.json",
+  "init_depth": 3,
+  "min_support": 2,
+  "retire_after": 1000000,
+  "score_nominal": true,
+  "hold_until_clear": true,
+  "learn": false,
+  "rules_at_start": 5,
+  "imminent_collision": false,
+  "request_human": true,
+  "watchdog_steps": 45,
+  "memory": "off",
+  "simulate": false,
+  "thinking": false,
+  "patient_wait": true,
+  "watchdog_margin": 20,
+  "episodes_of_history_at_start": 6
+ },
+ "episodes": [
+  {
+   "index": 1,
+   "file": "episode_001.json",
+   "termination": "goal",
+   "success": true,
+   "steps": 258,
+   "needs_human": false,
+   "llm_calls": 24,
+   "mean_age_steps": 1.0,
+   "mean_latency_s": 0.0,
+   "wall_s": 2.37,
+   "reference": {
+    "ticks": 24,
+    "agree": 16,
+    "by_source": {
+     "tree": [
+      16,
+      24
+     ]
+    },
+    "recoveries_ordered": 5,
+    "recoveries_reference_would_not_order": 4,
+    "recoveries_reference_wanted_but_missing": 3,
+    "differs": {
+     "CONTINUE -> WAIT": 4,
+     "RESUME_ROUTE -> CONTINUE": 3,
+     "REORIENT -> REPLAN_ROUTE": 1
+    }
+   },
+   "episode": 7,
+   "seed": 305,
+   "rules": 5,
+   "active_rules": 5,
+   "tree": {
+    "ticks": 24,
+    "hits": 24,
+    "escalations": 0,
+    "confirmations": 0,
+    "unanswered": 0,
+    "breaker": 0,
+    "inserts": 0,
+    "reinforces": 0,
+    "refines": 0,
+    "replaces": 0,
+    "contradictions": 0,
+    "judged_good": 4,
+    "judged_bad": 0,
+    "unevidenced": 0,
+    "undecided": 1,
+    "orphaned": 0,
+    "expired": 0,
+    "retirements": 0
+   }
+  }
+ ]
+}

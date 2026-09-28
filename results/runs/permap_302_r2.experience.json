@@ -1,0 +1,119 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 13,
+ "simulations": 25,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "brief",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 0,
+   "bad": 5,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 5
+   },
+   "counterfactual": {
+    "unnecessary": 5
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "miss"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 6,
+    "unnecessary": 1,
+    "needed": 3
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 5,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 10
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 1
+   },
+   "counterfactual": {}
+  }
+ ]
+}

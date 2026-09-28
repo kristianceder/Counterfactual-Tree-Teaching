@@ -1,0 +1,30 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_461_r3.json -- 2 rule(s) carried in, 6 episode(s) of history ===
+
+=== Episode 1/1 (seed 461) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    7      2      2     0   100%      2    1.0     37      2.2     50%      2         1  yes (human_requested)
+  agree: ticks whose action matched the verified scripted rules (1/2 = 50% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (1 of 2).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=no
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 5, 7 ok / 0 bad]
+        route=ok
+          NOMINAL -> REPLAN_ROUTE [support 2 in 2 ep, fires 5, 0 ok / 0 bad]
+
+  2 active rule(s), 0 retired, over 7 episode(s) of history.
+
+=== Totals ===
+  14 ticks: 10 from the tree, 4 to the teacher (71% hit rate); rules +1 new, 2 reinforced, 1 refined, 0 replaced, 0 contradicted, 3 confirmation asks; outcomes 7 ok / 0 bad (7 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 1/1 episode(s) (1 of them by rightly calling a human)
+
+PASS

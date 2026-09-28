@@ -1,0 +1,38 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_302_r1.json -- 4 rule(s) carried in, 6 episode(s) of history ===
+
+=== Episode 1/1 (seed 302) ===
+  tree: 33 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    7     33     33     0   100%      4    1.0    353     22.9     76%      4         4  yes
+  agree: ticks whose action matched the verified scripted rules (25/33 = 76% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (4 of 4).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 11 in 2 ep, fires 66, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> WAIT [support 3 in 2 ep, fires 16, 6 ok / 0 bad]
+      blocked=static
+        NOMINAL -> REPLAN_ROUTE [support 2 in 2 ep, fires 5, 0 ok / 7 bad]
+  hold=yes
+    stopped=no
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 18 in 2 ep, fires 108, 0 ok / 0 bad]
+
+  4 active rule(s), 0 retired, over 7 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 7 step 55] no/no/static -> REPLAN_ROUTE did not help (7/1000000) -- superseded by WAIT after only 0.0 m
+
+=== Totals ===
+  229 ticks: 195 from the tree, 34 to the teacher (85% hit rate); rules +4 new, 30 reinforced, 0 refined, 0 replaced, 0 contradicted, 30 confirmation asks; outcomes 6 ok / 7 bad (13 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 1/1 episode(s)
+
+PASS

@@ -1,0 +1,25 @@
+# The compiled MPC solver (platform-specific; build with scripts/build_solver.py)
+mpc_solver/
+
+# Local runs (scripts/run.py --tree runs/... --record runs/...)
+/runs/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# Editors
+.vscode/
+
+# Virtual environments
+.venv
+
+# Rendered videos (scripts/videos)
+/videos/

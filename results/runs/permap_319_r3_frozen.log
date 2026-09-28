@@ -1,0 +1,45 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_319_r3.json -- 7 rule(s) carried in, 6 episode(s) of history ===
+
+=== Episode 1/1 (seed 319) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    7     15     15     0   100%      7    1.0    170      1.4     93%      1         0  yes
+  agree: ticks whose action matched the verified scripted rules (14/15 = 93% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (0 of 1).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 10 in 2 ep, fires 70, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> WAIT [support 2 in 1 ep, fires 0, 2 ok / 0 bad]
+      blocked=static
+        route=ok
+          contact=clear
+            approach=?
+              reversing=long
+                REVERSE_TRACKING -> REPLAN_ROUTE [support 2 in 2 ep, fires 4, 6 ok / 1 bad, 1 contradicted]
+              reversing=no
+                NOMINAL -> REPLAN_ROUTE [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 3 in 2 ep, fires 9, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 3 in 1 ep, fires 0, 0 ok / 0 bad]
+      blocked=static
+        NOMINAL -> CONTINUE [support 4 in 2 ep, fires 0, 0 ok / 0 bad]
+
+  7 active rule(s), 0 retired, over 7 episode(s) of history.
+
+=== Totals ===
+  109 ticks: 83 from the tree, 26 to the teacher (76% hit rate); rules +7 new, 18 reinforced, 0 refined, 0 replaced, 1 contradicted, 19 confirmation asks; outcomes 9 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 1/1 episode(s)
+
+PASS

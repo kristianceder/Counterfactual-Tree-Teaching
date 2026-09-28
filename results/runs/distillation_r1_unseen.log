@@ -1,0 +1,608 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_dist_nojudge_noex_rt.ep0200.json -- 8 rule(s) carried in, 200 episode(s) of history ===
+
+=== Episode 1/100 (seed 400) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/100 (seed 401) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/100 (seed 402) ===
+  tree: 31 ticks: 30 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (10 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/100 (seed 403) ===
+  tree: 29 ticks: 29 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/100 (seed 404) ===
+  tree: 33 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/100 (seed 405) ===
+  tree: 28 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (9 unresolved, 0 orphaned), 0 retired
+
+=== Episode 7/100 (seed 406) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 8/100 (seed 407) ===
+  tree: 28 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (9 unresolved, 0 orphaned), 0 retired
+
+=== Episode 9/100 (seed 408) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 10/100 (seed 409) ===
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 11/100 (seed 410) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 12/100 (seed 411) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 13/100 (seed 412) ===
+  tree: 27 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 15 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 14/100 (seed 413) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 15/100 (seed 414) ===
+  tree: 29 ticks: 29 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 16/100 (seed 415) ===
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 17/100 (seed 416) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 18/100 (seed 417) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 19/100 (seed 418) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 20/100 (seed 419) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (8 unresolved, 0 orphaned), 0 retired
+
+=== Episode 21/100 (seed 420) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (16 unresolved, 0 orphaned), 0 retired
+
+=== Episode 22/100 (seed 421) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 18 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 23/100 (seed 422) ===
+  tree: 44 ticks: 26 from the tree, 0 to the teacher (59% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 2 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 24/100 (seed 423) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 25/100 (seed 424) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 26/100 (seed 425) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 17 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 27/100 (seed 426) ===
+  tree: 33 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 28/100 (seed 427) ===
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 5 ok / 14 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 29/100 (seed 428) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 30/100 (seed 429) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 31/100 (seed 430) ===
+  tree: 4 ticks: 4 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 32/100 (seed 431) ===
+  tree: 23 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 33/100 (seed 432) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 34/100 (seed 433) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 35/100 (seed 434) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 36/100 (seed 435) ===
+  tree: 10 ticks: 10 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 37/100 (seed 436) ===
+  tree: 27 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 38/100 (seed 437) ===
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 39/100 (seed 438) ===
+  tree: 41 ticks: 41 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 7 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 40/100 (seed 439) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 41/100 (seed 440) ===
+  tree: 48 ticks: 44 from the tree, 0 to the teacher (92% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 2 bad (7 unresolved, 0 orphaned), 0 retired
+
+=== Episode 42/100 (seed 441) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 43/100 (seed 442) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 6 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 44/100 (seed 443) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 45/100 (seed 444) ===
+  tree: 47 ticks: 33 from the tree, 0 to the teacher (70% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 2 bad (9 unresolved, 0 orphaned), 0 retired
+
+=== Episode 46/100 (seed 445) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 47/100 (seed 446) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 48/100 (seed 447) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 49/100 (seed 448) ===
+  tree: 46 ticks: 46 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 18 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 50/100 (seed 449) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 51/100 (seed 450) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 52/100 (seed 451) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 53/100 (seed 452) ===
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 54/100 (seed 453) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 55/100 (seed 454) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 56/100 (seed 455) ===
+  tree: 27 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 57/100 (seed 456) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (8 unresolved, 0 orphaned), 0 retired
+
+=== Episode 58/100 (seed 457) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 59/100 (seed 458) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 60/100 (seed 459) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 61/100 (seed 460) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 62/100 (seed 461) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 63/100 (seed 462) ===
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 64/100 (seed 463) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 65/100 (seed 464) ===
+  tree: 40 ticks: 39 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (13 unresolved, 0 orphaned), 0 retired
+
+=== Episode 66/100 (seed 465) ===
+  tree: 48 ticks: 48 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 67/100 (seed 466) ===
+  tree: 20 ticks: 20 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 68/100 (seed 467) ===
+  tree: 20 ticks: 20 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 69/100 (seed 468) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 70/100 (seed 469) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 71/100 (seed 470) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (6 unresolved, 0 orphaned), 0 retired
+
+=== Episode 72/100 (seed 471) ===
+  tree: 34 ticks: 34 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 73/100 (seed 472) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 12 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 74/100 (seed 473) ===
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 75/100 (seed 474) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 76/100 (seed 475) ===
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 77/100 (seed 476) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 78/100 (seed 477) ===
+  tree: 40 ticks: 39 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (13 unresolved, 0 orphaned), 0 retired
+
+=== Episode 79/100 (seed 478) ===
+  tree: 37 ticks: 37 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 80/100 (seed 479) ===
+  tree: 28 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (9 unresolved, 0 orphaned), 0 retired
+
+=== Episode 81/100 (seed 480) ===
+  tree: 26 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (7 unresolved, 0 orphaned), 0 retired
+
+=== Episode 82/100 (seed 481) ===
+  tree: 37 ticks: 36 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (12 unresolved, 0 orphaned), 0 retired
+
+=== Episode 83/100 (seed 482) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 84/100 (seed 483) ===
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 85/100 (seed 484) ===
+  tree: 9 ticks: 9 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 86/100 (seed 485) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 87/100 (seed 486) ===
+  tree: 37 ticks: 36 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (12 unresolved, 0 orphaned), 0 retired
+
+=== Episode 88/100 (seed 487) ===
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 89/100 (seed 488) ===
+  tree: 4 ticks: 4 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 90/100 (seed 489) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 24 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 91/100 (seed 490) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 92/100 (seed 491) ===
+  tree: 30 ticks: 30 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 7 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 93/100 (seed 492) ===
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 94/100 (seed 493) ===
+  tree: 7 ticks: 7 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 95/100 (seed 494) ===
+  tree: 8 ticks: 8 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 96/100 (seed 495) ===
+  tree: 45 ticks: 45 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 97/100 (seed 496) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 98/100 (seed 497) ===
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 99/100 (seed 498) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 100/100 (seed 499) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm  miss   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+  201      2      2     0     0   100%      8    1.0     37      1.6     50%      2         0  yes (human_requested)
+  202     26     25     0     0   100%      8    1.0    277     14.9     81%      6         3  yes (human_requested)
+  203     31     30     0     0   100%      8    1.0    327     12.1     48%     11         8  yes (human_requested)
+  204     29     29     0     0   100%      8    1.0    308     10.4     90%      3         3  yes
+  205     33     33     0     0   100%      8    1.0    353     19.1     52%      9         8  yes
+  206     28     27     0     0   100%      8    1.0    297     14.4     54%     10         7  yes (human_requested)
+  207     22     22     0     0   100%      8    1.0    244     11.8     68%      4         4  yes
+  208     28     27     0     0   100%      8    1.0    297     17.2     50%     10         7  yes (human_requested)
+  209     12     12     0     0   100%      8    1.0    146      2.2     92%      1         1  yes
+  210     25     25     0     0   100%      8    1.0    271      2.3     64%      5         5  yes
+  211      2      2     0     0   100%      8    1.0     37      1.4     50%      2         1  yes (human_requested)
+  212     16     16     0     0   100%      8    1.0    180      3.2     81%      3         3  yes
+  213     27     27     0     0   100%      8    1.0    294     13.9     30%      4         3  yes
+  214     12     12     0     0   100%      8    1.0    138      1.9     92%      1         1  yes
+  215     29     29     0     0   100%      8    1.0    315     14.1     90%      2         2  yes
+  216     28     28     0     0   100%      8    1.0    297      6.7     71%      5         4  yes
+  217      2      2     0     0   100%      8    1.0     37      1.5     50%      2         1  yes (human_requested)
+  218     13     13     0     0   100%      8    1.0    155      3.0     92%      1         1  yes
+  219     24     24     0     0   100%      8    1.0    265      6.1     96%      1         1  yes
+  220     26     25     0     0   100%      8    1.0    277     18.2     58%      9         6  yes (human_requested)
+  221     48     48     0     0   100%      8    1.0    500     35.4     69%     16        14  no (timeout)
+  222     24     24     0     0   100%      8    1.0    266      2.4     21%      1         0  yes
+  223     44     26     0    18    59%      8    1.0    461     33.3     36%      8         8  no (watchdog)
+  224      2      2     0     0   100%      8    1.0     37      0.3     50%      2         0  yes (human_requested)
+  225     18     18     0     0   100%      8    1.0    197      7.0     83%      2         2  yes
+  226     48     48     0     0   100%      8    1.0    500     18.6     58%      3         1  no (timeout)
+  227     33     33     0     0   100%      8    1.0    348     23.1     52%      9         9  yes
+  228     32     32     0     0   100%      8    1.0    345     18.6     38%      6         4  yes
+  229     26     25     0     0   100%      8    1.0    277     15.7     77%      7         4  yes (human_requested)
+  230     26     25     0     0   100%      8    1.0    277     14.5     81%      6         3  yes (human_requested)
+  231      4      4     0     0   100%      8    1.0     62      1.2    100%      0         0  yes
+  232     23     22     0     0   100%      8    1.0    247     13.4     74%      6         4  yes (human_requested)
+  233     24     24     0     0   100%      8    1.0    262     17.1     62%      5         5  yes
+  234     48     48     0     0   100%      8    1.0    500     20.6     88%      5         5  no (timeout)
+  235     11     11     0     0   100%      8    1.0    136      1.1     82%      2         2  yes
+  236     10     10     0     0   100%      8    1.0    123      3.4     70%      2         2  yes
+  237     27     27     0     0   100%      8    1.0    296      1.5     93%      2         1  yes
+  238     12     12     0     0   100%      8    1.0    145      3.5     92%      1         1  yes
+  239     41     41     0     0   100%      8    1.0    434     11.8     71%      5         3  yes
+  240     22     22     0     0   100%      8    1.0    240      9.3     64%      5         5  yes
+  241     48     44     0     4    92%      8    1.0    500     11.1     67%      9         9  no (timeout)
+  242     23     23     0     0   100%      8    1.0    254      2.5     65%      5         5  yes
+  243     48     48     0     0   100%      8    1.0    500     10.1     85%      2         1  no (timeout)
+  244     23     23     0     0   100%      8    1.0    252      0.9     91%      2         1  yes
+  245     47     33     0    14    70%      8    1.0    494     42.7     34%     11         9  no (watchdog)
+  246     18     18     0     0   100%      8    1.0    198      6.9     78%      3         3  yes
+  247     16     16     0     0   100%      8    1.0    178      6.0     62%      4         4  yes
+  248     17     17     0     0   100%      8    1.0    195      3.1     94%      1         1  yes
+  249     46     46     0     0   100%      8    1.0    477      6.2     48%      6         4  yes
+  250     17     17     0     0   100%      8    1.0    192      7.1     59%      4         4  yes
+  251     26     25     0     0   100%      8    1.0    277     12.4     73%      7         4  yes (human_requested)
+  252     16     16     0     0   100%      8    1.0    178      4.1     94%      1         1  yes
+  253     26     26     0     0   100%      8    1.0    283     12.2     88%      3         2  yes
+  254     14     14     0     0   100%      8    1.0    163      1.2     86%      2         1  yes
+  255     14     14     0     0   100%      8    1.0    160      2.5     93%      1         0  yes
+  256     27     27     0     0   100%      8    1.0    290      7.2     96%      1         1  yes
+  257     26     25     0     0   100%      8    1.0    277     23.3     58%      9         7  yes (human_requested)
+  258     23     23     0     0   100%      8    1.0    256      4.7     83%      3         2  yes
+  259     16     16     0     0   100%      8    1.0    186      4.6     88%      2         2  yes
+  260      6      6     0     0   100%      8    1.0     82      1.0    100%      0         0  yes
+  261     13     13     0     0   100%      8    1.0    150      3.4     92%      1         1  yes
+  262      2      2     0     0   100%      8    1.0     37      2.3     50%      2         1  yes (human_requested)
+  263     18     18     0     0   100%      8    1.0    206      1.4     83%      2         1  yes
+  264     15     15     0     0   100%      8    1.0    174      5.2     80%      2         2  yes
+  265     40     39     0     0   100%      8    1.0    417     13.2     70%     14        10  yes (human_requested)
+  266     48     48     0     0   100%      8    1.0    500     20.8     83%      6         6  no (timeout)
+  267     20     20     0     0   100%      8    1.0    222     10.4     95%      1         1  yes
+  268     20     20     0     0   100%      8    1.0    217      4.2     70%      4         4  yes
+  269      6      6     0     0   100%      8    1.0     84      1.0    100%      0         0  yes
+  270      2      2     0     0   100%      8    1.0     37      0.3     50%      2         0  yes (human_requested)
+  271     26     25     0     0   100%      8    1.0    277     15.1     73%      7         4  yes (human_requested)
+  272     34     34     0     0   100%      8    1.0    358      2.1     94%      2         1  yes
+  273     23     23     0     0   100%      8    1.0    254      6.4     30%      4         3  yes
+  274      2      2     0     0   100%      8    1.0     37      1.0     50%      2         1  yes (human_requested)
+  275     19     19     0     0   100%      8    1.0    211      5.1     84%      2         2  yes
+  276     21     21     0     0   100%      8    1.0    228      8.3     81%      3         3  yes
+  277     11     11     0     0   100%      8    1.0    131      0.6     91%      1         1  yes
+  278     40     39     0     0   100%      8    1.0    417     15.8     70%     14         9  yes (human_requested)
+  279     37     37     0     0   100%      8    1.0    391     14.6     95%      2         1  yes
+  280     28     27     0     0   100%      8    1.0    297     18.8     54%     10         7  yes (human_requested)
+  281     26     25     0     0   100%      8    1.0    277     14.7     65%      8         5  yes (human_requested)
+  282     37     36     0     0   100%      8    1.0    387     18.7     49%     13        11  yes (human_requested)
+  283     19     19     0     0   100%      8    1.0    208     10.0     84%      2         2  yes
+  284     14     14     0     0   100%      8    1.0    164      3.7     79%      2         2  yes
+  285      9      9     0     0   100%      8    1.0    107      3.5    100%      0         0  yes
+  286     17     17     0     0   100%      8    1.0    189      4.0     82%      2         2  yes
+  287     37     36     0     0   100%      8    1.0    387     32.0     57%     13         8  yes (human_requested)
+  288     17     17     0     0   100%      8    1.0    195      6.4     82%      2         2  yes
+  289      4      4     0     0   100%      8    1.0     66      2.8    100%      0         0  yes
+  290     24     24     0     0   100%      8    1.0    261      5.6      0%      0         0  yes
+  291      6      6     0     0   100%      8    1.0     77      1.1    100%      0         0  yes
+  292     30     30     0     0   100%      8    1.0    320      5.3     70%      2         2  yes
+  293     19     19     0     0   100%      8    1.0    209      6.9     74%      3         3  yes
+  294      7      7     0     0   100%      8    1.0     91      0.4    100%      0         0  yes
+  295      8      8     0     0   100%      8    1.0    100      3.4    100%      0         0  yes
+  296     45     45     0     0   100%      8    1.0    475      4.3     71%      8         8  yes
+  297     22     22     0     0   100%      8    1.0    238      5.8     82%      3         3  yes
+  298     11     11     0     0   100%      8    1.0    128      1.4     91%      1         1  yes
+  299     15     15     0     0   100%      8    1.0    168      2.9     87%      2         2  yes
+  300     16     16     0     0   100%      8    1.0    179      2.4     94%      1         1  yes
+  agree: ticks whose action matched the verified scripted rules (1577/2243 = 70% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (313 of 403).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+  miss: ticks no rule covered, with no teacher to ask -- answered NOMINAL/CONTINUE and
+  counted against the hit rate, not excluded from it.
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=brief
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 9, 11 ok / 0 bad]
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 9 in 2 ep, fires 2277, 0 ok / 467 bad]
+      blocked=dynamic
+        NOMINAL -> WAIT [support 2 in 2 ep, fires 847, 236 ok / 7 bad]
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 17, 19 ok / 0 bad]
+        route=ok
+          contact=clear
+            approach=?
+              reversing=long
+                REVERSE_TRACKING -> REPLAN_ROUTE [support 2 in 2 ep, fires 36, 21 ok / 7 bad]
+              reversing=no
+                NOMINAL -> REPLAN_ROUTE [support 2 in 2 ep, fires 116, 76 ok / 22 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 2 in 2 ep, fires 103, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 3 in 2 ep, fires 2703, 0 ok / 0 bad]
+
+  8 active rule(s), 0 retired, over 300 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 205 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (4/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 212 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (17/1000000) -- superseded by WAIT after only 0.5 m
+  [ep 213 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (329/1000000)
+  [ep 213 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (330/1000000)
+  [ep 213 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (331/1000000)
+  [ep 213 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (332/1000000)
+  [ep 213 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (333/1000000)
+  [ep 213 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (334/1000000)
+  [ep 213 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (335/1000000)
+  [ep 213 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (336/1000000)
+  [ep 213 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (337/1000000)
+  [ep 213 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (338/1000000)
+  [ep 213 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (339/1000000)
+  [ep 213 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (340/1000000)
+  [ep 213 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (341/1000000)
+  [ep 213 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (342/1000000)
+  [ep 213 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (343/1000000)
+  [ep 215 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the OSCILLATION test (344/1000000)
+  [ep 216 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (5/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 222 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (345/1000000)
+  [ep 222 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (346/1000000)
+  [ep 222 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (347/1000000)
+  [ep 222 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (348/1000000)
+  [ep 222 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (349/1000000)
+  [ep 222 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (350/1000000)
+  [ep 222 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (351/1000000)
+  [ep 222 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (352/1000000)
+  [ep 222 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (353/1000000)
+  [ep 222 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (354/1000000)
+  [ep 222 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (355/1000000)
+  [ep 222 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (356/1000000)
+  [ep 222 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (357/1000000)
+  [ep 222 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (358/1000000)
+  [ep 222 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (359/1000000)
+  [ep 222 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (360/1000000)
+  [ep 222 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (361/1000000)
+  [ep 222 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (362/1000000)
+  [ep 223 step 315] no/no/dynamic -> WAIT did not help (2/1000000) -- only 0.0 m along the route in 25 steps
+  [ep 223 step 315] no/no/dynamic -> WAIT did not help (3/1000000) -- only 0.0 m along the route in 25 steps
+  [ep 225 step 45] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (18/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 226 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (363/1000000)
+  [ep 226 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (364/1000000)
+  [ep 226 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (365/1000000)
+  [ep 226 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (366/1000000)
+  [ep 226 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (367/1000000)
+  [ep 226 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (368/1000000)
+  [ep 226 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (369/1000000)
+  [ep 226 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (370/1000000)
+  [ep 226 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (371/1000000)
+  [ep 226 step 305] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (372/1000000)
+  [ep 226 step 315] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (373/1000000)
+  [ep 226 step 325] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (374/1000000)
+  [ep 226 step 335] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (375/1000000)
+  [ep 226 step 345] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (376/1000000)
+  [ep 226 step 355] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (377/1000000)
+  [ep 226 step 365] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (378/1000000)
+  [ep 226 step 375] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (379/1000000)
+  [ep 228 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (380/1000000)
+  [ep 228 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (381/1000000)
+  [ep 228 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (382/1000000)
+  [ep 228 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (383/1000000)
+  [ep 228 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (384/1000000)
+  [ep 228 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (385/1000000)
+  [ep 228 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (386/1000000)
+  [ep 228 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (387/1000000)
+  [ep 228 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (388/1000000)
+  [ep 228 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (389/1000000)
+  [ep 228 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (390/1000000)
+  [ep 228 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (391/1000000)
+  [ep 228 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (392/1000000)
+  [ep 228 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (393/1000000)
+  [ep 235 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (19/1000000) -- superseded by WAIT after only 0.6 m
+  [ep 239 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (394/1000000)
+  [ep 239 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (395/1000000)
+  [ep 239 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (396/1000000)
+  [ep 239 step 305] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (397/1000000)
+  [ep 239 step 315] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (398/1000000)
+  [ep 239 step 325] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (399/1000000)
+  [ep 239 step 335] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (400/1000000)
+  [ep 241 step 495] no/no/dynamic -> WAIT did not help (4/1000000) -- only 0.0 m along the route in 25 steps
+  [ep 241 step 495] no/no/dynamic -> WAIT did not help (5/1000000) -- only 0.0 m along the route in 25 steps
+  [ep 243 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (401/1000000)
+  [ep 243 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (402/1000000)
+  [ep 243 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (403/1000000)
+  [ep 243 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (404/1000000)
+  [ep 243 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (405/1000000)
+  [ep 243 step 495] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (406/1000000)
+  [ep 245 step 385] no/no/dynamic -> WAIT did not help (6/1000000) -- only 0.0 m along the route in 25 steps
+  [ep 245 step 385] no/no/dynamic -> WAIT did not help (7/1000000) -- only 0.0 m along the route in 25 steps
+  [ep 249 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (407/1000000)
+  [ep 249 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (408/1000000)
+  [ep 249 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (409/1000000)
+  [ep 249 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (410/1000000)
+  [ep 249 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (411/1000000)
+  [ep 249 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (412/1000000)
+  [ep 249 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (413/1000000)
+  [ep 249 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (414/1000000)
+  [ep 249 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (415/1000000)
+  [ep 249 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (416/1000000)
+  [ep 249 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (417/1000000)
+  [ep 249 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (418/1000000)
+  [ep 249 step 305] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (419/1000000)
+  [ep 249 step 315] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (420/1000000)
+  [ep 249 step 445] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (421/1000000)
+  [ep 249 step 455] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (422/1000000)
+  [ep 249 step 465] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (423/1000000)
+  [ep 249 step 475] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (424/1000000)
+  [ep 254 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (6/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 258 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (7/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 266 step 55] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (20/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 273 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (425/1000000)
+  [ep 273 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (426/1000000)
+  [ep 273 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (427/1000000)
+  [ep 273 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (428/1000000)
+  [ep 273 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (429/1000000)
+  [ep 273 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (430/1000000)
+  [ep 273 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (431/1000000)
+  [ep 273 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (432/1000000)
+  [ep 273 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (433/1000000)
+  [ep 273 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (434/1000000)
+  [ep 273 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (435/1000000)
+  [ep 273 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (436/1000000)
+  [ep 290 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (437/1000000)
+  [ep 290 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (438/1000000)
+  [ep 290 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (439/1000000)
+  [ep 290 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (440/1000000)
+  [ep 290 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (441/1000000)
+  [ep 290 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (442/1000000)
+  [ep 290 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (443/1000000)
+  [ep 290 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (444/1000000)
+  [ep 290 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (445/1000000)
+  [ep 290 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (446/1000000)
+  [ep 290 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (447/1000000)
+  [ep 290 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (448/1000000)
+  [ep 290 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (449/1000000)
+  [ep 290 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (450/1000000)
+  [ep 290 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (451/1000000)
+  [ep 290 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (452/1000000)
+  [ep 290 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (453/1000000)
+  [ep 290 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (454/1000000)
+  [ep 290 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (455/1000000)
+  [ep 290 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (456/1000000)
+  [ep 290 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (457/1000000)
+  [ep 290 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (458/1000000)
+  [ep 290 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (459/1000000)
+  [ep 290 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (460/1000000)
+  [ep 292 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (461/1000000)
+  [ep 292 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (462/1000000)
+  [ep 292 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (463/1000000)
+  [ep 292 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (464/1000000)
+  [ep 292 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (465/1000000)
+  [ep 292 step 305] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (466/1000000)
+  [ep 292 step 315] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (467/1000000)
+  [ep 296 step 55] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (21/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 299 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (22/1000000) -- superseded by WAIT after only 0.5 m
+
+=== Totals ===
+  6209 ticks: 6108 from the tree, 24 to the teacher (99% hit rate); rules +7 new, 16 reinforced, 1 refined, 0 replaced, 0 contradicted, 17 confirmation asks; outcomes 363 ok / 503 bad (636 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 92/100 episode(s) (24 of them by rightly calling a human)
+  NOTE: not every episode reached the goal. Read that against a teacher-only baseline on the
+        same seeds (--reset --no-learn --no-save, which leaves the tree empty so every tick
+        escalates) before attributing it to the tree. A rising hit rate with falling success
+        is the failure mode these two numbers are reported together to catch.
+
+PASS

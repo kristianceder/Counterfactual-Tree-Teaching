@@ -1,0 +1,360 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 50,
+ "simulations": 30,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "brief",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 3,
+   "why_bad": {
+    "episode ended: collision": 1,
+    "superseded by REORIENT after only -0.0 m": 1,
+    "superseded by WAIT after only 0.0 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "brief",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 10,
+   "why_bad": {
+    "superseded by REORIENT after only -1.2 m": 2,
+    "superseded by REORIENT after only 0.0 m": 2,
+    "only 0.1 m along the route in 25 steps": 6
+   },
+   "counterfactual": {
+    "harmful": 8
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "brief",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "off",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 3
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "long",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 9,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 3,
+    "superseded by RESUME_ROUTE after only 0.0 m": 1,
+    "superseded by WAIT after only -0.0 m": 2,
+    "superseded by REORIENT after only -0.0 m": 2,
+    "only -0.0 m along the route in 25 steps": 1
+   },
+   "counterfactual": {
+    "harmful": 3
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "long",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 2,
+   "why_bad": {
+    "superseded by REORIENT after only -0.8 m": 2
+   },
+   "counterfactual": {
+    "harmful": 2
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "brief",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 3,
+   "why_bad": {
+    "superseded by REORIENT after only 0.0 m": 1,
+    "superseded by REORIENT after only -0.0 m": 1,
+    "superseded by RESUME_ROUTE after only 0.0 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "superseded by WAIT after only -0.1 m": 1
+   },
+   "counterfactual": {
+    "harmful": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "only 0.2 m along the route in 25 steps": 1
+   },
+   "counterfactual": {
+    "harmful": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "RESUME_ROUTE",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "superseded by REORIENT after only -0.5 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "RESUME_ROUTE",
+   "good": 7,
+   "bad": 4,
+   "why_bad": {
+    "superseded by REORIENT after only -1.2 m": 1,
+    "only -0.2 m along the route in 25 steps": 1,
+    "superseded by REORIENT after only -0.8 m": 1,
+    "superseded by REORIENT after only 0.6 m": 1
+   },
+   "counterfactual": {
+    "harmful": 6
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "superseded by REORIENT after only -0.0 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "superseded by REPLAN_ROUTE after only 0.0 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 1,
+   "bad": 4,
+   "why_bad": {
+    "superseded by RESUME_ROUTE after only 0.0 m": 4
+   },
+   "counterfactual": {
+    "harmful": 5
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  }
+ ]
+}

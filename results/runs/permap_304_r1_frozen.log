@@ -1,0 +1,50 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r1.json -- 8 rule(s) carried in, 6 episode(s) of history ===
+
+=== Episode 1/1 (seed 304) ===
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    7     23     23     0   100%      8    1.0    247      6.8     87%      3         3  yes
+  agree: ticks whose action matched the verified scripted rules (20/23 = 87% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (3 of 3).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=no
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=brief
+                NOMINAL -> CONTINUE [support 2 in 1 ep, fires 0, 0 ok / 0 bad]
+              reversing=long
+                REVERSE_TRACKING -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+              reversing=no
+                wobble=no
+                  progress=forward
+                    heading=away
+                      NOMINAL -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+                    heading=on
+                      NOMINAL -> CONTINUE [support 2 in 2 ep, fires 47, 1 ok / 1 bad, 2 contradicted]
+                  progress=stalled
+                    NOMINAL -> RESUME_ROUTE [support 3 in 2 ep, fires 5, 8 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> WAIT [support 3 in 2 ep, fires 11, 6 ok / 0 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 7 in 1 ep, fires 0, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 25 in 2 ep, fires 71, 0 ok / 0 bad]
+
+  8 active rule(s), 0 retired, over 7 episode(s) of history.
+
+=== Totals ===
+  183 ticks: 134 from the tree, 49 to the teacher (73% hit rate); rules +6 new, 39 reinforced, 2 refined, 0 replaced, 2 contradicted, 43 confirmation asks; outcomes 15 ok / 3 bad (8 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 1/1 episode(s)
+
+PASS

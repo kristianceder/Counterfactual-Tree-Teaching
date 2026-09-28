@@ -1,0 +1,147 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 50,
+ "simulations": 30,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "brief",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 3,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 3
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REORIENT",
+   "good": 0,
+   "bad": 2,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 1,
+    "superseded by RESUME_ROUTE after only 0.0 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "RESUME_ROUTE",
+   "good": 4,
+   "bad": 7,
+   "why_bad": {
+    "superseded by RESUME_ROUTE after only 0.4 m": 1,
+    "superseded by REORIENT after only -0.6 m": 1,
+    "superseded by RESUME_ROUTE after only -0.0 m": 1,
+    "superseded by RESUME_ROUTE after only -0.4 m": 1,
+    "superseded by REORIENT after only -0.0 m": 1,
+    "superseded by REORIENT after only -0.5 m": 2
+   },
+   "counterfactual": {
+    "unclear": 1
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "RESUME_ROUTE",
+   "good": 29,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 18
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 0,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 6
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 0,
+   "bad": 5,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 5
+   },
+   "counterfactual": {
+    "harmful": 5
+   }
+  }
+ ]
+}

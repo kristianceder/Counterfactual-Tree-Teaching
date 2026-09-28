@@ -1,0 +1,49 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_300_r3.json -- 6 rule(s) carried in, 6 episode(s) of history ===
+
+=== Episode 1/1 (seed 300) ===
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    7     13     13     0   100%      6    1.0    156      0.8     85%      2         2  yes
+  agree: ticks whose action matched the verified scripted rules (11/13 = 85% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (2 of 2).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=no
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=back
+                    NOMINAL -> CONTINUE [support 2 in 2 ep, fires 3, 0 ok / 0 bad]
+                  progress=forward
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 5, 7 ok / 0 bad, 1 contradicted]
+                    heading=on
+                      NOMINAL -> CONTINUE [support 9 in 2 ep, fires 47, 0 ok / 0 bad]
+                  progress=stalled
+                    NOMINAL -> CONTINUE [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+      blocked=static
+        NOMINAL -> REPLAN_ROUTE [support 2 in 2 ep, fires 5, 2 ok / 5 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 3 in 2 ep, fires 9, 0 ok / 0 bad]
+
+  6 active rule(s), 0 retired, over 7 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 7 step 35] no/no/static -> REPLAN_ROUTE did not help (5/1000000) -- superseded by REORIENT after only 0.8 m
+
+=== Totals ===
+  89 ticks: 69 from the tree, 20 to the teacher (78% hit rate); rules +5 new, 13 reinforced, 1 refined, 0 replaced, 1 contradicted, 15 confirmation asks; outcomes 9 ok / 5 bad (0 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 1/1 episode(s)
+
+PASS

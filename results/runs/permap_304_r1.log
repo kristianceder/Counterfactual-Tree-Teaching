@@ -1,0 +1,101 @@
+=== Loading gpt-6-luna (quantization=4bit, llm_worker=thread) ===
+=== Teacher: gpt-6-luna over its API, temperature 0, called from the async worker thread; usage -> /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r1.api.jsonl ===
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r1.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+=== Experience table: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r1.experience.json -- 0 situation-action pair(s) carried in ===
+
+=== Episode 1/6 (seed 304) ===
+  [experience] the episode did not replay its own decisions; nothing labelled
+  [experience] 7 replays in 41 s (recorded goal@494): no labels
+  tree: 45 ticks: 0 from the tree, 45 to the teacher (0% hit rate); rules +6 new, 35 reinforced, 2 refined, 0 replaced, 2 contradicted, 39 confirmation asks; outcomes 3 ok / 3 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/6 (seed 304) ===
+  [experience] 4 replays in 24 s (recorded goal@249): WAIT@35 needed (without it watchdog@95), WAIT@135 harmful (without it goal@210), RESUME_ROUTE@175 unnecessary (without it goal@249)
+  tree: 23 ticks: 19 from the tree, 4 to the teacher (83% hit rate); rules +0 new, 4 reinforced, 0 refined, 0 replaced, 0 contradicted, 4 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/6 (seed 304) ===
+  [experience] 4 replays in 22 s (recorded goal@247): WAIT@35 needed (without it watchdog@94), WAIT@135 harmful (without it goal@210), RESUME_ROUTE@175 unnecessary (without it goal@247)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/6 (seed 304) ===
+  [experience] 4 replays in 23 s (recorded goal@247): WAIT@35 needed (without it watchdog@94), WAIT@135 harmful (without it goal@210), RESUME_ROUTE@175 unnecessary (without it goal@247)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/6 (seed 304) ===
+  [experience] 4 replays in 23 s (recorded goal@247): WAIT@35 needed (without it watchdog@95), WAIT@135 harmful (without it goal@210), RESUME_ROUTE@175 unnecessary (without it goal@247)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/6 (seed 304) ===
+  [experience] 4 replays in 23 s (recorded goal@247): WAIT@35 needed (without it watchdog@94), WAIT@135 harmful (without it goal@210), RESUME_ROUTE@175 unnecessary (without it goal@247)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Between-episode simulation: {"episodes": 6, "replays": 27, "labelled": 15, "skipped_inexact": 1, "never_reached": 0, "wall_s": 155.7373883299988} ===
+=== Experience table: 6 situation-action pair(s), 16 judge verdict(s), 15 counterfactual label(s); saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r1.experience.json ===
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     45      0    45     0%      8    7.1    494     73.8     84%      8         7  yes
+    2     23     19     4    83%      8    2.0    249     16.3     87%      3         3  yes
+    3     23     23     0   100%      8    1.0    247      6.7     87%      3         3  yes
+    4     23     23     0   100%      8    1.0    247      6.6     87%      3         3  yes
+    5     23     23     0   100%      8    1.0    247      6.8     87%      3         3  yes
+    6     23     23     0   100%      8    1.0    247      6.4     87%      3         3  yes
+  agree: ticks whose action matched the verified scripted rules (138/160 = 86% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (22 of 23).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=no
+      blocked=clear
+        route=ok
+          contact=clear
+            approach=?
+              reversing=brief
+                NOMINAL -> CONTINUE [support 2 in 1 ep, fires 0, 0 ok / 0 bad]
+              reversing=long
+                REVERSE_TRACKING -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+              reversing=no
+                wobble=no
+                  progress=forward
+                    heading=away
+                      NOMINAL -> REORIENT [support 1 in 1 ep, fires 0, 0 ok / 1 bad]
+                    heading=on
+                      NOMINAL -> CONTINUE [support 2 in 2 ep, fires 39, 1 ok / 1 bad, 2 contradicted]
+                  progress=stalled
+                    NOMINAL -> RESUME_ROUTE [support 3 in 2 ep, fires 4, 7 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> WAIT [support 3 in 2 ep, fires 9, 5 ok / 0 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 7 in 1 ep, fires 0, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 25 in 2 ep, fires 59, 0 ok / 0 bad]
+
+  8 active rule(s), 0 retired, over 6 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 1 step 25] insert: no/no/clear -> NOMINAL/CONTINUE
+  [ep 1 step 45] insert: no/no/dynamic -> NOMINAL/WAIT
+  [ep 1 step 55] insert: yes/no/dynamic -> NOMINAL/CONTINUE
+  [ep 1 step 175] refine: no/no/clear/ok/clear/?/no/no/stalled -> NOMINAL/RESUME_ROUTE
+  [ep 1 step 205] contradict: no/no/clear/ok/clear/?/no/no/forward -> NOMINAL/RESUME_ROUTE
+  [ep 1 step 215] refine: no/no/clear/ok/clear/?/no/no/forward/away -> NOMINAL/REORIENT
+  [ep 1 step 225] insert: yes/no/clear -> NOMINAL/CONTINUE
+  [ep 1 step 265] insert: no/no/clear/ok/clear/?/brief -> NOMINAL/CONTINUE
+  [ep 1 step 275] no/no/clear/ok/clear/?/no/no/forward/away -> REORIENT did not help (1/1000000) -- superseded by RESUME_ROUTE after only 0.1 m
+  [ep 1 step 285] no/no/clear/ok/clear/?/no/no/forward/on -> RESUME_ROUTE did not help (1/1000000) -- superseded by WAIT after only 0.2 m
+  [ep 1 step 435] insert: no/no/clear/ok/clear/?/long -> REVERSE_TRACKING/REORIENT
+  [ep 1 step 475] no/no/clear/ok/clear/?/long -> REORIENT did not help (1/1000000) -- superseded by RESUME_ROUTE after only 0.0 m
+  [ep 1 step 485] contradict: no/no/clear/ok/clear/?/no/no/forward/on -> NOMINAL/CONTINUE
+
+=== Totals ===
+  160 ticks: 111 from the tree, 49 to the teacher (69% hit rate); rules +6 new, 39 reinforced, 2 refined, 0 replaced, 2 contradicted, 43 confirmation asks; outcomes 13 ok / 3 bad (7 unresolved, 0 orphaned), 0 retired
+  saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_304_r1.json
+
+  reached the goal in 6/6 episode(s)
+  hit rate 0% -> 100%  (expected to rise)
+  model calls 45 -> 0  (expected not to rise)
+
+PASS

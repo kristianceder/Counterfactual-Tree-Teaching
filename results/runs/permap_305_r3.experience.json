@@ -1,0 +1,78 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 18,
+ "simulations": 21,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 3,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 6
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 9,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "harmful": 7,
+    "unnecessary": 2
+   }
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 6,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 6
+   }
+  }
+ ]
+}

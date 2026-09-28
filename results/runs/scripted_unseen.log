@@ -1,0 +1,424 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/L_scripted_heldout100.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+
+=== Episode 1/100 (seed 400) ===
+  tree: 12 ticks: 0 from the tree, 12 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/100 (seed 401) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/100 (seed 402) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/100 (seed 403) ===
+  tree: 34 ticks: 0 from the tree, 34 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/100 (seed 404) ===
+  tree: 29 ticks: 0 from the tree, 29 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/100 (seed 405) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 7/100 (seed 406) ===
+  tree: 27 ticks: 0 from the tree, 27 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 8/100 (seed 407) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 9/100 (seed 408) ===
+  tree: 36 ticks: 0 from the tree, 36 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 10/100 (seed 409) ===
+  tree: 33 ticks: 0 from the tree, 33 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 11/100 (seed 410) ===
+  tree: 7 ticks: 0 from the tree, 7 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 12/100 (seed 411) ===
+  tree: 20 ticks: 0 from the tree, 20 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 13/100 (seed 412) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 14/100 (seed 413) ===
+  tree: 25 ticks: 0 from the tree, 25 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 15/100 (seed 414) ===
+  tree: 32 ticks: 0 from the tree, 32 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 16/100 (seed 415) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 17/100 (seed 416) ===
+  tree: 6 ticks: 0 from the tree, 6 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 18/100 (seed 417) ===
+  tree: 12 ticks: 0 from the tree, 12 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 19/100 (seed 418) ===
+  tree: 23 ticks: 0 from the tree, 23 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 20/100 (seed 419) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 21/100 (seed 420) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 22/100 (seed 421) ===
+  tree: 13 ticks: 0 from the tree, 13 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 23/100 (seed 422) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 24/100 (seed 423) ===
+  tree: 16 ticks: 0 from the tree, 16 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 25/100 (seed 424) ===
+  tree: 19 ticks: 0 from the tree, 19 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 26/100 (seed 425) ===
+  tree: 34 ticks: 0 from the tree, 34 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 27/100 (seed 426) ===
+  tree: 42 ticks: 0 from the tree, 42 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 28/100 (seed 427) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 29/100 (seed 428) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 30/100 (seed 429) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 31/100 (seed 430) ===
+  tree: 4 ticks: 0 from the tree, 4 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 32/100 (seed 431) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 33/100 (seed 432) ===
+  tree: 29 ticks: 0 from the tree, 29 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 34/100 (seed 433) ===
+  tree: 48 ticks: 0 from the tree, 48 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 35/100 (seed 434) ===
+  tree: 33 ticks: 0 from the tree, 33 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 36/100 (seed 435) ===
+  tree: 8 ticks: 0 from the tree, 8 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 37/100 (seed 436) ===
+  tree: 30 ticks: 0 from the tree, 30 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 38/100 (seed 437) ===
+  tree: 20 ticks: 0 from the tree, 20 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 39/100 (seed 438) ===
+  tree: 31 ticks: 0 from the tree, 31 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 40/100 (seed 439) ===
+  tree: 28 ticks: 0 from the tree, 28 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 41/100 (seed 440) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 42/100 (seed 441) ===
+  tree: 31 ticks: 0 from the tree, 31 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 43/100 (seed 442) ===
+  tree: 48 ticks: 0 from the tree, 48 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 44/100 (seed 443) ===
+  tree: 25 ticks: 0 from the tree, 25 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 45/100 (seed 444) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 46/100 (seed 445) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 47/100 (seed 446) ===
+  tree: 24 ticks: 0 from the tree, 24 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 48/100 (seed 447) ===
+  tree: 6 ticks: 0 from the tree, 6 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 49/100 (seed 448) ===
+  tree: 19 ticks: 0 from the tree, 19 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 50/100 (seed 449) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 51/100 (seed 450) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 52/100 (seed 451) ===
+  tree: 8 ticks: 0 from the tree, 8 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 53/100 (seed 452) ===
+  tree: 32 ticks: 0 from the tree, 32 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 54/100 (seed 453) ===
+  tree: 30 ticks: 0 from the tree, 30 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 55/100 (seed 454) ===
+  tree: 26 ticks: 0 from the tree, 26 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 56/100 (seed 455) ===
+  tree: 27 ticks: 0 from the tree, 27 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 57/100 (seed 456) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 58/100 (seed 457) ===
+  tree: 23 ticks: 0 from the tree, 23 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 59/100 (seed 458) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 60/100 (seed 459) ===
+  tree: 6 ticks: 0 from the tree, 6 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 61/100 (seed 460) ===
+  tree: 27 ticks: 0 from the tree, 27 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 62/100 (seed 461) ===
+  tree: 5 ticks: 0 from the tree, 5 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 63/100 (seed 462) ===
+  tree: 32 ticks: 0 from the tree, 32 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 64/100 (seed 463) ===
+  tree: 15 ticks: 0 from the tree, 15 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 65/100 (seed 464) ===
+  tree: 11 ticks: 0 from the tree, 11 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 66/100 (seed 465) ===
+  tree: 48 ticks: 0 from the tree, 48 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 67/100 (seed 466) ===
+  tree: 23 ticks: 0 from the tree, 23 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 68/100 (seed 467) ===
+  tree: 29 ticks: 0 from the tree, 29 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 69/100 (seed 468) ===
+  tree: 6 ticks: 0 from the tree, 6 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 70/100 (seed 469) ===
+  tree: 16 ticks: 0 from the tree, 16 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 71/100 (seed 470) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 72/100 (seed 471) ===
+  tree: 37 ticks: 0 from the tree, 37 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 73/100 (seed 472) ===
+  tree: 15 ticks: 0 from the tree, 15 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 74/100 (seed 473) ===
+  tree: 7 ticks: 0 from the tree, 7 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 75/100 (seed 474) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 76/100 (seed 475) ===
+  tree: 22 ticks: 0 from the tree, 22 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 77/100 (seed 476) ===
+  tree: 20 ticks: 0 from the tree, 20 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 78/100 (seed 477) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 79/100 (seed 478) ===
+  tree: 29 ticks: 0 from the tree, 29 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 80/100 (seed 479) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 81/100 (seed 480) ===
+  tree: 17 ticks: 0 from the tree, 17 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 82/100 (seed 481) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 83/100 (seed 482) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 84/100 (seed 483) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 85/100 (seed 484) ===
+  tree: 9 ticks: 0 from the tree, 9 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 86/100 (seed 485) ===
+  tree: 16 ticks: 0 from the tree, 16 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 87/100 (seed 486) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 88/100 (seed 487) ===
+  tree: 21 ticks: 0 from the tree, 21 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 89/100 (seed 488) ===
+  tree: 4 ticks: 0 from the tree, 4 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 90/100 (seed 489) ===
+  tree: 14 ticks: 0 from the tree, 14 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 91/100 (seed 490) ===
+  tree: 6 ticks: 0 from the tree, 6 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 92/100 (seed 491) ===
+  tree: 29 ticks: 0 from the tree, 29 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 93/100 (seed 492) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 94/100 (seed 493) ===
+  tree: 7 ticks: 0 from the tree, 7 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 95/100 (seed 494) ===
+  tree: 8 ticks: 0 from the tree, 8 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 96/100 (seed 495) ===
+  tree: 36 ticks: 0 from the tree, 36 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 97/100 (seed 496) ===
+  tree: 18 ticks: 0 from the tree, 18 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 98/100 (seed 497) ===
+  tree: 26 ticks: 0 from the tree, 26 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 99/100 (seed 498) ===
+  tree: 48 ticks: 0 from the tree, 48 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 100/100 (seed 499) ===
+  tree: 15 ticks: 0 from the tree, 15 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     12      0    12     0%      0    1.0    137      4.3    100%      3         0  yes (human_requested)
+    2     14      0    14     0%      0    1.0    157     13.7    100%      2         0  yes (human_requested)
+    3     14      0    14     0%      0    1.0    157      7.0    100%      2         0  yes (human_requested)
+    4     34      0    34     0%      0    1.0    366     18.6    100%      2         0  yes
+    5     29      0    29     0%      0    1.0    315     17.2    100%      3         0  yes
+    6     14      0    14     0%      0    1.0    157      6.5    100%      2         0  yes (human_requested)
+    7     27      0    27     0%      0    1.0    296     17.8    100%      2         0  yes
+    8     14      0    14     0%      0    1.0    157     11.6    100%      2         0  yes (human_requested)
+    9     36      0    36     0%      0    1.0    380     21.1    100%      2         0  yes
+   10     33      0    33     0%      0    1.0    348     16.8    100%      2         0  yes
+   11      7      0     7     0%      0    1.0     87      7.6    100%      2         0  yes (human_requested)
+   12     20      0    20     0%      0    1.0    223      9.7    100%      1         0  yes
+   13     18      0    18     0%      0    1.0    200      9.8    100%      2         0  yes
+   14     25      0    25     0%      0    1.0    271     12.1    100%      2         0  yes
+   15     32      0    32     0%      0    1.0    342     19.1    100%      2         0  yes
+   16     18      0    18     0%      0    1.0    205      6.8    100%      2         0  yes
+   17      6      0     6     0%      0    1.0     77      2.5    100%      2         0  yes (human_requested)
+   18     12      0    12     0%      0    1.0    145     15.7    100%      1         0  yes
+   19     23      0    23     0%      0    1.0    249     10.1    100%      1         0  yes
+   20     17      0    17     0%      0    1.0    187     10.8    100%      2         0  yes (human_requested)
+   21     14      0    14     0%      0    1.0    157     15.9    100%      3         0  yes (human_requested)
+   22     13      0    13     0%      0    1.0    150      0.8    100%      1         0  yes
+   23     14      0    14     0%      0    1.0    157      3.5    100%      2         0  yes (human_requested)
+   24     16      0    16     0%      0    1.0    177      1.8    100%      3         0  yes (human_requested)
+   25     19      0    19     0%      0    1.0    212      7.1    100%      1         0  yes
+   26     34      0    34     0%      0    1.0    364     16.2    100%      2         0  yes
+   27     42      0    42     0%      0    1.0    437     16.3    100%      2         0  yes
+   28     17      0    17     0%      0    1.0    194      7.8    100%      2         0  yes
+   29     18      0    18     0%      0    1.0    197     17.3    100%      3         0  yes (human_requested)
+   30     14      0    14     0%      0    1.0    157     10.8    100%      2         0  yes (human_requested)
+   31      4      0     4     0%      0    1.0     62      1.2    100%      0         0  yes
+   32     14      0    14     0%      0    1.0    157      9.4    100%      2         0  yes (human_requested)
+   33     29      0    29     0%      0    1.0    308     20.6    100%      2         0  yes
+   34     48      0    48     0%      0    1.0    500     27.5    100%      3         0  no (timeout)
+   35     33      0    33     0%      0    1.0    348     19.8    100%      2         0  yes
+   36      8      0     8     0%      0    1.0     97      2.0    100%      0         0  yes
+   37     30      0    30     0%      0    1.0    324     12.2    100%      3         0  yes
+   38     20      0    20     0%      0    1.0    223      7.0    100%      1         0  yes
+   39     31      0    31     0%      0    1.0    331     11.1    100%      3         0  yes
+   40     28      0    28     0%      0    1.0    301     14.4    100%      2         0  yes
+   41     14      0    14     0%      0    1.0    157      5.4    100%      2         0  yes (human_requested)
+   42     31      0    31     0%      0    1.0    327     13.0    100%      2         0  yes
+   43     48      0    48     0%      0    1.0    500     10.4    100%      2         0  no (timeout)
+   44     25      0    25     0%      0    1.0    276     13.8    100%      3         0  yes
+   45     14      0    14     0%      0    1.0    157      6.2    100%      2         0  yes (human_requested)
+   46     18      0    18     0%      0    1.0    203     10.5    100%      1         0  yes
+   47     24      0    24     0%      0    1.0    260     10.4    100%      2         0  yes
+   48      6      0     6     0%      0    1.0     80      3.9    100%      0         0  yes
+   49     19      0    19     0%      0    1.0    212     15.3    100%      2         0  yes
+   50     17      0    17     0%      0    1.0    187      8.1    100%      1         0  yes
+   51     17      0    17     0%      0    1.0    187     17.7    100%      3         0  yes (human_requested)
+   52      8      0     8     0%      0    1.0    102      2.9    100%      0         0  yes
+   53     32      0    32     0%      0    1.0    339     15.3    100%      2         0  yes
+   54     30      0    30     0%      0    1.0    324     12.8    100%      2         0  yes
+   55     26      0    26     0%      0    1.0    281     13.3    100%      2         0  yes
+   56     27      0    27     0%      0    1.0    293     15.4    100%      1         0  yes
+   57     14      0    14     0%      0    1.0    157     14.3    100%      2         0  yes (human_requested)
+   58     23      0    23     0%      0    1.0    254      6.8    100%      2         0  yes
+   59     17      0    17     0%      0    1.0    194      5.3    100%      1         0  yes
+   60      6      0     6     0%      0    1.0     82      0.9    100%      0         0  yes
+   61     27      0    27     0%      0    1.0    293     16.7    100%      2         0  yes
+   62      5      0     5     0%      0    1.0     67      1.8    100%      2         0  yes (human_requested)
+   63     32      0    32     0%      0    1.0    338     19.4    100%      3         0  yes
+   64     15      0    15     0%      0    1.0    169      8.4    100%      1         0  yes
+   65     11      0    11     0%      0    1.0    131      3.6    100%      1         0  no (goal)
+   66     48      0    48     0%      0    1.0    500     21.6    100%      3         0  no (timeout)
+   67     23      0    23     0%      0    1.0    248      8.8    100%      2         0  yes
+   68     29      0    29     0%      0    1.0    315     16.2    100%      2         0  yes
+   69      6      0     6     0%      0    1.0     84      1.0    100%      0         0  yes
+   70     16      0    16     0%      0    1.0    177      1.3    100%      3         0  yes (human_requested)
+   71     17      0    17     0%      0    1.0    187     16.3    100%      3         0  yes (human_requested)
+   72     37      0    37     0%      0    1.0    390     19.1    100%      3         0  yes
+   73     15      0    15     0%      0    1.0    175     10.5    100%      2         0  yes
+   74      7      0     7     0%      0    1.0     87      3.1    100%      2         0  yes (human_requested)
+   75     18      0    18     0%      0    1.0    205     11.0    100%      1         0  yes
+   76     22      0    22     0%      0    1.0    243      8.4    100%      2         0  yes
+   77     20      0    20     0%      0    1.0    221      9.5    100%      1         0  yes
+   78     14      0    14     0%      0    1.0    157      8.9    100%      3         0  yes (human_requested)
+   79     29      0    29     0%      0    1.0    315     11.3    100%      2         0  yes
+   80     17      0    17     0%      0    1.0    187      9.1    100%      2         0  yes (human_requested)
+   81     17      0    17     0%      0    1.0    187     14.4    100%      3         0  yes (human_requested)
+   82     14      0    14     0%      0    1.0    157     13.3    100%      2         0  yes (human_requested)
+   83     18      0    18     0%      0    1.0    204     16.3    100%      1         0  yes
+   84     14      0    14     0%      0    1.0    158     12.2    100%      1         0  yes
+   85      9      0     9     0%      0    1.0    107      3.5    100%      0         0  yes
+   86     16      0    16     0%      0    1.0    185     11.9    100%      1         0  yes
+   87     14      0    14     0%      0    1.0    157     16.6    100%      2         0  yes (human_requested)
+   88     21      0    21     0%      0    1.0    235      7.1    100%      2         0  yes
+   89      4      0     4     0%      0    1.0     66      2.8    100%      0         0  yes
+   90     14      0    14     0%      0    1.0    166      3.4    100%      1         0  yes
+   91      6      0     6     0%      0    1.0     77      1.1    100%      0         0  yes
+   92     29      0    29     0%      0    1.0    316     12.6    100%      2         0  yes
+   93     18      0    18     0%      0    1.0    204      9.4    100%      1         0  yes
+   94      7      0     7     0%      0    1.0     91      0.4    100%      0         0  yes
+   95      8      0     8     0%      0    1.0    100      3.1    100%      0         0  yes
+   96     36      0    36     0%      0    1.0    380     18.9    100%      2         0  yes
+   97     18      0    18     0%      0    1.0    199     14.6    100%      1         0  yes
+   98     26      0    26     0%      0    1.0    282     13.2    100%      2         0  yes
+   99     48      0    48     0%      0    1.0    500     26.8    100%      3         0  no (timeout)
+  100     15      0    15     0%      0    1.0    171     11.0    100%      1         0  yes
+  agree: ticks whose action matched the verified scripted rules (2027/2027 = 100% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (0 of 175).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  (empty tree -- every tick escalates to the teacher)
+
+  0 active rule(s), 0 retired, over 100 episode(s) of history.
+
+=== Totals ===
+  2027 ticks: 0 from the tree, 2027 to the teacher (0% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+  reached the goal in 95/100 episode(s) (27 of them by rightly calling a human)
+  NOTE: not every episode reached the goal. Read that against a teacher-only baseline on the
+        same seeds (--reset --no-learn --no-save, which leaves the tree empty so every tick
+        escalates) before attributing it to the tree. A rising hit rate with falling success
+        is the failure mode these two numbers are reported together to catch.
+
+PASS

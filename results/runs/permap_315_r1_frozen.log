@@ -1,0 +1,59 @@
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-25/data/PM_luna_315_r1.json -- 7 rule(s) carried in, 6 episode(s) of history ===
+
+=== Episode 1/1 (seed 315) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    7     16     16     0   100%      7    1.0    177      9.3     38%      6         6  yes (human_requested)
+  agree: ticks whose action matched the verified scripted rules (6/16 = 38% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (6 of 6).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=brief
+      blocked=dynamic
+        NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 0 bad, 1 contradicted]
+    stopped=no
+      blocked=dynamic
+        route=ok
+          contact=clear
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=forward
+                    heading=on
+                      blocker=abandoned
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+                        deadline=ok
+                          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 2, 4 ok / 0 bad, 1 contradicted]
+                      blocker=parked
+                        NOMINAL -> WAIT [support 3 in 2 ep, fires 17, 0 ok / 0 bad, 2 contradicted]
+                  progress=stalled
+                    heading=on
+                      blocker=abandoned
+                        NOMINAL -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+          contact=near
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=forward
+                    heading=on
+                      blocker=abandoned
+                        NOMINAL -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+  hold=yes
+    stopped=no
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 15 in 2 ep, fires 57, 0 ok / 0 bad]
+
+  7 active rule(s), 0 retired, over 7 episode(s) of history.
+
+=== Totals ===
+  108 ticks: 76 from the tree, 32 to the teacher (70% hit rate); rules +5 new, 21 reinforced, 2 refined, 0 replaced, 4 contradicted, 27 confirmation asks; outcomes 7 ok / 0 bad (24 unresolved, 1 orphaned), 0 retired
+
+  reached the goal in 1/1 episode(s) (1 of them by rightly calling a human)
+
+PASS

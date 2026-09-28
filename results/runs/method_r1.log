@@ -1,0 +1,1427 @@
+=== Loading gpt-6-luna (quantization=4bit, llm_worker=thread) ===
+=== Teacher: gpt-6-luna over its API, temperature 0, called from the async worker thread; usage -> /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.api.jsonl ===
+=== Tree: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.json -- 0 rule(s) carried in, 0 episode(s) of history ===
+=== Experience table: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.experience.json -- 0 situation-action pair(s) carried in ===
+
+=== Episode 1/200 (seed 100) ===
+  [experience] 2 replays in 17 s (recorded goal@164): REPLAN_ROUTE@25 needed (without it goal@350)
+  tree: 12 ticks: 0 from the tree, 12 to the teacher (0% hit rate); rules +4 new, 8 reinforced, 0 refined, 0 replaced, 0 contradicted, 8 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 2/200 (seed 101) ===
+  [experience] 3 replays in 15 s (recorded goal@338): REPLAN_ROUTE@25 unnecessary (without it goal@347), WAIT@145 harmful (without it goal@203)
+  tree: 32 ticks: 27 from the tree, 5 to the teacher (84% hit rate); rules +1 new, 3 reinforced, 1 refined, 0 replaced, 0 contradicted, 4 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 3/200 (seed 102) ===
+  [experience] 3 replays in 3 s (recorded human_requested@43): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 0 from the tree, 2 to the teacher (0% hit rate); rules +1 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 4/200 (seed 103) ===
+  [experience] 6 replays in 30 s (recorded goal@372): REPLAN_ROUTE@25 unnecessary (without it goal@374), WAIT@35 harmful (without it goal@172), WAIT@75 harmful (without it goal@191), WAIT@215 harmful (without it goal@331), WAIT@245 harmful (without it goal@356)
+  tree: 35 ticks: 34 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 2 ok / 1 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 5/200 (seed 104) ===
+  [experience] 4 replays in 8 s (recorded goal@244): WAIT@25 harmful (without it goal@162), WAIT@55 harmful (without it goal@191), WAIT@85 harmful (without it goal@217)
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 12 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 6/200 (seed 105) ===
+  [experience] 6 replays in 21 s (recorded goal@246): REPLAN_ROUTE@25 needed (without it goal@300), WAIT@85 harmful (without it goal@152), WAIT@115 harmful (without it goal@177), WAIT@145 harmful (without it goal@201), WAIT@175 harmful (without it goal@226)
+  [experience] 1 rule(s) retired on replay labels
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 7/200 (seed 106) ===
+  [experience] 3 replays in 4 s (recorded human_requested@42): REPLAN_ROUTE@25 needed (without it human_requested@137), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 1 from the tree, 1 to the teacher (50% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 8/200 (seed 107) ===
+  [experience] 3 replays in 19 s (recorded goal@147): REPLAN_ROUTE@25 needed (without it goal@350), REORIENT@35 unnecessary (without it goal@137)
+  tree: 13 ticks: 12 from the tree, 1 to the teacher (92% hit rate); rules +0 new, 0 reinforced, 1 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 9/200 (seed 108) ===
+  [experience] 2 replays in 23 s (recorded goal@138): REPLAN_ROUTE@25 needed (without it goal@388)
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 10/200 (seed 109) ===
+  [experience] 4 replays in 11 s (recorded human_requested@162): WAIT@25 unnecessary (without it human_requested@157), WAIT@65 unnecessary (without it human_requested@157), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 14 ticks: 11 from the tree, 3 to the teacher (79% hit rate); rules +1 new, 1 reinforced, 1 refined, 0 replaced, 0 contradicted, 2 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 11/200 (seed 110) ===
+  [experience] 2 replays in 17 s (recorded goal@175): REPLAN_ROUTE@25 needed (without it goal@353)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 12/200 (seed 111) ===
+  [experience] 4 replays in 15 s (recorded goal@217): WAIT@25 needed (without it goal@244), WAIT@65 needed (without it goal@258), REORIENT@95 needed (without it goal@249)
+  tree: 20 ticks: 17 from the tree, 3 to the teacher (85% hit rate); rules +3 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 13/200 (seed 112) ===
+  [experience] 3 replays in 27 s (recorded human_requested@162): WAIT@25 unnecessary (without it human_requested@157), REQUEST_HUMAN@155 needed (without it watchdog@209)
+  tree: 14 ticks: 12 from the tree, 2 to the teacher (86% hit rate); rules +0 new, 2 reinforced, 0 refined, 0 replaced, 0 contradicted, 2 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 14/200 (seed 113) ===
+  [experience] 4 replays in 28 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 unnecessary (without it human_requested@157), REQUEST_HUMAN@155 needed (without it watchdog@203)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 15/200 (seed 114) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 22 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 16/200 (seed 115) ===
+  [experience] 3 replays in 20 s (recorded goal@346): REPLAN_ROUTE@25 needed (without it goal@405), WAIT@105 harmful (without it goal@158)
+  tree: 32 ticks: 31 from the tree, 1 to the teacher (97% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 17/200 (seed 116) ===
+  [experience] 4 replays in 25 s (recorded human_requested@157): WAIT@25 needed (without it watchdog@87), WAIT@55 needed (without it watchdog@112), REQUEST_HUMAN@155 needed (without it watchdog@206)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 18/200 (seed 117) ===
+  [experience] 5 replays in 19 s (recorded goal@371): REPLAN_ROUTE@25 harmful (without it goal@325), WAIT@65 harmful (without it goal@310), WAIT@105 harmful (without it goal@327), WAIT@265 unnecessary (without it goal@368)
+  tree: 34 ticks: 30 from the tree, 4 to the teacher (88% hit rate); rules +1 new, 2 reinforced, 1 refined, 0 replaced, 0 contradicted, 3 confirmation asks; outcomes 1 ok / 1 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 19/200 (seed 118) ===
+  [experience] 5 replays in 18 s (recorded goal@227): REPLAN_ROUTE@25 needed (without it goal@339), WAIT@165 harmful (without it goal@179), WAIT@195 harmful (without it goal@203), WAIT@225 unnecessary (without it goal@227)
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 20/200 (seed 119) ===
+  [experience] 5 replays in 15 s (recorded goal@235): REPLAN_ROUTE@25 needed (without it goal@329), WAIT@145 harmful (without it goal@162), WAIT@175 harmful (without it goal@187), WAIT@205 harmful (without it goal@211)
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 21/200 (seed 120) ===
+  [experience] 4 replays in 11 s (recorded goal@212): REORIENT@45 harmful (without it goal@192), WAIT@85 harmful (without it goal@179), WAIT@115 harmful (without it goal@187)
+  tree: 19 ticks: 17 from the tree, 2 to the teacher (89% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 1 contradicted, 2 confirmation asks; outcomes 2 ok / 3 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 22/200 (seed 121) ===
+  [experience] 3 replays in 18 s (recorded goal@490): REPLAN_ROUTE@25 needed (without it timeout@500), WAIT@95 harmful (without it goal@168)
+  tree: 47 ticks: 47 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 23/200 (seed 122) ===
+  [experience] 2 replays in 12 s (recorded goal@127): REPLAN_ROUTE@25 needed (without it goal@273)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 24/200 (seed 123) ===
+  [experience] 2 replays in 14 s (recorded goal@158): REPLAN_ROUTE@25 needed (without it goal@315)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 25/200 (seed 124) ===
+  [experience] 4 replays in 27 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 needed (without it watchdog@133), REQUEST_HUMAN@155 needed (without it watchdog@207)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0025.json
+
+=== Episode 26/200 (seed 125) ===
+  [experience] 3 replays in 18 s (recorded goal@344): REPLAN_ROUTE@25 unnecessary (without it goal@341), WAIT@65 harmful (without it goal@182)
+  tree: 32 ticks: 31 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 27/200 (seed 126) ===
+  [experience] 2 replays in 13 s (recorded goal@140): REPLAN_ROUTE@25 needed (without it goal@213)
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 28/200 (seed 127) ===
+  [experience] 4 replays in 15 s (recorded goal@186): REPLAN_ROUTE@25 needed (without it goal@275), WAIT@115 harmful (without it goal@145), WAIT@145 harmful (without it goal@170)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 29/200 (seed 128) ===
+  [experience] 3 replays in 23 s (recorded goal@178): WAIT@25 needed (without it watchdog@87), WAIT@55 needed (without it watchdog@114)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 30/200 (seed 129) ===
+  [experience] 3 replays in 22 s (recorded goal@161): WAIT@25 needed (without it watchdog@87), WAIT@55 unnecessary (without it goal@167)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 31/200 (seed 130) ===
+  [experience] 6 replays in 54 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 unnecessary (without it human_requested@157), WAIT@85 needed (without it human_requested@177), WAIT@115 needed (without it watchdog@174), REQUEST_HUMAN@155 needed (without it watchdog@210)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 32/200 (seed 131) ===
+  [experience] 3 replays in 8 s (recorded goal@319): REPLAN_ROUTE@25 harmful (without it goal@241), REORIENT@35 harmful (without it goal@165)
+  tree: 30 ticks: 29 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 25 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 33/200 (seed 132) ===
+  [experience] 7 replays in 21 s (recorded goal@300): REPLAN_ROUTE@25 needed (without it goal@394), WAIT@155 harmful (without it goal@182), WAIT@185 harmful (without it goal@207), WAIT@215 harmful (without it goal@232), WAIT@245 harmful (without it goal@257), WAIT@275 harmful (without it goal@281)
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 34/200 (seed 133) ===
+  [experience] 4 replays in 25 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 unnecessary (without it human_requested@157), REQUEST_HUMAN@155 needed (without it watchdog@213)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 35/200 (seed 134) ===
+  [experience] 3 replays in 5 s (recorded human_requested@45): REPLAN_ROUTE@25 needed (without it human_requested@187), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 1 from the tree, 1 to the teacher (50% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 36/200 (seed 135) ===
+  [experience] 2 replays in 22 s (recorded goal@186): WAIT@35 needed (without it watchdog@91)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 37/200 (seed 136) ===
+  [experience] 4 replays in 30 s (recorded goal@237): WAIT@25 harmful (without it goal@206), WAIT@55 unnecessary (without it goal@228), WAIT@125 harmful (without it goal@202)
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 38/200 (seed 137) ===
+  [experience] 7 replays in 17 s (recorded goal@337): REPLAN_ROUTE@25 unnecessary (without it goal@341), WAIT@55 harmful (without it goal@173), WAIT@85 harmful (without it goal@195), WAIT@115 harmful (without it goal@219), WAIT@185 harmful (without it goal@283), WAIT@235 unnecessary (without it goal@328)
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 39/200 (seed 138) ===
+  [experience] 3 replays in 12 s (recorded goal@424): REPLAN_ROUTE@25 harmful (without it goal@335), WAIT@125 harmful (without it goal@184)
+  tree: 40 ticks: 40 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 40/200 (seed 139) ===
+  [experience] 4 replays in 10 s (recorded goal@234): REPLAN_ROUTE@25 unnecessary (without it goal@235), WAIT@55 harmful (without it goal@186), WAIT@85 harmful (without it goal@211)
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 41/200 (seed 140) ===
+  tree: 5 ticks: 5 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 42/200 (seed 141) ===
+  [experience] 2 replays in 16 s (recorded goal@151): REPLAN_ROUTE@25 needed (without it goal@317)
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 43/200 (seed 142) ===
+  [experience] 4 replays in 24 s (recorded human_requested@157): WAIT@25 needed (without it watchdog@87), WAIT@55 needed (without it watchdog@110), REQUEST_HUMAN@155 needed (without it watchdog@203)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 44/200 (seed 143) ===
+  [experience] 6 replays in 20 s (recorded goal@275): REPLAN_ROUTE@25 needed (without it goal@352), WAIT@145 harmful (without it goal@180), WAIT@175 harmful (without it goal@205), WAIT@205 harmful (without it goal@230), WAIT@235 harmful (without it goal@255)
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 45/200 (seed 144) ===
+  [experience] 3 replays in 14 s (recorded goal@347): REPLAN_ROUTE@25 needed (without it goal@398), WAIT@125 harmful (without it goal@153)
+  tree: 33 ticks: 33 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 46/200 (seed 145) ===
+  [experience] 3 replays in 23 s (recorded human_requested@157): WAIT@25 needed (without it watchdog@87), REQUEST_HUMAN@155 needed (without it watchdog@210)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 47/200 (seed 146) ===
+  [experience] 4 replays in 27 s (recorded goal@182): WAIT@25 unnecessary (without it goal@175), WAIT@55 needed (without it watchdog@121), WAIT@85 harmful (without it goal@169)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 48/200 (seed 147) ===
+  [experience] 2 replays in 8 s (recorded goal@163): REPLAN_ROUTE@25 needed (without it goal@235)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 49/200 (seed 148) ===
+  [experience] 7 replays in 23 s (recorded goal@311): REPLAN_ROUTE@25 needed (without it goal@406), REORIENT@35 harmful (without it goal@161), WAIT@155 harmful (without it goal@188), WAIT@185 harmful (without it goal@213), WAIT@215 harmful (without it goal@237), WAIT@245 harmful (without it goal@262)
+  tree: 29 ticks: 29 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 50/200 (seed 149) ===
+  [experience] 2 replays in 13 s (recorded goal@187): REPLAN_ROUTE@25 needed (without it goal@338)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0050.json
+
+=== Episode 51/200 (seed 150) ===
+  [experience] 2 replays in 10 s (recorded goal@198): WAIT@45 unnecessary (without it goal@195)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 52/200 (seed 151) ===
+  [experience] 2 replays in 15 s (recorded goal@159): REPLAN_ROUTE@25 needed (without it goal@309)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 53/200 (seed 152) ===
+  [experience] 4 replays in 13 s (recorded goal@185): WAIT@35 unnecessary (without it goal@183), REORIENT@75 needed (without it goal@234), WAIT@125 unnecessary (without it goal@177)
+  tree: 16 ticks: 14 from the tree, 2 to the teacher (88% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 2 contradicted, 2 confirmation asks; outcomes 1 ok / 3 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 54/200 (seed 153) ===
+  [experience] 6 replays in 27 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 unnecessary (without it human_requested@157), WAIT@85 needed (without it human_requested@207), WAIT@115 needed (without it human_requested@177), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 55/200 (seed 154) ===
+  [experience] 3 replays in 27 s (recorded goal@174): WAIT@25 needed (without it watchdog@99), WAIT@55 unnecessary (without it goal@181)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 56/200 (seed 155) ===
+  [experience] 4 replays in 22 s (recorded goal@165): REPLAN_ROUTE@25 needed (without it goal@391), REORIENT@35 harmful (without it goal@130), WAIT@65 unnecessary (without it goal@161)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 57/200 (seed 156) ===
+  [experience] 6 replays in 15 s (recorded goal@254): REPLAN_ROUTE@25 needed (without it goal@319), WAIT@125 harmful (without it goal@160), WAIT@155 harmful (without it goal@184), WAIT@185 harmful (without it goal@209), WAIT@215 harmful (without it goal@234)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 58/200 (seed 157) ===
+  [experience] 5 replays in 20 s (recorded goal@187): WAIT@35 harmful (without it goal@175), WAIT@65 unnecessary (without it goal@192), WAIT@95 harmful (without it goal@168), WAIT@125 unnecessary (without it goal@184)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 59/200 (seed 158) ===
+  [experience] 4 replays in 10 s (recorded goal@188): REPLAN_ROUTE@25 needed (without it goal@239), WAIT@125 harmful (without it goal@153), WAIT@165 unnecessary (without it goal@183)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 60/200 (seed 159) ===
+  [experience] 2 replays in 11 s (recorded goal@137): REPLAN_ROUTE@25 needed (without it goal@231)
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 61/200 (seed 160) ===
+  [experience] 2 replays in 24 s (recorded goal@207): WAIT@55 needed (without it watchdog@113)
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 62/200 (seed 161) ===
+  [experience] 4 replays in 24 s (recorded human_requested@157): REORIENT@25 unnecessary (without it human_requested@167), WAIT@105 needed (without it watchdog@161), REQUEST_HUMAN@155 needed (without it watchdog@209)
+  tree: 10 ticks: 9 from the tree, 1 to the teacher (90% hit rate); rules +0 new, 0 reinforced, 1 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 63/200 (seed 162) ===
+  [experience] 5 replays in 17 s (recorded timeout@500): REPLAN_ROUTE@25 harmful (without it goal@479), WAIT@45 harmful (without it goal@182), WAIT@85 harmful (without it goal@205), WAIT@395 harmful (without it goal@479)
+  [experience] 1 rule(s) retired on replay labels
+  tree: 48 ticks: 47 from the tree, 1 to the teacher (98% hit rate); rules +0 new, 0 reinforced, 0 refined, 1 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 1 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 64/200 (seed 163) ===
+  [experience] 3 replays in 11 s (recorded goal@271): REORIENT@75 harmful (without it goal@140), WAIT@115 harmful (without it goal@151)
+  tree: 24 ticks: 22 from the tree, 2 to the teacher (92% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 1 contradicted, 1 confirmation asks; outcomes 0 ok / 6 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 65/200 (seed 164) ===
+  [experience] 2 replays in 21 s (recorded goal@129): REPLAN_ROUTE@25 needed (without it goal@331)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 66/200 (seed 165) ===
+  [experience] 3 replays in 5 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 67/200 (seed 166) ===
+  [experience] 2 replays in 11 s (recorded goal@132): REPLAN_ROUTE@25 needed (without it goal@188)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 68/200 (seed 167) ===
+  [experience] 7 replays in 66 s (recorded goal@466): REPLAN_ROUTE@25 harmful (without it goal@367), REORIENT@95 needed (without it watchdog@134), WAIT@145 harmful (without it goal@343), WAIT@375 harmful (without it goal@393), WAIT@405 harmful (without it goal@418)
+  tree: 42 ticks: 40 from the tree, 2 to the teacher (95% hit rate); rules +1 new, 0 reinforced, 1 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 6 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 69/200 (seed 168) ===
+  [experience] 3 replays in 3 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@127), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 70/200 (seed 169) ===
+  [experience] 3 replays in 19 s (recorded goal@315): REPLAN_ROUTE@25 unnecessary (without it goal@319), WAIT@125 harmful (without it goal@177)
+  tree: 29 ticks: 29 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 71/200 (seed 170) ===
+  [experience] 3 replays in 3 s (recorded human_requested@47): REPLAN_ROUTE@25 needed (without it human_requested@167), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 1 from the tree, 1 to the teacher (50% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 72/200 (seed 171) ===
+  [experience] 6 replays in 24 s (recorded goal@333): REPLAN_ROUTE@25 unnecessary (without it goal@333), REORIENT@35 harmful (without it goal@163), WAIT@65 harmful (without it goal@186), WAIT@105 harmful (without it goal@208), WAIT@145 needed (without it watchdog@197)
+  tree: 31 ticks: 29 from the tree, 2 to the teacher (94% hit rate); rules +1 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 0 ok / 2 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 73/200 (seed 172) ===
+  [experience] 3 replays in 23 s (recorded human_requested@157): WAIT@25 needed (without it watchdog@88), REQUEST_HUMAN@155 needed (without it watchdog@215)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 74/200 (seed 173) ===
+  [experience] 3 replays in 25 s (recorded goal@183): WAIT@25 unnecessary (without it goal@177), WAIT@55 unnecessary (without it goal@189)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 75/200 (seed 174) ===
+  [experience] 5 replays in 19 s (recorded goal@259): REPLAN_ROUTE@25 needed (without it goal@303), WAIT@135 harmful (without it goal@185), WAIT@165 harmful (without it goal@210), WAIT@195 harmful (without it goal@235)
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0075.json
+
+=== Episode 76/200 (seed 175) ===
+  [experience] 3 replays in 3 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 77/200 (seed 176) ===
+  [experience] 2 replays in 30 s (recorded goal@169): WAIT@25 needed (without it watchdog@98)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 78/200 (seed 177) ===
+  [experience] 3 replays in 16 s (recorded goal@174): REPLAN_ROUTE@25 needed (without it goal@333), WAIT@145 harmful (without it goal@152)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 79/200 (seed 178) ===
+  [experience] 5 replays in 12 s (recorded human_requested@157): WAIT@25 needed (without it human_requested@207), REORIENT@65 needed (without it human_requested@207), WAIT@105 needed (without it human_requested@177), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 13 ticks: 12 from the tree, 1 to the teacher (92% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 1 contradicted, 1 confirmation asks; outcomes 1 ok / 2 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 80/200 (seed 179) ===
+  [experience] 3 replays in 10 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@107), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 81/200 (seed 180) ===
+  [experience] 3 replays in 25 s (recorded goal@189): WAIT@25 unnecessary (without it goal@180), WAIT@55 unnecessary (without it goal@193)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 82/200 (seed 181) ===
+  [experience] 3 replays in 4 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@127), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 83/200 (seed 182) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 84/200 (seed 183) ===
+  [experience] 3 replays in 26 s (recorded goal@165): WAIT@25 unnecessary (without it goal@159), WAIT@55 unnecessary (without it goal@171)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 85/200 (seed 184) ===
+  [experience] 6 replays in 17 s (recorded goal@280): REPLAN_ROUTE@25 needed (without it goal@331), WAIT@105 harmful (without it goal@190), WAIT@145 harmful (without it goal@215), WAIT@175 harmful (without it goal@240), WAIT@205 harmful (without it goal@265)
+  tree: 25 ticks: 24 from the tree, 1 to the teacher (96% hit rate); rules +0 new, 0 reinforced, 0 refined, 1 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 86/200 (seed 185) ===
+  [experience] 5 replays in 12 s (recorded goal@226): REPLAN_ROUTE@25 unnecessary (without it goal@220), WAIT@75 harmful (without it goal@155), WAIT@165 harmful (without it goal@184), WAIT@195 harmful (without it goal@209)
+  tree: 20 ticks: 20 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 87/200 (seed 186) ===
+  [experience] 4 replays in 16 s (recorded goal@316): REPLAN_ROUTE@25 needed (without it goal@342), REORIENT@35 harmful (without it goal@178), WAIT@165 harmful (without it goal@203)
+  tree: 29 ticks: 29 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 88/200 (seed 187) ===
+  [experience] 6 replays in 34 s (recorded human_requested@167): WAIT@25 unnecessary (without it human_requested@157), REORIENT@65 unnecessary (without it human_requested@157), WAIT@105 unnecessary (without it human_requested@167), WAIT@135 needed (without it human_requested@197), REQUEST_HUMAN@165 needed (without it watchdog@227)
+  tree: 14 ticks: 13 from the tree, 1 to the teacher (93% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 2 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 89/200 (seed 188) ===
+  [experience] 7 replays in 39 s (recorded goal@273): REPLAN_ROUTE@25 unnecessary (without it goal@275), WAIT@55 harmful (without it goal@167), WAIT@95 harmful (without it goal@192), WAIT@125 needed (without it collision@164), WAIT@155 harmful (without it goal@250), WAIT@185 unnecessary (without it goal@271)
+  tree: 24 ticks: 23 from the tree, 1 to the teacher (96% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 3 ok / 1 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 90/200 (seed 189) ===
+  [experience] 2 replays in 17 s (recorded goal@161): REPLAN_ROUTE@25 needed (without it goal@327)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 91/200 (seed 190) ===
+  [experience] 5 replays in 14 s (recorded goal@254): REPLAN_ROUTE@25 harmful (without it goal@225), WAIT@165 harmful (without it goal@181), WAIT@195 harmful (without it goal@206), WAIT@225 harmful (without it goal@231)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 92/200 (seed 191) ===
+  [experience] 2 replays in 6 s (recorded goal@145): REPLAN_ROUTE@25 needed (without it goal@197)
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 93/200 (seed 192) ===
+  [experience] 2 replays in 18 s (recorded goal@150): REPLAN_ROUTE@25 needed (without it goal@327)
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 94/200 (seed 193) ===
+  [experience] 2 replays in 16 s (recorded goal@199): WAIT@45 unnecessary (without it goal@194)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 95/200 (seed 194) ===
+  [experience] 4 replays in 9 s (recorded goal@164): REORIENT@25 harmful (without it goal@152), WAIT@75 harmful (without it goal@146), WAIT@105 unnecessary (without it goal@161)
+  tree: 13 ticks: 12 from the tree, 1 to the teacher (92% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 96/200 (seed 195) ===
+  [experience] 3 replays in 33 s (recorded goal@183): WAIT@25 needed (without it watchdog@86), WAIT@55 needed (without it watchdog@113)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 97/200 (seed 196) ===
+  [experience] 3 replays in 36 s (recorded goal@398): REPLAN_ROUTE@25 harmful (without it goal@304), WAIT@135 harmful (without it goal@370)
+  tree: 37 ticks: 36 from the tree, 1 to the teacher (97% hit rate); rules +1 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 24 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 98/200 (seed 197) ===
+  [experience] 3 replays in 22 s (recorded goal@160): WAIT@25 needed (without it watchdog@87), WAIT@55 unnecessary (without it goal@170)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 99/200 (seed 198) ===
+  [experience] 3 replays in 12 s (recorded goal@204): REPLAN_ROUTE@25 needed (without it goal@277), WAIT@55 harmful (without it goal@179)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 100/200 (seed 199) ===
+  [experience] 7 replays in 14 s (recorded goal@338): REPLAN_ROUTE@25 harmful (without it goal@311), WAIT@65 harmful (without it goal@169), WAIT@95 harmful (without it goal@190), WAIT@125 needed (without it collision@147), WAIT@305 harmful (without it goal@314), WAIT@335 unnecessary (without it goal@338)
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0100.json
+
+=== Episode 101/200 (seed 200) ===
+  [experience] 4 replays in 28 s (recorded goal@234): WAIT@25 unnecessary (without it goal@232), WAIT@115 harmful (without it goal@194), WAIT@145 harmful (without it goal@217)
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 102/200 (seed 201) ===
+  [experience] 4 replays in 15 s (recorded goal@190): REPLAN_ROUTE@25 needed (without it goal@342), WAIT@155 harmful (without it goal@166), WAIT@185 unnecessary (without it goal@189)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 103/200 (seed 202) ===
+  [experience] 2 replays in 7 s (recorded goal@166): REPLAN_ROUTE@25 needed (without it goal@242)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 104/200 (seed 203) ===
+  [experience] 4 replays in 14 s (recorded goal@298): REPLAN_ROUTE@25 harmful (without it goal@200), REORIENT@35 harmful (without it goal@149), WAIT@65 harmful (without it goal@241)
+  tree: 28 ticks: 27 from the tree, 1 to the teacher (96% hit rate); rules +0 new, 0 reinforced, 1 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 23 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 105/200 (seed 204) ===
+  [experience] 4 replays in 26 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 needed (without it watchdog@114), REQUEST_HUMAN@155 needed (without it watchdog@209)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 106/200 (seed 205) ===
+  [experience] 3 replays in 28 s (recorded goal@194): WAIT@25 unnecessary (without it goal@187), WAIT@55 needed (without it watchdog@114)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 107/200 (seed 206) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 108/200 (seed 207) ===
+  [experience] 4 replays in 7 s (recorded goal@201): WAIT@25 harmful (without it goal@169), WAIT@65 unnecessary (without it goal@199), REORIENT@105 needed (without it goal@237)
+  tree: 17 ticks: 15 from the tree, 2 to the teacher (88% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 2 contradicted, 1 confirmation asks; outcomes 1 ok / 2 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 109/200 (seed 208) ===
+  [experience] 3 replays in 20 s (recorded goal@289): REPLAN_ROUTE@25 needed (without it goal@343), WAIT@135 harmful (without it goal@174)
+  tree: 27 ticks: 27 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 110/200 (seed 209) ===
+  [experience] 3 replays in 7 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 111/200 (seed 210) ===
+  [experience] 3 replays in 4 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 112/200 (seed 211) ===
+  [experience] 3 replays in 7 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 113/200 (seed 212) ===
+  [experience] 6 replays in 19 s (recorded human_requested@207): WAIT@25 harmful (without it human_requested@157), WAIT@55 harmful (without it human_requested@187), WAIT@85 harmful (without it human_requested@157), WAIT@155 unnecessary (without it human_requested@217), REQUEST_HUMAN@205 needed (without it human_requested@267)
+  tree: 18 ticks: 17 from the tree, 1 to the teacher (94% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 114/200 (seed 213) ===
+  [experience] 7 replays in 42 s (recorded human_requested@177): WAIT@25 harmful (without it human_requested@157), WAIT@55 harmful (without it human_requested@157), WAIT@85 unnecessary (without it human_requested@177), WAIT@115 unnecessary (without it human_requested@177), WAIT@145 needed (without it human_requested@207), REQUEST_HUMAN@175 needed (without it human_requested@237)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 115/200 (seed 214) ===
+  [experience] 2 replays in 27 s (recorded goal@164): WAIT@25 needed (without it watchdog@87)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 116/200 (seed 215) ===
+  [experience] 2 replays in 23 s (recorded goal@173): WAIT@35 needed (without it watchdog@85)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 117/200 (seed 216) ===
+  [experience] 3 replays in 2 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 118/200 (seed 217) ===
+  [experience] 3 replays in 29 s (recorded goal@193): WAIT@35 unnecessary (without it goal@187), WAIT@65 needed (without it watchdog@124)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 119/200 (seed 218) ===
+  [experience] 6 replays in 14 s (recorded goal@229): REPLAN_ROUTE@25 needed (without it goal@320), WAIT@115 harmful (without it goal@136), WAIT@145 harmful (without it goal@161), WAIT@175 harmful (without it goal@185), WAIT@205 harmful (without it goal@210)
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 120/200 (seed 219) ===
+  [experience] 7 replays in 28 s (recorded goal@461): WAIT@25 harmful (without it goal@220), WAIT@65 harmful (without it goal@289), WAIT@105 harmful (without it goal@267), WAIT@135 harmful (without it goal@293), WAIT@165 harmful (without it goal@320), REORIENT@255 harmful (without it goal@374)
+  tree: 43 ticks: 39 from the tree, 4 to the teacher (91% hit rate); rules +0 new, 3 reinforced, 0 refined, 0 replaced, 1 contradicted, 2 confirmation asks; outcomes 3 ok / 8 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 121/200 (seed 220) ===
+  [experience] 2 replays in 22 s (recorded goal@128): REPLAN_ROUTE@25 needed (without it goal@333)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 122/200 (seed 221) ===
+  [experience] 6 replays in 12 s (recorded goal@281): REPLAN_ROUTE@25 needed (without it goal@346), WAIT@145 harmful (without it goal@199), WAIT@175 harmful (without it goal@224), WAIT@205 harmful (without it goal@249), WAIT@235 unnecessary (without it goal@274)
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 123/200 (seed 222) ===
+  [experience] 3 replays in 24 s (recorded goal@271): REPLAN_ROUTE@25 needed (without it goal@297), WAIT@95 harmful (without it goal@178)
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 124/200 (seed 223) ===
+  [experience] 6 replays in 46 s (recorded goal@369): REPLAN_ROUTE@25 unnecessary (without it goal@366), WAIT@35 needed (without it timeout@500), WAIT@75 unnecessary (without it goal@365), REORIENT@195 needed (without it timeout@500), WAIT@235 harmful (without it goal@355)
+  tree: 35 ticks: 32 from the tree, 3 to the teacher (91% hit rate); rules +2 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 2 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 125/200 (seed 224) ===
+  [experience] 2 replays in 16 s (recorded goal@277): WAIT@45 harmful (without it goal@192)
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 12 bad (1 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0125.json
+
+=== Episode 126/200 (seed 225) ===
+  [experience] 3 replays in 2 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 127/200 (seed 226) ===
+  [experience] 7 replays in 37 s (recorded goal@335): REPLAN_ROUTE@25 needed (without it goal@430), WAIT@125 harmful (without it goal@168), WAIT@155 harmful (without it goal@193), WAIT@185 harmful (without it goal@218), WAIT@215 harmful (without it goal@243), WAIT@245 harmful (without it goal@267)
+  tree: 31 ticks: 31 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (4 unresolved, 0 orphaned), 0 retired
+
+=== Episode 128/200 (seed 227) ===
+  [experience] 6 replays in 30 s (recorded goal@255): REPLAN_ROUTE@25 needed (without it goal@309), WAIT@105 harmful (without it goal@172), WAIT@135 harmful (without it goal@197), WAIT@165 harmful (without it goal@221), WAIT@195 unnecessary (without it goal@246)
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 129/200 (seed 228) ===
+  [experience] 3 replays in 4 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 130/200 (seed 229) ===
+  [experience] 3 replays in 19 s (recorded goal@269): REPLAN_ROUTE@25 needed (without it goal@292), WAIT@145 harmful (without it goal@170)
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 131/200 (seed 230) ===
+  [experience] 5 replays in 28 s (recorded human_requested@157): WAIT@25 needed (without it human_requested@187), WAIT@55 unnecessary (without it human_requested@157), WAIT@85 needed (without it human_requested@177), REQUEST_HUMAN@155 needed (without it watchdog@208)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 132/200 (seed 231) ===
+  [experience] 2 replays in 8 s (recorded goal@200): WAIT@55 unnecessary (without it goal@197)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 133/200 (seed 232) ===
+  [experience] 3 replays in 32 s (recorded goal@172): WAIT@25 needed (without it watchdog@99), WAIT@55 needed (without it watchdog@112)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 134/200 (seed 233) ===
+  [experience] 3 replays in 24 s (recorded goal@170): WAIT@25 needed (without it watchdog@101), WAIT@55 unnecessary (without it goal@168)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 135/200 (seed 234) ===
+  [experience] 3 replays in 18 s (recorded goal@279): REPLAN_ROUTE@25 needed (without it goal@330), WAIT@125 harmful (without it goal@155)
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 136/200 (seed 235) ===
+  [experience] 3 replays in 10 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@177), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 137/200 (seed 236) ===
+  tree: 6 ticks: 6 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 138/200 (seed 237) ===
+  [experience] 4 replays in 24 s (recorded goal@258): WAIT@25 needed (without it watchdog@86), WAIT@55 needed (without it watchdog@111), WAIT@135 harmful (without it goal@219)
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 139/200 (seed 238) ===
+  [experience] 3 replays in 22 s (recorded goal@173): WAIT@25 needed (without it watchdog@87), WAIT@55 needed (without it watchdog@114)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 140/200 (seed 239) ===
+  [experience] 4 replays in 20 s (recorded goal@216): REPLAN_ROUTE@25 needed (without it goal@313), WAIT@155 harmful (without it goal@168), WAIT@185 harmful (without it goal@192)
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 141/200 (seed 240) ===
+  [experience] 5 replays in 29 s (recorded goal@246): WAIT@25 unnecessary (without it goal@246), WAIT@55 unnecessary (without it goal@249), WAIT@85 harmful (without it goal@217), WAIT@135 harmful (without it goal@216)
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 142/200 (seed 241) ===
+  [experience] 3 replays in 2 s (recorded goal@203): WAIT@25 harmful (without it goal@79), WAIT@55 harmful (without it goal@102)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 143/200 (seed 242) ===
+  [experience] 3 replays in 4 s (recorded goal@137): WAIT@25 harmful (without it goal@115), WAIT@55 unnecessary (without it goal@134)
+  tree: 12 ticks: 12 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 144/200 (seed 243) ===
+  [experience] 3 replays in 24 s (recorded human_requested@157): WAIT@25 needed (without it watchdog@96), REQUEST_HUMAN@155 needed (without it watchdog@209)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 145/200 (seed 244) ===
+  [experience] 5 replays in 19 s (recorded goal@263): REPLAN_ROUTE@25 needed (without it goal@325), WAIT@115 harmful (without it goal@190), WAIT@145 harmful (without it goal@214), WAIT@175 harmful (without it goal@238)
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 146/200 (seed 245) ===
+  [experience] 3 replays in 26 s (recorded goal@175): WAIT@25 unnecessary (without it goal@169), WAIT@55 needed (without it watchdog@117)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 147/200 (seed 246) ===
+  [experience] 5 replays in 16 s (recorded goal@214): REPLAN_ROUTE@25 needed (without it goal@274), WAIT@105 harmful (without it goal@144), WAIT@135 harmful (without it goal@169), WAIT@165 harmful (without it goal@194)
+  tree: 19 ticks: 19 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 4 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 148/200 (seed 247) ===
+  [experience] 6 replays in 19 s (recorded goal@341): REPLAN_ROUTE@25 needed (without it goal@399), REORIENT@35 harmful (without it goal@163), WAIT@125 harmful (without it goal@193), WAIT@155 harmful (without it goal@218), WAIT@185 needed (without it collision@203)
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 149/200 (seed 248) ===
+  [experience] 3 replays in 16 s (recorded goal@246): REPLAN_ROUTE@25 needed (without it goal@287), WAIT@95 harmful (without it goal@146)
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 150/200 (seed 249) ===
+  [experience] 3 replays in 24 s (recorded goal@197): WAIT@25 unnecessary (without it goal@191), WAIT@55 needed (without it watchdog@132)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0150.json
+
+=== Episode 151/200 (seed 250) ===
+  [experience] 4 replays in 28 s (recorded goal@230): WAIT@25 needed (without it watchdog@92), WAIT@55 harmful (without it goal@217), WAIT@125 harmful (without it goal@205)
+  tree: 21 ticks: 21 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 152/200 (seed 251) ===
+  [experience] 3 replays in 16 s (recorded goal@329): REPLAN_ROUTE@25 harmful (without it goal@302), WAIT@85 harmful (without it goal@156)
+  tree: 31 ticks: 31 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 153/200 (seed 252) ===
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 15 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 154/200 (seed 253) ===
+  [experience] 3 replays in 5 s (recorded goal@181): REORIENT@35 unnecessary (without it goal@179), WAIT@95 harmful (without it goal@154)
+  tree: 15 ticks: 14 from the tree, 1 to the teacher (93% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 2 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 155/200 (seed 254) ===
+  [experience] the episode did not replay its own decisions; nothing labelled
+  [experience] 6 replays in 14 s (recorded goal@254): no labels
+  tree: 23 ticks: 23 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 1 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 156/200 (seed 255) ===
+  tree: 7 ticks: 7 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 157/200 (seed 256) ===
+  [experience] 2 replays in 9 s (recorded goal@173): WAIT@35 unnecessary (without it goal@170)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 158/200 (seed 257) ===
+  [experience] 3 replays in 16 s (recorded goal@301): REPLAN_ROUTE@25 needed (without it goal@353), WAIT@135 harmful (without it goal@178)
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 159/200 (seed 258) ===
+  [experience] 5 replays in 30 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 unnecessary (without it human_requested@157), WAIT@105 unnecessary (without it human_requested@167), REQUEST_HUMAN@155 needed (without it human_requested@217)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 160/200 (seed 259) ===
+  [experience] 3 replays in 17 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 161/200 (seed 260) ===
+  [experience] 3 replays in 27 s (recorded goal@185): WAIT@25 unnecessary (without it goal@177), WAIT@55 needed (without it goal@203)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 162/200 (seed 261) ===
+  [experience] 3 replays in 4 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@167), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 163/200 (seed 262) ===
+  [experience] 2 replays in 22 s (recorded goal@149): REPLAN_ROUTE@25 needed (without it goal@373)
+  tree: 13 ticks: 13 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 164/200 (seed 263) ===
+  [experience] 5 replays in 29 s (recorded human_requested@157): WAIT@25 unnecessary (without it human_requested@157), WAIT@55 needed (without it watchdog@117), WAIT@85 needed (without it watchdog@141), REQUEST_HUMAN@155 needed (without it watchdog@202)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 165/200 (seed 264) ===
+  tree: 9 ticks: 9 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 166/200 (seed 265) ===
+  [experience] 5 replays in 22 s (recorded goal@282): REPLAN_ROUTE@25 unnecessary (without it goal@281), WAIT@35 harmful (without it goal@140), WAIT@65 harmful (without it goal@167), WAIT@95 unnecessary (without it goal@281)
+  tree: 26 ticks: 26 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 1 bad (3 unresolved, 0 orphaned), 0 retired
+
+=== Episode 167/200 (seed 266) ===
+  tree: 22 ticks: 22 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 22 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 168/200 (seed 267) ===
+  [experience] 3 replays in 18 s (recorded goal@304): REPLAN_ROUTE@25 needed (without it goal@323), WAIT@155 harmful (without it goal@187)
+  tree: 28 ticks: 28 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 169/200 (seed 268) ===
+  [experience] 3 replays in 13 s (recorded goal@205): WAIT@45 unnecessary (without it goal@198), WAIT@75 harmful (without it goal@190)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 170/200 (seed 269) ===
+  [experience] 2 replays in 27 s (recorded goal@190): WAIT@55 unnecessary (without it goal@187)
+  tree: 17 ticks: 17 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 171/200 (seed 270) ===
+  [experience] 3 replays in 10 s (recorded goal@180): REPLAN_ROUTE@25 needed (without it goal@241), REORIENT@35 harmful (without it goal@154)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 172/200 (seed 271) ===
+  [experience] 4 replays in 29 s (recorded human_requested@157): WAIT@25 needed (without it human_requested@187), WAIT@55 unnecessary (without it human_requested@157), REQUEST_HUMAN@155 needed (without it watchdog@201)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 173/200 (seed 272) ===
+  [experience] 2 replays in 15 s (recorded goal@132): REPLAN_ROUTE@25 needed (without it goal@286)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 174/200 (seed 273) ===
+  [experience] 2 replays in 8 s (recorded goal@132): REPLAN_ROUTE@25 needed (without it goal@221)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 175/200 (seed 274) ===
+  [experience] 3 replays in 4 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@187), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0175.json
+
+=== Episode 176/200 (seed 275) ===
+  [experience] 3 replays in 8 s (recorded goal@198): WAIT@45 unnecessary (without it goal@194), REORIENT@85 needed (without it goal@224)
+  tree: 17 ticks: 15 from the tree, 2 to the teacher (88% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 1 contradicted, 1 confirmation asks; outcomes 1 ok / 3 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 177/200 (seed 276) ===
+  [experience] 2 replays in 15 s (recorded goal@134): REPLAN_ROUTE@25 needed (without it goal@306)
+  tree: 11 ticks: 11 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 178/200 (seed 277) ===
+  [experience] 3 replays in 3 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@107), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 179/200 (seed 278) ===
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 16 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 180/200 (seed 279) ===
+  [experience] 4 replays in 8 s (recorded goal@172): REORIENT@25 unnecessary (without it goal@169), WAIT@75 harmful (without it goal@153), WAIT@105 unnecessary (without it goal@165)
+  tree: 15 ticks: 14 from the tree, 1 to the teacher (93% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 1 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 181/200 (seed 280) ===
+  [experience] 3 replays in 30 s (recorded goal@163): REPLAN_ROUTE@25 needed (without it timeout@500), REORIENT@35 harmful (without it goal@135)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 182/200 (seed 281) ===
+  [experience] 3 replays in 22 s (recorded goal@183): REPLAN_ROUTE@25 needed (without it goal@395), WAIT@175 unnecessary (without it goal@180)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 183/200 (seed 282) ===
+  [experience] 5 replays in 21 s (recorded goal@263): REPLAN_ROUTE@25 needed (without it goal@307), WAIT@105 harmful (without it goal@189), WAIT@135 harmful (without it goal@214), WAIT@165 harmful (without it goal@238)
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 3 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 184/200 (seed 283) ===
+  [experience] 2 replays in 29 s (recorded goal@172): WAIT@35 needed (without it watchdog@82)
+  tree: 15 ticks: 15 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 185/200 (seed 284) ===
+  [experience] 6 replays in 18 s (recorded goal@269): REPLAN_ROUTE@25 harmful (without it goal@234), WAIT@85 harmful (without it goal@165), WAIT@115 harmful (without it goal@188), WAIT@195 harmful (without it goal@219), WAIT@225 harmful (without it goal@244)
+  tree: 25 ticks: 25 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 5 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 186/200 (seed 285) ===
+  [experience] 7 replays in 36 s (recorded human_requested@347): WAIT@25 harmful (without it human_requested@157), WAIT@55 harmful (without it human_requested@187), WAIT@85 harmful (without it human_requested@177), WAIT@115 harmful (without it human_requested@207), WAIT@145 harmful (without it human_requested@207), WAIT@175 harmful (without it human_requested@237)
+  tree: 31 ticks: 30 from the tree, 1 to the teacher (97% hit rate); rules +0 new, 0 reinforced, 1 refined, 0 replaced, 0 contradicted, 1 confirmation asks; outcomes 1 ok / 0 bad (10 unresolved, 0 orphaned), 0 retired
+
+=== Episode 187/200 (seed 286) ===
+  [experience] 7 replays in 15 s (recorded human_requested@177): WAIT@25 harmful (without it human_requested@157), WAIT@55 harmful (without it human_requested@157), WAIT@85 unnecessary (without it human_requested@177), WAIT@115 unnecessary (without it human_requested@177), WAIT@145 needed (without it human_requested@207), REQUEST_HUMAN@175 needed (without it human_requested@237)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 188/200 (seed 287) ===
+  [experience] 3 replays in 21 s (recorded goal@183): REPLAN_ROUTE@25 needed (without it goal@319), WAIT@155 harmful (without it goal@161)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 189/200 (seed 288) ===
+  [experience] 3 replays in 7 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@127), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 190/200 (seed 289) ===
+  [experience] 2 replays in 11 s (recorded goal@178): REPLAN_ROUTE@25 needed (without it goal@282)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 191/200 (seed 290) ===
+  [experience] 4 replays in 15 s (recorded goal@186): WAIT@35 needed (without it goal@224), WAIT@65 harmful (without it goal@175), WAIT@95 harmful (without it goal@175)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 192/200 (seed 291) ===
+  tree: 24 ticks: 24 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 24 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 193/200 (seed 292) ===
+  [experience] 3 replays in 7 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@197), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 194/200 (seed 293) ===
+  [experience] 7 replays in 39 s (recorded human_requested@177): WAIT@25 harmful (without it human_requested@157), WAIT@55 harmful (without it human_requested@157), WAIT@85 unnecessary (without it human_requested@177), WAIT@115 unnecessary (without it human_requested@177), WAIT@145 needed (without it collision@172), REQUEST_HUMAN@175 needed (without it collision@200)
+  tree: 16 ticks: 16 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (5 unresolved, 0 orphaned), 0 retired
+
+=== Episode 195/200 (seed 294) ===
+  [experience] 4 replays in 22 s (recorded goal@170): REORIENT@25 needed (without it goal@208), WAIT@75 harmful (without it goal@155), WAIT@105 harmful (without it goal@157)
+  tree: 15 ticks: 14 from the tree, 1 to the teacher (93% hit rate); rules +0 new, 1 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 1 bad (0 unresolved, 0 orphaned), 0 retired
+
+=== Episode 196/200 (seed 295) ===
+  [experience] 3 replays in 22 s (recorded human_requested@157): WAIT@25 needed (without it watchdog@83), REQUEST_HUMAN@155 needed (without it watchdog@209)
+  tree: 14 ticks: 14 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 197/200 (seed 296) ===
+  [experience] 5 replays in 15 s (recorded goal@339): WAIT@25 harmful (without it goal@265), WAIT@75 harmful (without it goal@281), WAIT@305 harmful (without it goal@315), WAIT@335 unnecessary (without it goal@339)
+  tree: 32 ticks: 32 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (2 unresolved, 0 orphaned), 0 retired
+
+=== Episode 198/200 (seed 297) ===
+  [experience] 4 replays in 40 s (recorded goal@202): WAIT@35 harmful (without it goal@191), WAIT@65 needed (without it goal@216), WAIT@95 unnecessary (without it goal@194)
+  tree: 18 ticks: 18 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 2 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 199/200 (seed 298) ===
+  [experience] 3 replays in 16 s (recorded human_requested@37): REPLAN_ROUTE@25 needed (without it human_requested@97), REQUEST_HUMAN@35 needed (without it human_requested@97)
+  tree: 2 ticks: 2 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 1 ok / 0 bad (1 unresolved, 0 orphaned), 0 retired
+
+=== Episode 200/200 (seed 299) ===
+  tree: 7 ticks: 7 from the tree, 0 to the teacher (100% hit rate); rules +0 new, 0 reinforced, 0 refined, 0 replaced, 0 contradicted, 0 confirmation asks; outcomes 0 ok / 0 bad (0 unresolved, 0 orphaned), 0 retired
+  checkpoint: /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.ep0200.json
+
+=== Between-episode simulation: {"episodes": 200, "replays": 696, "labelled": 502, "skipped_inexact": 1, "never_reached": 1, "wall_s": 3495.291289673034} ===
+=== Experience table: 32 situation-action pair(s), 519 judge verdict(s), 502 counterfactual label(s); saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.experience.json ===
+
+=== Learning curve ===
+   ep  ticks   tree   llm   hit%  rules    age  steps   wall_s   agree  recov  unwanted  goal
+    1     12      0    12     0%      4    7.8    164     19.2     92%      1         1  yes
+    2     32     27     5    84%      6    1.9    338      8.7     94%      2         1  yes
+    3      2      0     2     0%      7    7.5     43      3.9     50%      2         1  yes (human_requested)
+    4     35     34     1    97%      7    1.2    372     22.4     74%      5         5  yes
+    5     22     22     0   100%      7    1.0    244      6.7     32%      3         2  yes
+    6     22     22     0   100%      7    1.0    246     13.1     59%      5         5  yes
+    7      2      1     1    50%      7    3.5     42      1.3     50%      2         1  yes (human_requested)
+    8     13     12     1    92%      8    1.5    147      2.3     85%      2         2  yes
+    9     12     12     0   100%      8    1.0    138      1.7     92%      1         1  yes
+   10     14     11     3    79%     10    2.3    162      7.8     64%      3         3  yes (human_requested)
+   11     15     15     0   100%     10    1.0    175      1.3     93%      1         1  yes
+   12     20     17     3    85%     13    1.9    217      7.6     85%      3         2  yes
+   13     14     12     2    86%     13    1.7    162      3.6     86%      2         2  yes (human_requested)
+   14     14     14     0   100%     13    1.0    157      3.5     71%      3         3  yes (human_requested)
+   15     22     22     0   100%     13    1.0    239      6.3      0%      0         0  yes
+   16     32     31     1    97%     14    1.2    346     11.2     94%      2         2  yes
+   17     14     14     0   100%     14    1.0    157      1.6     71%      3         3  yes (human_requested)
+   18     34     30     4    88%     16    1.8    371     13.6     82%      4         3  yes
+   19     21     21     0   100%     16    1.0    227      4.4     71%      4         4  yes
+   20     21     21     0   100%     16    1.0    235      5.9     67%      4         3  yes
+   21     19     17     2    89%     16    1.6    212     12.2     63%      3         2  yes
+   22     47     47     0   100%     16    1.0    490     15.3     96%      2         2  yes
+   23     11     11     0   100%     16    1.0    127      0.8     91%      1         1  yes
+   24     14     14     0   100%     16    1.0    158      2.6     93%      1         1  yes
+   25     14     14     0   100%     16    1.0    157      2.8     71%      3         3  yes (human_requested)
+   26     32     31     1    97%     16    1.2    344     10.9     91%      2         1  yes
+   27     12     12     0   100%     16    1.0    140      4.1     92%      1         1  yes
+   28     16     16     0   100%     16    1.0    186      5.1     69%      3         3  yes
+   29     16     16     0   100%     16    1.0    178      4.4     81%      2         2  yes
+   30     14     14     0   100%     16    1.0    161      3.0     79%      2         2  yes
+   31     14     14     0   100%     16    1.0    157      5.7     43%      5         5  yes (human_requested)
+   32     30     29     1    97%     16    1.2    319      8.5     13%      2         2  yes
+   33     28     28     0   100%     16    1.0    300      2.8     61%      6         6  yes
+   34     14     14     0   100%     16    1.0    157      1.1     71%      3         3  yes (human_requested)
+   35      2      1     1    50%     17    5.0     45      2.5     50%      2         0  yes (human_requested)
+   36     16     16     0   100%     17    1.0    186      8.1     94%      1         1  yes
+   37     22     22     0   100%     17    1.0    237      9.7     82%      3         3  yes
+   38     32     32     0   100%     17    1.0    337      2.5     75%      6         6  yes
+   39     40     40     0   100%     17    1.0    424      5.4     95%      2         1  yes
+   40     21     21     0   100%     17    1.0    234      5.8     76%      3         2  yes
+   41      5      5     0   100%     17    1.0     74      1.1    100%      0         0  yes
+   42     13     13     0   100%     17    1.0    151      2.0     92%      1         1  yes
+   43     14     14     0   100%     17    1.0    157      2.2     71%      3         3  yes (human_requested)
+   44     25     25     0   100%     17    1.0    275      7.2     64%      5         5  yes
+   45     33     33     0   100%     17    1.0    347      5.0     94%      2         2  yes
+   46     14     14     0   100%     17    1.0    157      0.7     86%      2         2  yes (human_requested)
+   47     16     16     0   100%     17    1.0    182      4.4     69%      3         3  yes
+   48     14     14     0   100%     17    1.0    163      3.3     93%      1         1  yes
+   49     29     29     0   100%     17    1.0    311      5.0     59%      7         7  yes
+   50     17     17     0   100%     17    1.0    187      1.3     94%      1         0  yes
+   51     18     18     0   100%     17    1.0    198      4.9     94%      1         1  yes
+   52     14     14     0   100%     17    1.0    159      1.2     93%      1         1  yes
+   53     16     14     2    88%     17    2.0    185      6.9     75%      3         2  yes
+   54     14     14     0   100%     17    1.0    157      8.1     43%      5         5  yes (human_requested)
+   55     15     15     0   100%     17    1.0    174      2.7     80%      2         2  yes
+   56     14     14     0   100%     17    1.0    165      2.7     79%      3         3  yes
+   57     23     23     0   100%     17    1.0    254      6.2     61%      5         5  yes
+   58     17     17     0   100%     17    1.0    187      4.7     59%      4         4  yes
+   59     17     17     0   100%     17    1.0    188      1.3     82%      3         3  yes
+   60     12     12     0   100%     17    1.0    137      3.2     92%      1         1  yes
+   61     19     19     0   100%     17    1.0    207      5.6     95%      1         1  yes
+   62     10      9     1    90%     18    5.0    157     10.7     80%      3         2  yes (human_requested)
+   63     48     47     1    98%     18    1.2    500      3.3     88%      4         4  no (timeout)
+   64     24     22     2    92%     19    2.0    271     13.8     75%      2         1  yes
+   65     11     11     0   100%     19    1.0    129      1.0     91%      1         1  yes
+   66      2      2     0   100%     19    1.0     37      0.9     50%      2         1  yes (human_requested)
+   67     11     11     0   100%     19    1.0    132      5.1     91%      1         1  yes
+   68     42     40     2    95%     21    1.6    466     34.9     64%      7         6  yes
+   69      2      2     0   100%     21    1.0     37      0.2     50%      2         1  yes (human_requested)
+   70     29     29     0   100%     21    1.0    315      9.7     93%      2         1  yes
+   71      2      1     1    50%     21    6.0     47      2.3     50%      2         0  yes (human_requested)
+   72     31     29     2    94%     22    1.4    333     15.2     74%      5         5  yes
+   73     14     14     0   100%     22    1.0    157      1.1     86%      2         2  yes (human_requested)
+   74     16     16     0   100%     22    1.0    183      4.2     81%      2         2  yes
+   75     24     24     0   100%     22    1.0    259     10.7     71%      4         3  yes
+   76      2      2     0   100%     22    1.0     37      0.2     50%      2         1  yes (human_requested)
+   77     15     15     0   100%     22    1.0    169      2.1     93%      1         1  yes
+   78     15     15     0   100%     22    1.0    174      3.3     80%      2         2  yes
+   79     13     12     1    92%     22    1.8    157      8.4     69%      4         3  yes (human_requested)
+   80      2      2     0   100%     22    1.0     37      0.9     50%      2         1  yes (human_requested)
+   81     17     17     0   100%     22    1.0    189      3.6     82%      2         2  yes
+   82      2      2     0   100%     22    1.0     37      0.2     50%      2         1  yes (human_requested)
+   83      6      6     0   100%     22    1.0     85      2.0    100%      0         0  yes
+   84     14     14     0   100%     22    1.0    165      4.2     79%      2         2  yes
+   85     25     24     1    96%     22    1.5    280     12.5     64%      5         4  yes
+   86     20     20     0   100%     22    1.0    226      8.4     70%      4         4  yes
+   87     29     29     0   100%     22    1.0    316      1.7     90%      3         3  yes
+   88     14     13     1    93%     22    1.8    167      4.4     57%      5         4  yes (human_requested)
+   89     24     23     1    96%     22    1.5    273     22.1     58%      6         6  yes
+   90     14     14     0   100%     22    1.0    161      1.2     93%      1         1  yes
+   91     23     23     0   100%     22    1.0    254      9.3     70%      4         3  yes
+   92     12     12     0   100%     22    1.0    145      3.2     92%      1         1  yes
+   93     13     13     0   100%     22    1.0    150      2.4     92%      1         1  yes
+   94     18     18     0   100%     22    1.0    199      7.2     94%      1         1  yes
+   95     13     12     1    92%     22    1.9    164      4.7     77%      3         2  yes
+   96     16     16     0   100%     22    1.0    183      4.0     81%      2         2  yes
+   97     37     36     1    97%     23    1.4    398     14.5     30%      2         1  yes
+   98     14     14     0   100%     23    1.0    160      3.9     79%      2         2  yes
+   99     18     18     0   100%     23    1.0    204      1.7     83%      2         1  yes
+  100     32     32     0   100%     23    1.0    338      1.7     72%      6         6  yes
+  101     21     21     0   100%     23    1.0    234      7.1     81%      3         3  yes
+  102     17     17     0   100%     23    1.0    190      3.5     76%      3         3  yes
+  103     14     14     0   100%     23    1.0    166      3.7     93%      1         1  yes
+  104     28     27     1    96%     24    1.3    298      5.5     14%      3         3  yes
+  105     14     14     0   100%     24    1.0    157      3.2     71%      3         3  yes (human_requested)
+  106     17     17     0   100%     24    1.0    194      2.2     82%      2         2  yes
+  107      6      6     0   100%     24    1.0     79      1.6    100%      0         0  yes
+  108     17     15     2    88%     24    2.2    201      7.4     82%      3         2  yes
+  109     27     27     0   100%     24    1.0    289      5.9     89%      2         2  yes
+  110      2      2     0   100%     24    1.0     37      0.9     50%      2         0  yes (human_requested)
+  111      2      2     0   100%     24    1.0     37      0.8     50%      2         1  yes (human_requested)
+  112      2      2     0   100%     24    1.0     37      1.9     50%      2         1  yes (human_requested)
+  113     18     17     1    94%     24    2.1    207      8.3     61%      5         5  yes (human_requested)
+  114     16     16     0   100%     24    1.0    177      2.7     31%      6         6  yes (human_requested)
+  115     14     14     0   100%     24    1.0    164      2.3     93%      1         1  yes
+  116     15     15     0   100%     24    1.0    173      7.2     93%      1         1  yes
+  117      2      2     0   100%     24    1.0     37      0.6     50%      2         1  yes (human_requested)
+  118     17     17     0   100%     24    1.0    193      9.5     82%      2         2  yes
+  119     21     21     0   100%     24    1.0    229      7.5     57%      5         5  yes
+  120     43     39     4    91%     24    1.8    461     22.7     72%      7         4  yes
+  121     11     11     0   100%     24    1.0    128      3.1     91%      1         1  yes
+  122     26     26     0   100%     24    1.0    281      2.5     69%      5         4  yes
+  123     25     25     0   100%     24    1.0    271     22.0     92%      2         2  yes
+  124     35     32     3    91%     26    1.7    369     23.6     83%      5         5  yes
+  125     26     26     0   100%     26    1.0    277      7.2     50%      1         1  yes
+  126      2      2     0   100%     26    1.0     37      0.6     50%      2         1  yes (human_requested)
+  127     31     31     0   100%     26    1.0    335     25.7     52%      8         8  yes
+  128     23     23     0   100%     26    1.0    255     17.4     70%      5         5  yes
+  129      2      2     0   100%     26    1.0     37      2.1     50%      2         1  yes (human_requested)
+  130     25     25     0   100%     26    1.0    269     12.9     88%      2         2  yes
+  131     14     14     0   100%     26    1.0    157      1.9     57%      4         4  yes (human_requested)
+  132     18     18     0   100%     26    1.0    200      6.1     94%      1         1  yes
+  133     15     15     0   100%     26    1.0    172      3.5     80%      2         2  yes
+  134     15     15     0   100%     26    1.0    170      6.5     80%      2         2  yes
+  135     26     26     0   100%     26    1.0    279      7.5     92%      2         2  yes
+  136      2      2     0   100%     26    1.0     37      0.9     50%      2         0  yes (human_requested)
+  137      6      6     0   100%     26    1.0     82      2.0    100%      0         0  yes
+  138     24     24     0   100%     26    1.0    258      9.2     83%      3         3  yes
+  139     15     15     0   100%     26    1.0    173      5.3     80%      2         2  yes
+  140     19     19     0   100%     26    1.0    216      2.2     74%      3         3  yes
+  141     22     22     0   100%     26    1.0    246     11.2     73%      4         4  yes
+  142     18     18     0   100%     26    1.0    203      1.1     83%      2         2  yes
+  143     12     12     0   100%     26    1.0    137      3.0     75%      2         2  yes
+  144     14     14     0   100%     26    1.0    157      2.2     86%      2         2  yes (human_requested)
+  145     24     24     0   100%     26    1.0    263      4.4     71%      4         4  yes
+  146     15     15     0   100%     26    1.0    175      2.9     80%      2         2  yes
+  147     19     19     0   100%     26    1.0    214     10.5     63%      4         4  yes
+  148     32     32     0   100%     26    1.0    341     10.7     78%      5         5  yes
+  149     22     22     0   100%     26    1.0    246      7.1     91%      2         2  yes
+  150     18     18     0   100%     26    1.0    197      3.1     83%      2         2  yes
+  151     21     21     0   100%     26    1.0    230      9.0     76%      3         3  yes
+  152     31     31     0   100%     26    1.0    329      8.4     94%      2         1  yes
+  153     15     15     0   100%     26    1.0    175      3.9      0%      0         0  yes
+  154     15     14     1    93%     26    2.1    181      6.7     80%      2         1  yes
+  155     23     23     0   100%     26    1.0    254      1.8     65%      5         5  yes
+  156      7      7     0   100%     26    1.0     89      3.3    100%      0         0  yes
+  157     15     15     0   100%     26    1.0    173      4.3     93%      1         1  yes
+  158     28     28     0   100%     26    1.0    301      3.4     93%      2         2  yes
+  159     14     14     0   100%     26    1.0    157      3.2     64%      4         4  yes (human_requested)
+  160      2      2     0   100%     26    1.0     37      0.3     50%      2         1  yes (human_requested)
+  161     16     16     0   100%     26    1.0    185      3.1     81%      2         2  yes
+  162      2      2     0   100%     26    1.0     37      0.4     50%      2         0  yes (human_requested)
+  163     13     13     0   100%     26    1.0    149      1.9     92%      1         1  yes
+  164     14     14     0   100%     26    1.0    157      4.3     57%      4         4  yes (human_requested)
+  165      9      9     0   100%     26    1.0    107      2.4    100%      0         0  yes
+  166     26     26     0   100%     26    1.0    282     12.9     77%      4         4  yes
+  167     22     22     0   100%     26    1.0    238      6.0      0%      0         0  yes
+  168     28     28     0   100%     26    1.0    304      9.5     93%      2         1  yes
+  169     18     18     0   100%     26    1.0    205      5.9     83%      2         2  yes
+  170     17     17     0   100%     26    1.0    190      5.5     94%      1         1  yes
+  171     16     16     0   100%     26    1.0    180      1.1     88%      2         2  yes
+  172     14     14     0   100%     26    1.0    157      4.4     71%      3         3  yes (human_requested)
+  173     11     11     0   100%     26    1.0    132      3.9     91%      1         1  yes
+  174     11     11     0   100%     26    1.0    132      0.7     91%      1         1  yes
+  175      2      2     0   100%     26    1.0     37      1.2     50%      2         0  yes (human_requested)
+  176     17     15     2    88%     26    2.4    198     10.1     76%      2         1  yes
+  177     11     11     0   100%     26    1.0    134      1.0     91%      1         1  yes
+  178      2      2     0   100%     26    1.0     37      0.5     50%      2         1  yes (human_requested)
+  179     16     16     0   100%     26    1.0    182      4.7      0%      0         0  yes
+  180     15     14     1    93%     26    1.6    172      4.7     80%      3         2  yes
+  181     14     14     0   100%     26    1.0    163      0.8     86%      2         2  yes
+  182     16     16     0   100%     26    1.0    183      0.9     88%      2         1  yes
+  183     24     24     0   100%     26    1.0    263     14.4     71%      4         4  yes
+  184     15     15     0   100%     26    1.0    172      4.6     93%      1         1  yes
+  185     25     25     0   100%     26    1.0    269     11.3     68%      5         5  yes
+  186     31     30     1    97%     27    1.6    347     17.8     68%     11         9  yes (human_requested)
+  187     16     16     0   100%     27    1.0    177      5.5     31%      6         6  yes (human_requested)
+  188     16     16     0   100%     27    1.0    183      7.6     81%      2         2  yes
+  189      2      2     0   100%     27    1.0     37      0.7     50%      2         1  yes (human_requested)
+  190     16     16     0   100%     27    1.0    178      1.7     94%      1         0  yes
+  191     16     16     0   100%     27    1.0    186      9.7     69%      3         3  yes
+  192     24     24     0   100%     27    1.0    257      5.0      0%      0         0  yes
+  193      2      2     0   100%     27    1.0     37      0.5     50%      2         0  yes (human_requested)
+  194     16     16     0   100%     27    1.0    177      8.3     38%      6         6  yes (human_requested)
+  195     15     14     1    93%     27    1.6    170      3.8     80%      3         2  yes
+  196     14     14     0   100%     27    1.0    157      1.0     86%      2         2  yes (human_requested)
+  197     32     32     0   100%     27    1.0    339      4.0     84%      4         4  yes
+  198     18     18     0   100%     27    1.0    202      5.6     72%      3         3  yes
+  199      2      2     0   100%     27    1.0     37      1.3     50%      2         1  yes (human_requested)
+  200      7      7     0   100%     27    1.0     89      1.5    100%      0         0  yes
+  agree: ticks whose action matched the verified scripted rules (2570/3461 = 74% over the run). recov: recoveries ordered; unwanted: those the rules would not have ordered (450 of 518).
+  ticks: assessments made. tree/llm: how each was answered. age: mean control cycles between
+  a report being taken and its verdict acted on (1 is a tree hit, 3-18 a model call, depending on
+  the model, the prefix cache and the pacing).
+
+=== The policy the robot is running on ===
+  hold=no
+    stopped=brief
+      blocked=dynamic
+        route=ok
+          contact=near
+            approach=?
+              reversing=no
+                wobble=no
+                  progress=back
+                    heading=on
+                      blocker=parked
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 6, 8 ok / 0 bad]
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 9 in 2 ep, fires 1493, 0 ok / 216 bad]
+      blocked=dynamic
+        route=ok
+          contact=clear
+            approach=?
+              reversing=brief
+                wobble=no
+                  progress=back
+                    heading=away
+                      blocker=abandoned
+                        deadline=miss
+                          SOLVER_DEADLINE_MISS -> REQUEST_HUMAN [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+                      blocker=parked
+                        deadline=ok
+                          NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                  progress=forward
+                    heading=away
+                      NOMINAL -> WAIT [support 2 in 2 ep, fires 12, 3 ok / 3 bad, 2 contradicted]
+                    heading=off
+                      NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 1 ok / 0 bad]
+                  progress=stalled
+                    NOMINAL -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+              reversing=long
+                wobble=no
+                  progress=back
+                    REVERSE_TRACKING -> WAIT [support 1 in 1 ep, fires 0, 0 ok / 0 bad]
+                  progress=forward
+                    heading=away
+                      blocker=moving
+                        REVERSE_TRACKING -> REORIENT [support 2 in 2 ep, fires 0, 0 ok / 11 bad, 7 contradicted]
+                      blocker=parked
+                        REVERSE_TRACKING -> WAIT [support 2 in 2 ep, fires 1, 0 ok / 3 bad, 1 contradicted]
+              reversing=no
+                wobble=no
+                  progress=back
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 0, 0 ok / 2 bad]
+                    heading=off
+                      NOMINAL -> WAIT [support 2 in 1 ep, fires 0, 0 ok / 0 bad]
+                    heading=on
+                      NOMINAL -> WAIT [support 2 in 2 ep, fires 12, 5 ok / 0 bad, re-taught 1x]
+                  progress=forward
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 12, 9 ok / 5 bad]
+                    heading=off
+                      NOMINAL -> WAIT [support 2 in 2 ep, fires 3, 0 ok / 0 bad, re-taught 1x]
+                    heading=on
+                      blocker=abandoned
+                        NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 23, 25 ok / 0 bad]
+                      blocker=moving
+                        NOMINAL -> WAIT [support 2 in 2 ep, fires 106, 36 ok / 0 bad]
+                      blocker=parked
+                        NOMINAL -> WAIT [support 3 in 2 ep, fires 142, 72 ok / 0 bad]
+                  progress=stalled
+                    heading=away
+                      NOMINAL -> REORIENT [support 2 in 2 ep, fires 0, 2 ok / 0 bad]
+                    heading=on
+                      NOMINAL -> WAIT [support 2 in 2 ep, fires 5, 4 ok / 0 bad]
+          contact=near
+            NOMINAL -> WAIT [support 2 in 2 ep, fires 0, 0 ok / 0 bad]
+      blocked=static
+        route=none
+          NOMINAL -> REQUEST_HUMAN [support 2 in 2 ep, fires 13, 15 ok / 0 bad]
+        route=ok
+          contact=clear
+            approach=?
+              reversing=long
+                REVERSE_TRACKING -> REPLAN_ROUTE [support 2 in 2 ep, fires 22, 14 ok / 3 bad]
+              reversing=no
+                NOMINAL -> REPLAN_ROUTE [support 2 in 2 ep, fires 83, 53 ok / 16 bad]
+  hold=yes
+    stopped=no
+      blocked=clear
+        NOMINAL -> CONTINUE [support 3 in 2 ep, fires 75, 0 ok / 0 bad]
+      blocked=dynamic
+        NOMINAL -> CONTINUE [support 2 in 2 ep, fires 1361, 0 ok / 0 bad]
+
+  27 active rule(s), 0 retired, over 200 episode(s) of history.
+
+=== What changed in the tree this run ===
+  [ep 1 step 25] insert: no/no/static -> NOMINAL/REPLAN_ROUTE
+  [ep 1 step 45] insert: yes/no/dynamic -> NOMINAL/CONTINUE
+  [ep 1 step 55] insert: yes/no/clear -> NOMINAL/CONTINUE
+  [ep 1 step 75] insert: no/no/clear -> NOMINAL/CONTINUE
+  [ep 2 step 25] refine: no/no/static/ok/clear/?/long -> REVERSE_TRACKING/REPLAN_ROUTE
+  [ep 2 step 145] insert: no/no/dynamic -> NOMINAL/WAIT
+  [ep 3 step 35] insert: no/no/static/none -> NOMINAL/REQUEST_HUMAN
+  [ep 4 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (1/1000000) -- superseded by WAIT after only 0.4 m
+  [ep 5 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (1/1000000)
+  [ep 5 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (2/1000000)
+  [ep 5 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (3/1000000)
+  [ep 5 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (4/1000000)
+  [ep 5 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (5/1000000)
+  [ep 5 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (6/1000000)
+  [ep 5 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (7/1000000)
+  [ep 5 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (8/1000000)
+  [ep 5 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (9/1000000)
+  [ep 5 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (10/1000000)
+  [ep 5 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (11/1000000)
+  [ep 5 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (12/1000000)
+  [ep 6 step 115] retired no/no/dynamic -> WAIT: replayed without it, not needed in 10 of 10; next match goes back to the teacher
+  [ep 8 step 35] refine: no/no/dynamic/ok/clear/?/no/no/forward/away -> NOMINAL/REORIENT
+  [ep 8 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (2/1000000) -- superseded by REORIENT after only 0.9 m
+  [ep 10 step 25] insert: no/no/dynamic/ok/clear/?/no/no/forward/on -> NOMINAL/WAIT
+  [ep 10 step 155] refine: no/no/dynamic/ok/clear/?/no/no/forward/on/abandoned -> NOMINAL/REQUEST_HUMAN
+  [ep 12 step 25] insert: no/no/dynamic/ok/clear/?/long -> REVERSE_TRACKING/WAIT
+  [ep 12 step 65] insert: no/no/dynamic/ok/clear/?/brief -> NOMINAL/WAIT
+  [ep 12 step 95] insert: no/no/dynamic/ok/clear/?/no/no/stalled -> NOMINAL/REORIENT
+  [ep 12 step 95] no/no/dynamic/ok/clear/?/long -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 12 step 95] no/no/dynamic/ok/clear/?/brief -> WAIT did not help (1/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 15 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (13/1000000)
+  [ep 15 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (14/1000000)
+  [ep 15 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (15/1000000)
+  [ep 15 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (16/1000000)
+  [ep 15 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (17/1000000)
+  [ep 15 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (18/1000000)
+  [ep 15 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (19/1000000)
+  [ep 15 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (20/1000000)
+  [ep 15 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (21/1000000)
+  [ep 15 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (22/1000000)
+  [ep 15 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (23/1000000)
+  [ep 15 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (24/1000000)
+  [ep 15 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (25/1000000)
+  [ep 15 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (26/1000000)
+  [ep 15 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (27/1000000)
+  [ep 15 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (28/1000000)
+  [ep 15 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (29/1000000)
+  [ep 15 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (30/1000000)
+  [ep 15 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (31/1000000)
+  [ep 15 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (32/1000000)
+  [ep 15 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (33/1000000)
+  [ep 15 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (34/1000000)
+  [ep 16 step 105] insert: no/no/dynamic/ok/clear/?/no/no/forward/on/moving -> NOMINAL/WAIT
+  [ep 18 step 65] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 18 step 105] refine: no/no/dynamic/ok/clear/?/no/no/stalled/on -> NOMINAL/WAIT
+  [ep 18 step 265] insert: no/no/dynamic/ok/clear/?/no/no/back -> NOMINAL/WAIT
+  [ep 21 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (35/1000000)
+  [ep 21 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (36/1000000)
+  [ep 21 step 45] contradict: no/no/dynamic/ok/clear/?/long -> REVERSE_TRACKING/REORIENT
+  [ep 21 step 85] no/no/dynamic/ok/clear/?/long -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 32 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (3/1000000) -- superseded by REORIENT after only 0.5 m
+  [ep 32 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (37/1000000)
+  [ep 32 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (38/1000000)
+  [ep 32 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (39/1000000)
+  [ep 32 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (40/1000000)
+  [ep 32 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (41/1000000)
+  [ep 32 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (42/1000000)
+  [ep 32 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (43/1000000)
+  [ep 32 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (44/1000000)
+  [ep 32 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (45/1000000)
+  [ep 32 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (46/1000000)
+  [ep 32 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (47/1000000)
+  [ep 32 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (48/1000000)
+  [ep 32 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (49/1000000)
+  [ep 32 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (50/1000000)
+  [ep 32 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (51/1000000)
+  [ep 32 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (52/1000000)
+  [ep 32 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (53/1000000)
+  [ep 32 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (54/1000000)
+  [ep 32 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (55/1000000)
+  [ep 32 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (56/1000000)
+  [ep 32 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (57/1000000)
+  [ep 32 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (58/1000000)
+  [ep 32 step 305] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (59/1000000)
+  [ep 32 step 315] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (60/1000000)
+  [ep 35 step 35] insert: no/brief/static/none -> NOMINAL/REQUEST_HUMAN
+  [ep 40 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 49 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (4/1000000) -- superseded by REORIENT after only 0.6 m
+  [ep 53 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (61/1000000)
+  [ep 53 step 35] contradict: no/no/dynamic/ok/clear/?/long -> REVERSE_TRACKING/WAIT
+  [ep 53 step 75] contradict: no/no/dynamic/ok/clear/?/brief -> NOMINAL/REORIENT
+  [ep 53 step 75] no/no/dynamic/ok/clear/?/long -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 53 step 125] no/no/dynamic/ok/clear/?/brief -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 56 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (5/1000000) -- superseded by REORIENT after only 0.5 m
+  [ep 56 step 65] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 62 step 25] refine: no/no/dynamic/ok/clear/?/long/no/forward/away/parked -> REVERSE_TRACKING/REORIENT
+  [ep 62 step 105] no/no/dynamic/ok/clear/?/long/no/forward/away/parked -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 63 step 45] replace: no/no/dynamic/ok/clear/?/no/no/forward/off -> NOMINAL/WAIT
+  [ep 63 step 45] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (6/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 63 step 395] retired no/no/dynamic/ok/clear/?/no/no/back -> WAIT: replayed without it, not needed in 10 of 10; next match goes back to the teacher
+  [ep 64 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (62/1000000)
+  [ep 64 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (63/1000000)
+  [ep 64 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (64/1000000)
+  [ep 64 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (65/1000000)
+  [ep 64 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (66/1000000)
+  [ep 64 step 75] contradict: no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REVERSE_TRACKING/REORIENT
+  [ep 64 step 115] insert: no/no/dynamic/ok/near -> NOMINAL/WAIT
+  [ep 64 step 115] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REORIENT did not help (4/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 68 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (67/1000000)
+  [ep 68 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (68/1000000)
+  [ep 68 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (69/1000000)
+  [ep 68 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (70/1000000)
+  [ep 68 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (71/1000000)
+  [ep 68 step 95] refine: no/no/dynamic/ok/clear/?/no/no/back/away -> NOMINAL/REORIENT
+  [ep 68 step 145] insert: no/brief/dynamic/ok/near/?/no/no/back/on/parked/miss -> SOLVER_DEADLINE_MISS/WAIT
+  [ep 68 step 145] no/no/dynamic/ok/clear/?/no/no/back/away -> REORIENT did not help (1/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 72 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (7/1000000) -- superseded by REORIENT after only 0.6 m
+  [ep 72 step 65] insert: no/no/dynamic/ok/clear/?/no/no/back/off -> NOMINAL/WAIT
+  [ep 72 step 65] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 79 step 25] contradict: no/no/dynamic/ok/clear/?/long/no/forward/away/parked -> REVERSE_TRACKING/WAIT
+  [ep 79 step 65] no/no/dynamic/ok/clear/?/long/no/forward/away/parked -> WAIT did not help (2/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 79 step 105] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (3/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 85 step 105] replace: no/no/dynamic/ok/clear/?/no/no/back/on -> NOMINAL/WAIT
+  [ep 87 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (8/1000000) -- superseded by REORIENT after only 0.5 m
+  [ep 88 step 65] no/no/dynamic/ok/clear/?/long/no/forward/away/parked -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 88 step 105] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (4/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 89 step 55] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (9/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 95 step 75] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REORIENT did not help (5/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 97 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (72/1000000)
+  [ep 97 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (73/1000000)
+  [ep 97 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (74/1000000)
+  [ep 97 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (75/1000000)
+  [ep 97 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (76/1000000)
+  [ep 97 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (77/1000000)
+  [ep 97 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (78/1000000)
+  [ep 97 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (79/1000000)
+  [ep 97 step 135] insert: no/no/dynamic/ok/clear/?/long/no/back -> REVERSE_TRACKING/WAIT
+  [ep 97 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (80/1000000)
+  [ep 97 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (81/1000000)
+  [ep 97 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (82/1000000)
+  [ep 97 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (83/1000000)
+  [ep 97 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (84/1000000)
+  [ep 97 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (85/1000000)
+  [ep 97 step 305] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (86/1000000)
+  [ep 97 step 315] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (87/1000000)
+  [ep 97 step 325] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (88/1000000)
+  [ep 97 step 335] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (89/1000000)
+  [ep 97 step 345] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (90/1000000)
+  [ep 97 step 355] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (91/1000000)
+  [ep 97 step 365] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (92/1000000)
+  [ep 97 step 375] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (93/1000000)
+  [ep 97 step 385] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (94/1000000)
+  [ep 97 step 395] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (95/1000000)
+  [ep 99 step 55] no/no/static/ok/clear/?/long -> REPLAN_ROUTE did not help (3/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 104 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (10/1000000) -- superseded by REORIENT after only 0.9 m
+  [ep 104 step 65] refine: no/no/dynamic/ok/clear/?/brief/no/forward/off -> NOMINAL/WAIT
+  [ep 104 step 65] no/no/dynamic/ok/clear/?/no/no/forward/away -> REORIENT did not help (5/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 104 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (96/1000000)
+  [ep 104 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (97/1000000)
+  [ep 104 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (98/1000000)
+  [ep 104 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (99/1000000)
+  [ep 104 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (100/1000000)
+  [ep 104 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (101/1000000)
+  [ep 104 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (102/1000000)
+  [ep 104 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (103/1000000)
+  [ep 104 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (104/1000000)
+  [ep 104 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (105/1000000)
+  [ep 104 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (106/1000000)
+  [ep 104 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (107/1000000)
+  [ep 104 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (108/1000000)
+  [ep 104 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (109/1000000)
+  [ep 104 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (110/1000000)
+  [ep 104 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (111/1000000)
+  [ep 104 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (112/1000000)
+  [ep 104 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (113/1000000)
+  [ep 104 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (114/1000000)
+  [ep 104 step 285] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (115/1000000)
+  [ep 104 step 295] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (116/1000000)
+  [ep 108 step 25] contradict: no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REVERSE_TRACKING/WAIT
+  [ep 108 step 65] contradict: no/no/dynamic/ok/clear/?/brief/no/forward/away -> NOMINAL/WAIT
+  [ep 108 step 105] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> WAIT did not help (6/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 108 step 105] no/no/dynamic/ok/clear/?/brief/no/forward/away -> WAIT did not help (3/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 120 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (117/1000000)
+  [ep 120 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (118/1000000)
+  [ep 120 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (119/1000000)
+  [ep 120 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (120/1000000)
+  [ep 120 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (121/1000000)
+  [ep 120 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (122/1000000)
+  [ep 120 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (123/1000000)
+  [ep 120 step 255] contradict: no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REVERSE_TRACKING/REORIENT
+  [ep 120 step 305] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REORIENT did not help (7/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 124 step 35] insert: no/no/dynamic/ok/clear/?/brief/no/stalled -> NOMINAL/WAIT
+  [ep 124 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (11/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 124 step 75] insert: no/no/dynamic/ok/clear/?/brief/no/back -> NOMINAL/WAIT
+  [ep 124 step 235] no/no/dynamic/ok/clear/?/no/no/back/away -> REORIENT did not help (2/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 125 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (124/1000000)
+  [ep 125 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (125/1000000)
+  [ep 125 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (126/1000000)
+  [ep 125 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (127/1000000)
+  [ep 125 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (128/1000000)
+  [ep 125 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (129/1000000)
+  [ep 125 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (130/1000000)
+  [ep 125 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (131/1000000)
+  [ep 125 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (132/1000000)
+  [ep 125 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (133/1000000)
+  [ep 125 step 265] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (134/1000000)
+  [ep 125 step 275] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (135/1000000)
+  [ep 130 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the OSCILLATION test (136/1000000)
+  [ep 148 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (12/1000000) -- superseded by REORIENT after only 0.5 m
+  [ep 153 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (137/1000000)
+  [ep 153 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (138/1000000)
+  [ep 153 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (139/1000000)
+  [ep 153 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (140/1000000)
+  [ep 153 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (141/1000000)
+  [ep 153 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (142/1000000)
+  [ep 153 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (143/1000000)
+  [ep 153 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (144/1000000)
+  [ep 153 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (145/1000000)
+  [ep 153 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (146/1000000)
+  [ep 153 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (147/1000000)
+  [ep 153 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (148/1000000)
+  [ep 153 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (149/1000000)
+  [ep 153 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (150/1000000)
+  [ep 153 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (151/1000000)
+  [ep 154 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (152/1000000)
+  [ep 154 step 95] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REORIENT did not help (8/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 155 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (13/1000000) -- superseded by REORIENT after only 0.6 m
+  [ep 166 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (14/1000000) -- superseded by WAIT after only 0.9 m
+  [ep 167 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (153/1000000)
+  [ep 167 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (154/1000000)
+  [ep 167 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (155/1000000)
+  [ep 167 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (156/1000000)
+  [ep 167 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (157/1000000)
+  [ep 167 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (158/1000000)
+  [ep 167 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (159/1000000)
+  [ep 167 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (160/1000000)
+  [ep 167 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (161/1000000)
+  [ep 167 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (162/1000000)
+  [ep 167 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (163/1000000)
+  [ep 167 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (164/1000000)
+  [ep 167 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (165/1000000)
+  [ep 167 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (166/1000000)
+  [ep 167 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (167/1000000)
+  [ep 167 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (168/1000000)
+  [ep 167 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (169/1000000)
+  [ep 167 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (170/1000000)
+  [ep 167 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (171/1000000)
+  [ep 167 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (172/1000000)
+  [ep 167 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (173/1000000)
+  [ep 167 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (174/1000000)
+  [ep 171 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (15/1000000) -- superseded by REORIENT after only 0.6 m
+  [ep 176 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (175/1000000)
+  [ep 176 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (176/1000000)
+  [ep 176 step 45] contradict: no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REVERSE_TRACKING/WAIT
+  [ep 176 step 85] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> WAIT did not help (9/1000000) -- superseded by REORIENT after only 0.0 m
+  [ep 179 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (177/1000000)
+  [ep 179 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (178/1000000)
+  [ep 179 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (179/1000000)
+  [ep 179 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (180/1000000)
+  [ep 179 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (181/1000000)
+  [ep 179 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (182/1000000)
+  [ep 179 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (183/1000000)
+  [ep 179 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (184/1000000)
+  [ep 179 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (185/1000000)
+  [ep 179 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (186/1000000)
+  [ep 179 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (187/1000000)
+  [ep 179 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (188/1000000)
+  [ep 179 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (189/1000000)
+  [ep 179 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (190/1000000)
+  [ep 179 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (191/1000000)
+  [ep 179 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (192/1000000)
+  [ep 180 step 25] contradict: no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REVERSE_TRACKING/REORIENT
+  [ep 180 step 75] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REORIENT did not help (10/1000000) -- superseded by WAIT after only 0.0 m
+  [ep 181 step 35] no/no/static/ok/clear/?/no -> REPLAN_ROUTE did not help (16/1000000) -- superseded by REORIENT after only 0.8 m
+  [ep 186 step 325] refine: no/no/dynamic/ok/clear/?/brief/no/back/away/abandoned/miss -> SOLVER_DEADLINE_MISS/REQUEST_HUMAN
+  [ep 192 step 25] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (193/1000000)
+  [ep 192 step 35] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (194/1000000)
+  [ep 192 step 45] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (195/1000000)
+  [ep 192 step 55] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (196/1000000)
+  [ep 192 step 65] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (197/1000000)
+  [ep 192 step 75] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (198/1000000)
+  [ep 192 step 85] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (199/1000000)
+  [ep 192 step 95] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (200/1000000)
+  [ep 192 step 105] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (201/1000000)
+  [ep 192 step 115] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (202/1000000)
+  [ep 192 step 125] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (203/1000000)
+  [ep 192 step 135] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (204/1000000)
+  [ep 192 step 145] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (205/1000000)
+  [ep 192 step 155] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (206/1000000)
+  [ep 192 step 165] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (207/1000000)
+  [ep 192 step 175] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (208/1000000)
+  [ep 192 step 185] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (209/1000000)
+  [ep 192 step 195] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (210/1000000)
+  [ep 192 step 205] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (211/1000000)
+  [ep 192 step 215] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (212/1000000)
+  [ep 192 step 225] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (213/1000000)
+  [ep 192 step 235] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (214/1000000)
+  [ep 192 step 245] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (215/1000000)
+  [ep 192 step 255] no/no/clear -> NOMINAL/CONTINUE did nothing about a report that meets the REVERSE_TRACKING test (216/1000000)
+  [ep 195 step 75] no/no/dynamic/ok/clear/?/long/no/forward/away/moving -> REORIENT did not help (11/1000000) -- superseded by WAIT after only 0.0 m
+
+=== Totals ===
+  3461 ticks: 3387 from the tree, 74 to the teacher (98% hit rate); rules +19 new, 35 reinforced, 8 refined, 2 replaced, 10 contradicted, 43 confirmation asks; outcomes 260 ok / 259 bad (215 unresolved, 0 orphaned), 2 retired
+  saved to /home/kristian/github/input_dt/DRL-MPC-Private-Playground/experiments/2026-09-24/scripts/../data/L_luna_exp_nojudge_noex_rt.json
+
+  reached the goal in 199/200 episode(s) (49 of them by rightly calling a human)
+  NOTE: not every episode reached the goal. Read that against a teacher-only baseline on the
+        same seeds (--reset --no-learn --no-save, which leaves the tree empty so every tick
+        escalates) before attributing it to the tree. A rising hit rate with falling success
+        is the failure mode these two numbers are reported together to catch.
+  hit rate 0% -> 100%  (expected to rise)
+  model calls 12 -> 0  (expected not to rise)
+
+PASS

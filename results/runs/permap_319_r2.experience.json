@@ -1,0 +1,37 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 6,
+ "simulations": 6,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 6,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {
+    "needed": 6
+   }
+  }
+ ]
+}

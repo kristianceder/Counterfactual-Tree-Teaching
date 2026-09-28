@@ -1,0 +1,36 @@
+{
+ "run_dir": "experiments/2026-09-24/data/L2_scripted_stream",
+ "episode": 137,
+ "seed": 236,
+ "after": "scripted",
+ "grace": 50,
+ "slack": 10,
+ "recorded": {
+  "termination": "goal",
+  "steps": 82,
+  "success": true
+ },
+ "check": {
+  "frames_recorded": 82,
+  "frames_replayed": 82,
+  "max_drift_m": 0.0,
+  "first_drift_step": null,
+  "termination_recorded": "goal",
+  "termination_replayed": "goal",
+  "steps_recorded": 82,
+  "steps_replayed": 82,
+  "decisions_match": true,
+  "decisions_recorded": 6,
+  "decisions_replayed": 6,
+  "replay": {
+   "replayed": 6,
+   "overridden": 0,
+   "fallback_calls": 0,
+   "diverged_at": null
+  },
+  "wall_s": 2.1,
+  "exact": true
+ },
+ "counterfactuals": [],
+ "label_counts": {}
+}

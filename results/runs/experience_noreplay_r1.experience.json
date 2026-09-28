@@ -1,0 +1,472 @@
+{
+ "key_features": [
+  "hold",
+  "stopped",
+  "blocked",
+  "route",
+  "contact",
+  "reversing",
+  "heading",
+  "blocker",
+  "deadline"
+ ],
+ "verdicts": 599,
+ "simulations": 0,
+ "entries": [
+  {
+   "situation": [
+    "no",
+    "brief",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 6,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "brief",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "away",
+    "moving",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "brief",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "off",
+    "?",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "CONTINUE",
+   "good": 0,
+   "bad": 319,
+   "why_bad": {
+    "did nothing about a report meeting the REVERSE_TRACKING test": 319
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "long",
+    "off",
+    "?",
+    "ok"
+   ],
+   "action": "CONTINUE",
+   "good": 0,
+   "bad": 7,
+   "why_bad": {
+    "did nothing about a report meeting the REVERSE_TRACKING test": 7
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "CONTINUE",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "did nothing about a report meeting the OSCILLATION test": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "clear",
+    "ok",
+    "near",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "CONTINUE",
+   "good": 0,
+   "bad": 1,
+   "why_bad": {
+    "did nothing about a report meeting the REVERSE_TRACKING test": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "brief",
+    "away",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 4,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "brief",
+    "away",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 32,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 4,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 8,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "away",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 2,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "off",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "miss"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 42,
+   "bad": 1,
+   "why_bad": {
+    "episode ended: collision": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "miss"
+   ],
+   "action": "WAIT",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "dynamic",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "WAIT",
+   "good": 66,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 11,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 3,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "none",
+    "clear",
+    "no",
+    "on",
+    "parked",
+    "ok"
+   ],
+   "action": "REQUEST_HUMAN",
+   "good": 1,
+   "bad": 0,
+   "why_bad": {},
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "long",
+    "away",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 14,
+   "bad": 3,
+   "why_bad": {
+    "superseded by WAIT after only 0.0 m": 3
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "off",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 7,
+   "bad": 2,
+   "why_bad": {
+    "superseded by WAIT after only 0.4 m": 1,
+    "superseded by WAIT after only 0.0 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "?",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 45,
+   "bad": 13,
+   "why_bad": {
+    "superseded by WAIT after only 0.5 m": 4,
+    "superseded by WAIT after only 0.6 m": 4,
+    "superseded by WAIT after only 0.0 m": 2,
+    "superseded by WAIT after only 0.9 m": 2,
+    "superseded by WAIT after only 0.8 m": 1
+   },
+   "counterfactual": {}
+  },
+  {
+   "situation": [
+    "no",
+    "no",
+    "static",
+    "ok",
+    "clear",
+    "no",
+    "on",
+    "moving",
+    "ok"
+   ],
+   "action": "REPLAN_ROUTE",
+   "good": 1,
+   "bad": 1,
+   "why_bad": {
+    "superseded by WAIT after only 0.9 m": 1
+   },
+   "counterfactual": {}
+  }
+ ]
+}

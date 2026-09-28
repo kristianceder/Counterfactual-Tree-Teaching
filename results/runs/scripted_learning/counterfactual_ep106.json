@@ -1,0 +1,64 @@
+{
+ "run_dir": "experiments/2026-09-24/data/L2_scripted_stream",
+ "episode": 106,
+ "seed": 205,
+ "after": "scripted",
+ "grace": 50,
+ "slack": 10,
+ "recorded": {
+  "termination": "goal",
+  "steps": 188,
+  "success": true
+ },
+ "check": {
+  "frames_recorded": 188,
+  "frames_replayed": 188,
+  "max_drift_m": 0.0063245553203369045,
+  "first_drift_step": null,
+  "termination_recorded": "goal",
+  "termination_replayed": "goal",
+  "steps_recorded": 188,
+  "steps_replayed": 188,
+  "decisions_match": true,
+  "decisions_recorded": 17,
+  "decisions_replayed": 17,
+  "replay": {
+   "replayed": 17,
+   "overridden": 0,
+   "fallback_calls": 0,
+   "diverged_at": null
+  },
+  "wall_s": 12.1,
+  "exact": true
+ },
+ "counterfactuals": [
+  {
+   "report_step": 55,
+   "acted_step": 56,
+   "source": "llm",
+   "replay_clean_to_override": true,
+   "failure_mode": "SOLVER_DEADLINE_MISS",
+   "method": "WAIT",
+   "rule": null,
+   "overridden": false,
+   "recorded_goal_distance_at_horizon": 9.067267063454125,
+   "counterfactual": {
+    "termination": "watchdog",
+    "steps": 89,
+    "success": false,
+    "wall_s": 21.0,
+    "replay": {
+     "replayed": 3,
+     "overridden": 1,
+     "fallback_calls": 3,
+     "diverged_at": 55
+    },
+    "goal_distance_at_horizon": 8.883013283790584
+   },
+   "label": "needed"
+  }
+ ],
+ "label_counts": {
+  "needed": 1
+ }
+}
